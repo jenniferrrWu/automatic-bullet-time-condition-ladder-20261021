@@ -2,8 +2,8 @@
   "model": "H3 ref2va",
   "case_id": "simple03_woman_slow_expression",
   "level": 3,
-  "execution_status": "running",
-  "status": "sampling",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple03_woman_slow_expression/recam_actual_native_last.png",
   "first_frame_sha256": "046885d9ca032d3322c2825f6ba5fceefad35414472dab353ee7b492dbe6343c",
@@ -20,5 +20,12 @@
   "native_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/h3_ref2va/level3/raw/simple03_woman_slow_expression/native_v1/native.mp4",
   "training_performed": false,
   "postdecode_frame_replacement": false,
-  "source_motion_absent": false
+  "source_motion_absent": false,
+  "native_frames": 124,
+  "native_fps": 24,
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/h3_ref2va/level3/raw/simple03_woman_slow_expression/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/h3_ref2va/level3/raw/simple03_woman_slow_expression/native_v1/native_last.png",
+  "native_video_sha256": "66dbd38d7d00ebb6436be8fb2d35813432cf2a6cba57927d59a353ac0a95ca4d",
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/h3_ref2va/level3/raw/simple03_woman_slow_expression/native_v1/actual_call.json",
+  "elapsed_s": 3167.669497971423
 }
