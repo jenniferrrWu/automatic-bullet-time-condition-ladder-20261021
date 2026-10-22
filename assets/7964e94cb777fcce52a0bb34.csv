@@ -1,5 +1,5 @@
 model,level1,level2,level3,note
-DepthDirector,ready,ready,ready,native fused first-frame image; level2 same endpoint-derived static depth/mask retained in level3
+DepthDirector,ready,ready,ready,首图走原生fused VAE首时刻约束。Level1当前修复候选使用LoRA强度0.25、CFG5；Level2/3旧参数未改，不能跨版本直接定位首次失败。Level2/3仍有首图派生的静态深度/掩码。
 CamCloneMaster,ready,ready,ready,native optional image/content/camera branches; camera reference is independent from action
 DimensionX,ready,ready,interface_unsupported,native CogVideoX I2V plus same orbit_right LoRA; no trained joint motion-video input
 Hunyuan OmniWeaving,ready,ready,ready,"native i2v→tiv2v; level3 ref_image is reference condition, independent first-frame effect must be checked"
@@ -8,7 +8,7 @@ H3 Ref2VA,ready,ready,ready,native image/video references; no independent first-
 H3 FL2VA,ready,ready,interface_unsupported,native single first keyframe supported; workflow does not take motion-video reference
 TriMotion,ready,ready,ready,Native i2v/v2v. Level1 has image content only but mandatory zero camera/source placeholders; native source latents verified zero. Level2 adds actual fixed-pose embedding; level3 adds real motion video.
 OmniCamera,ready,ready,interface_unsupported,public image and video content modes are exclusive; previous joint adapter was experimental
-GEN3C,ready,ready,ready,"Native first-time image condition. Mandatory zero warp placeholders at L1; endpoint-derived static warp L2; all81 native RGB action warp L3 includes source viewpoint, uncalibrated to endpoint; no experimental pin."
+GEN3C,ready,ready,ready,首图走原生首时刻图像条件。Level1修复为原生几何latent丢弃（guidance仍1）；旧灰屏结果保留。Level2为首图静态warp；Level3含原视频RGB及原机位信息，未做目标机位标定。无输出首帧替换。
 TrajectoryCrafter,ready,ready,interface_unsupported,"Native known-frame inpaint + image reference at49 frames for L1/L2. Installed checkpoint has static positional embeddings, native target/action warp max49. Common complete81-frame action cannot be supplied to aligned temporal branch; L3 marked unsupported, no silent49-frame truncation."
 WorldInWorld,ready,ready,ready,"Native first-image build_y; mandatory static camera in all levels; source history/EWA disabled L1/2, native full81 source history added L3. Four-GPU existing FSDP compatibility; no experimental first-latent pin. Two/three-GPU OOM attempts retained as infrastructure failures."
 BulletTime,ready,ready,ready,"Native i2v source carrier at L1/2, v2v endpoint+full81 action carrier at L3; mandatory camera/time tensors; no independent hard first keyframe and no experimental clamp."
