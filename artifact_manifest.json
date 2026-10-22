@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-22T12:18:52.393541+08:00",
-  "file_count": 1875,
-  "content_bytes": 662536604,
+  "created_at": "2026-10-22T12:22:32.621681+08:00",
+  "file_count": 1882,
+  "content_bytes": 663256841,
   "native_outputs_modified": false,
   "all_html_dependencies_bundled": true,
   "auxiliary_files": [
@@ -12,12 +12,12 @@
     {
       "path": "index.html",
       "bytes": 50374,
-      "sha256": "92d35e3bccffc255c26f1285b7a3b5b0797f5ad509386792c0c0d9967d0a8598"
+      "sha256": "9a3a88dbf4619073a46b55cb82796e4467ed998588b1f4c7aa6be308cc9b074c"
     },
     {
       "path": "recam-retained-rerun/index.html",
       "bytes": 79487,
-      "sha256": "731f3ec459c2c071529080e35550ff23e6c18c35b8807bc9b726444ff53031c2"
+      "sha256": "d0f13dddfd02112fe17e2ea277396087b8ea8a8177dd37f81d8657f1fe1226f3"
     },
     {
       "path": "recam-depth/index.html",
@@ -26,18 +26,18 @@
     },
     {
       "path": "level1/index.html",
-      "bytes": 209394,
-      "sha256": "2758a8550065a26e951823450e3725a345ba086901212e249926de5172aadc51"
+      "bytes": 209528,
+      "sha256": "7996c5ba6fb09a9af1c596819dd23426821195d9d18b2c906f6476779ca1a6fd"
     },
     {
       "path": "level2/index.html",
       "bytes": 239666,
-      "sha256": "6cee72e8ae7947585c8d73535fa9466bab068fa912cb3f472b9c6d619ce18dff"
+      "sha256": "1651bbb50b27ac803c74b01d5ef60baa9cca3f9abf122e59ffd0f3a1bf3a95f0"
     },
     {
       "path": "level3/index.html",
-      "bytes": 270951,
-      "sha256": "b592468067cdcd0cff00806c0e3a49d85160881013c0a5c25ccecc62a1a43975"
+      "bytes": 271707,
+      "sha256": "baa0ff4fac4e28df79dd56e0e9d293a52da260b51b737380886723c505c7fa33"
     },
     {
       "path": "assets/7546aef872200013b8f096be.json",
@@ -140,9 +140,9 @@
       "sha256": "85acb732584149e40464c5d24e3a7f9c73fdd9b7e6e31c7356515e98abe93826"
     },
     {
-      "path": "recam-retained-rerun/assets/d58424c78ec565e3b3538d1f.md",
+      "path": "recam-retained-rerun/assets/e2da25ec33b4c7b3ad285e30.md",
       "bytes": 2228,
-      "sha256": "d58424c78ec565e3b3538d1f90916916a300fce901248ca55462741fe23d427d"
+      "sha256": "e2da25ec33b4c7b3ad285e300bcdd0e00dc4aab921738ab99fa7cd69c714fef1"
     },
     {
       "path": "recam-retained-rerun/assets/4c7063345e1d6120843124b4.json",
@@ -4000,9 +4000,14 @@
       "sha256": "868e12be908cb67f89a6f58ef50d328cd85d26e3da211185cb384f0c6f72480d"
     },
     {
-      "path": "level1/assets/837b5db0b0d1421ffc3997ee.jpg",
-      "bytes": 129845,
-      "sha256": "837b5db0b0d1421ffc3997eeb226e7a6c013293feac264af91822794a192cbe6"
+      "path": "level1/assets/2f5350f21a57b2632edc4f60.jpg",
+      "bytes": 190298,
+      "sha256": "2f5350f21a57b2632edc4f60df860400bcf60077a82cda6dfa777e0c8cafd760"
+    },
+    {
+      "path": "level1/assets/b80ce4a7397faeeb4cf9338c.json",
+      "bytes": 1680,
+      "sha256": "b80ce4a7397faeeb4cf9338c0302ce316f395c5a5f970938d205124bda0270d5"
     },
     {
       "path": "level1/assets/3bcbcf1bb38abd7a33c9e9df_preview.mp4",
@@ -6990,9 +6995,9 @@
       "sha256": "4ad3215bb21909b9f34447251fce4f053f4f669b8909e26b7062afc0ec5a7a7e"
     },
     {
-      "path": "level2/assets/837b5db0b0d1421ffc3997ee.jpg",
-      "bytes": 129845,
-      "sha256": "837b5db0b0d1421ffc3997eeb226e7a6c013293feac264af91822794a192cbe6"
+      "path": "level2/assets/2f5350f21a57b2632edc4f60.jpg",
+      "bytes": 190298,
+      "sha256": "2f5350f21a57b2632edc4f60df860400bcf60077a82cda6dfa777e0c8cafd760"
     },
     {
       "path": "level2/assets/29b32827f65c8dff0482d4eb_preview.mp4",
@@ -7415,9 +7420,9 @@
       "sha256": "660a8bcbdb66772d606c4cd8883ac7bfeed6c02cf8a8111456fd75e6de9c7fd2"
     },
     {
-      "path": "level3/assets/5da70705de7caf4b966e12df_preview_bundle.json",
-      "bytes": 1821698,
-      "sha256": "5da70705de7caf4b966e12df6d5c61b4ec746add132be634da99044914a0d5fa"
+      "path": "level3/assets/f385b09e378d04b8bc20f1c2_preview_bundle.json",
+      "bytes": 1886160,
+      "sha256": "f385b09e378d04b8bc20f1c256be87def5a52cb68fa397a060e3a2e52c58fcc9"
     },
     {
       "path": "level3/assets/d412e734b57a981c2fc1a37f_w640.jpg",
@@ -8940,14 +8945,44 @@
       "sha256": "6edb0db850549e0ef4322e2655260cb999f92e11d1cdbcfa0a257af73fdf7ba5"
     },
     {
-      "path": "level3/assets/038caea4759af140eecebe3d.json",
-      "bytes": 2450,
-      "sha256": "038caea4759af140eecebe3de700d2ffeb813a27b13244667be6639edca0585e"
+      "path": "level3/assets/cf587027c1136a43e05a0fd8_preview.mp4",
+      "bytes": 48291,
+      "sha256": "cac2d76303d18a34cf56c23d88108f5449d795c1e25e253a5f3d0e78f1c71675"
     },
     {
-      "path": "level3/assets/837b5db0b0d1421ffc3997ee.jpg",
-      "bytes": 129845,
-      "sha256": "837b5db0b0d1421ffc3997eeb226e7a6c013293feac264af91822794a192cbe6"
+      "path": "level3/assets/cf587027c1136a43e05a0fd8_poster.jpg",
+      "bytes": 4783,
+      "sha256": "fb69d33657b4d2e7f299a1898bcfc10537b8cedde9d605527958a8eb4bb89886"
+    },
+    {
+      "path": "level3/assets/cf587027c1136a43e05a0fd8.mp4",
+      "bytes": 280378,
+      "sha256": "cf587027c1136a43e05a0fd82b816767f0bc17012f3e05afb9fc4d51000e7f78"
+    },
+    {
+      "path": "level3/assets/72e4dc2bd97f28f872f025c6.png",
+      "bytes": 126674,
+      "sha256": "72e4dc2bd97f28f872f025c69b0a41d05d896fe02130910c3ae4b2e3a89cae39"
+    },
+    {
+      "path": "level3/assets/72e4dc2bd97f28f872f025c6_w384.jpg",
+      "bytes": 8144,
+      "sha256": "37786be0c2ffd45bd975d910dea28b6350acdf5df1454c04b85340fa4389c1a8"
+    },
+    {
+      "path": "level3/assets/37bc0f0727e3d08c4ed17da2.json",
+      "bytes": 3329,
+      "sha256": "37bc0f0727e3d08c4ed17da264f0dd5a0e3efb51aab5600d4dda112955bf0233"
+    },
+    {
+      "path": "level3/assets/c5692b78f83727806c825d68.json",
+      "bytes": 2697,
+      "sha256": "c5692b78f83727806c825d6856d7d22497846fb72d3c93c713b6097914a9f0bd"
+    },
+    {
+      "path": "level3/assets/2f5350f21a57b2632edc4f60.jpg",
+      "bytes": 190298,
+      "sha256": "2f5350f21a57b2632edc4f60df860400bcf60077a82cda6dfa777e0c8cafd760"
     },
     {
       "path": "level3/assets/3d2757a0a2dfd574e788e8ef_preview.mp4",
