@@ -12,8 +12,10 @@
       "original_runner_sha256": "c3dee82671417f892ac37e61564b811280e74080f3f520f3cb3d35f35a6bbb9d",
       "runner_sha256": "b14ba5a44d6a22509313995fc1ae6de4c2bb2d6706e8b5d571c22fce72a74172",
       "changes": "only isolated output/input root and isolated shared helper; native parameters, seed42, weights and sampling unchanged",
-      "strict_first_frame_supported": true,
-      "strict_first_frame_support_note": "native initial-image condition; decoded pixel equality is not promised"
+      "native_first_frame_condition_api": true,
+      "per_step_first_latent_anchor_verified": true,
+      "decoded_pixel_equality_guaranteed": false,
+      "first_frame_condition_interpretation": "native first-image condition supplied; generated first state still requires visual acceptance"
     },
     {
       "model_key": "camclonemaster",
@@ -26,8 +28,10 @@
       "original_runner_sha256": "e8197af8048ed84ec48b7a4cb74f49f7abb8bb802b46c2e1d55a89ceb512f838",
       "runner_sha256": "a8a8c4602055de00570c180855b6ce3d721117d67a6d28a3f73719b8002720ab",
       "changes": "only isolated output/input root and isolated shared helper; native parameters, seed42, weights and sampling unchanged",
-      "strict_first_frame_supported": null,
-      "strict_first_frame_support_note": "native image VAE/mask+CLIP condition is supplied; independent hard equality or exact first-state fidelity not established"
+      "native_first_frame_condition_api": true,
+      "per_step_first_latent_anchor_verified": false,
+      "decoded_pixel_equality_guaranteed": false,
+      "first_frame_condition_interpretation": "native first-image condition supplied; generated first state still requires visual acceptance"
     },
     {
       "model_key": "trimotion",
@@ -40,8 +44,10 @@
       "original_runner_sha256": "dae295bfc23c1b1cbc538a55ae5be4cfc4578c736431ee509f03c882e3b8fc98",
       "runner_sha256": "d94c174fd40b9b46fdd51163ca52b39ccf8fbd0050356a122d2534d35da88674",
       "changes": "only isolated output/input root and isolated shared helper; native parameters, seed42, weights and sampling unchanged",
-      "strict_first_frame_supported": null,
-      "strict_first_frame_support_note": "native image VAE/mask+CLIP condition is supplied; independent hard equality or exact first-state fidelity not established"
+      "native_first_frame_condition_api": true,
+      "per_step_first_latent_anchor_verified": false,
+      "decoded_pixel_equality_guaranteed": false,
+      "first_frame_condition_interpretation": "native first-image condition supplied; generated first state still requires visual acceptance"
     },
     {
       "model_key": "h3_ref2va",
@@ -54,8 +60,10 @@
       "original_runner_sha256": "6ea422d8d0231f4997cf0c1f3021d8d2a1a8b5c123de0c16af699faeb781a85b",
       "runner_sha256": "a25bb3ce81ea86164b4b9b88608fa017c7f15326f4f861214d1d69eb0e8ba050",
       "changes": "only isolated output/input root and isolated shared helper; native parameters, seed42, weights and sampling unchanged",
-      "strict_first_frame_supported": false,
-      "strict_first_frame_support_note": "not an independent hard first-keyframe API"
+      "native_first_frame_condition_api": false,
+      "per_step_first_latent_anchor_verified": false,
+      "decoded_pixel_equality_guaranteed": false,
+      "first_frame_condition_interpretation": "image is a reference or packed video carrier; no independent native first-keyframe parameter in this invocation"
     },
     {
       "model_key": "bullet",
@@ -68,8 +76,10 @@
       "original_runner_sha256": "3ff7369037f741ac8e4f7cfa71fb6b83602a47f81be209a24fc34cddea94ec10",
       "runner_sha256": "db648682eeada9ee80d094acda87da9dc0c31a1cef007575ca4c80ee94feb69a",
       "changes": "only isolated output/input root and isolated shared helper; native parameters, seed42, weights and sampling unchanged",
-      "strict_first_frame_supported": false,
-      "strict_first_frame_support_note": "not an independent hard first-keyframe API"
+      "native_first_frame_condition_api": false,
+      "per_step_first_latent_anchor_verified": false,
+      "decoded_pixel_equality_guaranteed": false,
+      "first_frame_condition_interpretation": "image is a reference or packed video carrier; no independent native first-keyframe parameter in this invocation"
     },
     {
       "model_key": "hunyuan",
@@ -82,8 +92,10 @@
       "original_runner_sha256": "06b78fdce6e677cf01aa2911f7723102e503c8e883c006dad1f147e7524cd969",
       "runner_sha256": "a5a96f199449c5b2b930bfae2c69d742b3df1cc236ccfe8195d14293288dd623",
       "changes": "only isolated output/input root and isolated shared helper; native parameters, seed42, weights and sampling unchanged",
-      "strict_first_frame_supported": false,
-      "strict_first_frame_support_note": "not an independent hard first-keyframe API"
+      "native_first_frame_condition_api": false,
+      "per_step_first_latent_anchor_verified": false,
+      "decoded_pixel_equality_guaranteed": false,
+      "first_frame_condition_interpretation": "image is a reference or packed video carrier; no independent native first-keyframe parameter in this invocation"
     },
     {
       "model_key": "joy",
@@ -96,8 +108,10 @@
       "original_runner_sha256": "2ac79cb90848743178215ea18e1547738794d6dc1c49b0b74405b62922133759",
       "runner_sha256": "3247e9b34c16a378d5c7a96a21df350fa113013be6b8660bf88b50a847cdcd57",
       "changes": "only isolated output/input root and isolated shared helper; native parameters, seed42, weights and sampling unchanged",
-      "strict_first_frame_supported": false,
-      "strict_first_frame_support_note": "not an independent hard first-keyframe API"
+      "native_first_frame_condition_api": false,
+      "per_step_first_latent_anchor_verified": false,
+      "decoded_pixel_equality_guaranteed": false,
+      "first_frame_condition_interpretation": "image is a reference or packed video carrier; no independent native first-keyframe parameter in this invocation"
     }
   ],
   "selection_not_claimed_as_quality_pass": true
