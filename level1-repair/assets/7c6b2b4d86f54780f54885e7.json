@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-22T17:45:42+08:00",
+  "at": "2026-10-22T17:48:14+08:00",
   "method": "assistant actually viewed original six-case contact sheets,7native timepoints per output",
   "full_video_watched": false,
   "rows": [
@@ -154,6 +154,30 @@
       "observation": "已实际查看七时刻原生抽帧：主体继续舞动，楼顶场景持续可辨，未见旧竖条纹；快速动作有明显运动模糊，细节质量仍待人工验收。",
       "verdict": "anomaly_removed_in_sample",
       "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__case13_woman_rooftop_dance.jpg"
+    },
+    {
+      "variant": "gen_native_drop_cfg1",
+      "model": "gen3c",
+      "case_id": "simple01_woman_talking_plants",
+      "observation": "实际查看f0/1/8/30/60/90/120：人物及背景持续可辨，有表情、头部和上肢变化，未再褪色成灰屏。原生guidance仍1，仅修正几何条件丢弃；其余五例待补齐。",
+      "verdict": "anomaly_removed_in_sample",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg1__simple01_woman_talking_plants.jpg"
+    },
+    {
+      "variant": "gen_native_drop_cfg7",
+      "model": "gen3c",
+      "case_id": "simple01_woman_talking_plants",
+      "observation": "实际查看七时刻抽帧：原生几何丢弃+guidance7也持续生成真人画面，无旧灰屏；主体有转动。第1步不要求固定机位，不评价源动作复现。",
+      "verdict": "anomaly_removed_in_sample",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg7__simple01_woman_talking_plants.jpg"
+    },
+    {
+      "variant": "gen_raw_zero_cfg7",
+      "model": "gen3c",
+      "case_id": "simple01_woman_talking_plants",
+      "observation": "实际查看七时刻抽帧：保留旧零像素编码，仅guidance改7，仍逐渐褪色，f30及之后接近均匀灰紫画面，修复失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_raw_zero_cfg7__simple01_woman_talking_plants.jpg"
     }
   ],
   "quality_pass_not_inferred": true

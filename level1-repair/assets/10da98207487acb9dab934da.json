@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-22T17:45:42+08:00",
+  "at": "2026-10-22T17:48:14+08:00",
   "scope": "Level1 current candidate videos only; old originals remain at original records/native paths",
   "cross_level_comparison": "CFG and LoRA strength differ from original Level2/3; do not infer first failure across versions",
   "rows": [
@@ -37,6 +37,13 @@
       "variant": "depth_lora025_cfg5",
       "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/case13_woman_rooftop_dance.json",
       "label": "首图修复候选：LoRA强度0.25、CFG5；抽帧未见旧条纹，质量待验收"
+    },
+    {
+      "model": "gen3c",
+      "case_id": "simple01_woman_talking_plants",
+      "variant": "gen_native_drop_cfg1",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/records/gen3c/level1/simple01_woman_talking_plants.json",
+      "label": "首图条件修复候选：原生几何latent丢弃，guidance仍1；抽帧无旧灰屏，质量待验收"
     }
   ]
 }

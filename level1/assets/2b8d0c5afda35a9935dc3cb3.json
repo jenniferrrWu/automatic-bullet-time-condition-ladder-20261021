@@ -147,6 +147,8 @@
   "steps": 35,
   "seed": 42,
   "sampler_modified": false,
+  "cfg_actual": 1,
+  "experimental_condition_mode": "native_zero_latent_dropout",
   "strict_auxiliary_free_level1": false,
   "first_condition_native": true
 }
