@@ -2,8 +2,8 @@
   "case_id": "simple02_woman_presenting_chalkboard",
   "model": "DepthDirector",
   "level": 3,
-  "status": "running",
-  "execution_status": "running",
+  "status": "generated_not_reviewed",
+  "execution_status": "succeeded",
   "visual_status": "not_reviewed",
   "native_video": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/output/depthdirector.mp4",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/recam_actual_native_last.png",
@@ -28,5 +28,13 @@
   "view_controls": {
     "depth": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/inputs/simple02_woman_presenting_chalkboard/depth_fixed/dw_depth.mp4",
     "mask": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/inputs/simple02_woman_presenting_chalkboard/depth_fixed/dw_mask.mp4"
-  }
+  },
+  "native_video_sha256": "ec11a373946947c7a44799528650da787bc5b4f65d7ecbfee5b2bfb2ef609a39",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_last.png",
+  "sampling_audit": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_endpoint_audit.json",
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/actual_call.json",
+  "initial_noise_sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+  "elapsed_s": 901.884828209877,
+  "peak_memory_mib": 21935.0
 }
