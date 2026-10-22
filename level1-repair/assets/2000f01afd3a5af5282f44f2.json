@@ -1,0 +1,1065 @@
+{
+  "at": "2026-10-22T17:47:01.902826+08:00",
+  "verified": 10,
+  "rows": [
+    {
+      "variant": "depth_cfg5",
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_cfg5/records/depthdirector/level1/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_cfg5/models/depthdirector/level1/raw/simple01_woman_talking_plants/native_v1/output/depthdirector.mp4",
+      "quality_pass_not_inferred": true,
+      "same_initial_noise_as_old": true,
+      "full_decode_passed": true,
+      "frames": 81,
+      "actual_cfg": 5,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_cfg5__simple01_woman_talking_plants.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            80.097,
+            66.273,
+            53.236
+          ],
+          "spatial_std": [
+            73.622,
+            71.29,
+            71.468
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            82.878,
+            67.954,
+            54.938
+          ],
+          "spatial_std": [
+            73.302,
+            70.863,
+            71.115
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            97.584,
+            80.475,
+            73.672
+          ],
+          "spatial_std": [
+            73.61,
+            72.311,
+            74.332
+          ]
+        },
+        {
+          "frame": 20,
+          "channel_means": [
+            152.05,
+            137.583,
+            141.643
+          ],
+          "spatial_std": [
+            64.89,
+            66.238,
+            69.434
+          ]
+        },
+        {
+          "frame": 40,
+          "channel_means": [
+            184.325,
+            157.042,
+            161.354
+          ],
+          "spatial_std": [
+            21.859,
+            18.264,
+            18.902
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            185.252,
+            168.301,
+            168.118
+          ],
+          "spatial_std": [
+            11.326,
+            10.989,
+            12.21
+          ]
+        },
+        {
+          "frame": 80,
+          "channel_means": [
+            142.024,
+            127.403,
+            124.18
+          ],
+          "spatial_std": [
+            12.739,
+            9.378,
+            9.446
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    },
+    {
+      "variant": "gen_native_drop_cfg1",
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/records/gen3c/level1/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/models/gen3c/level1/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "quality_pass_not_inferred": true,
+      "full_decode_passed": true,
+      "frames": 121,
+      "actual_cfg": 1,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg1__simple01_woman_talking_plants.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            79.282,
+            65.947,
+            53.67
+          ],
+          "spatial_std": [
+            73.708,
+            71.469,
+            71.699
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            79.837,
+            66.202,
+            54.223
+          ],
+          "spatial_std": [
+            73.685,
+            71.459,
+            71.791
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            79.779,
+            66.59,
+            53.792
+          ],
+          "spatial_std": [
+            73.579,
+            71.262,
+            71.793
+          ]
+        },
+        {
+          "frame": 30,
+          "channel_means": [
+            79.005,
+            65.534,
+            52.286
+          ],
+          "spatial_std": [
+            71.041,
+            68.712,
+            69.156
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            74.836,
+            61.587,
+            48.389
+          ],
+          "spatial_std": [
+            68.517,
+            65.554,
+            65.632
+          ]
+        },
+        {
+          "frame": 90,
+          "channel_means": [
+            74.808,
+            60.894,
+            46.403
+          ],
+          "spatial_std": [
+            66.656,
+            63.234,
+            63.405
+          ]
+        },
+        {
+          "frame": 120,
+          "channel_means": [
+            77.119,
+            62.972,
+            48.018
+          ],
+          "spatial_std": [
+            67.989,
+            64.88,
+            65.143
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    },
+    {
+      "variant": "gen_native_drop_cfg7",
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg7/records/gen3c/level1/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg7/models/gen3c/level1/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "quality_pass_not_inferred": true,
+      "full_decode_passed": true,
+      "frames": 121,
+      "actual_cfg": 7,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg7__simple01_woman_talking_plants.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            79.277,
+            65.951,
+            53.684
+          ],
+          "spatial_std": [
+            73.699,
+            71.463,
+            71.677
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            79.772,
+            66.178,
+            54.256
+          ],
+          "spatial_std": [
+            73.678,
+            71.444,
+            71.771
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            79.505,
+            66.639,
+            53.652
+          ],
+          "spatial_std": [
+            73.509,
+            71.118,
+            71.481
+          ]
+        },
+        {
+          "frame": 30,
+          "channel_means": [
+            80.022,
+            66.774,
+            53.422
+          ],
+          "spatial_std": [
+            71.657,
+            69.093,
+            69.098
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            75.717,
+            62.581,
+            49.519
+          ],
+          "spatial_std": [
+            68.804,
+            66.07,
+            66.106
+          ]
+        },
+        {
+          "frame": 90,
+          "channel_means": [
+            72.256,
+            59.297,
+            45.107
+          ],
+          "spatial_std": [
+            65.259,
+            61.831,
+            61.273
+          ]
+        },
+        {
+          "frame": 120,
+          "channel_means": [
+            75.188,
+            62.696,
+            48.077
+          ],
+          "spatial_std": [
+            68.396,
+            65.529,
+            64.979
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    },
+    {
+      "variant": "gen_raw_zero_cfg7",
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_raw_zero_cfg7/records/gen3c/level1/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_raw_zero_cfg7/models/gen3c/level1/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "quality_pass_not_inferred": true,
+      "full_decode_passed": true,
+      "frames": 121,
+      "actual_cfg": 7,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_raw_zero_cfg7__simple01_woman_talking_plants.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            79.305,
+            65.94,
+            53.774
+          ],
+          "spatial_std": [
+            73.673,
+            71.435,
+            71.672
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            96.778,
+            85.316,
+            95.966
+          ],
+          "spatial_std": [
+            48.564,
+            46.311,
+            48.154
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            117.315,
+            117.857,
+            136.298
+          ],
+          "spatial_std": [
+            14.916,
+            13.354,
+            15.031
+          ]
+        },
+        {
+          "frame": 30,
+          "channel_means": [
+            136.301,
+            133.235,
+            149.302
+          ],
+          "spatial_std": [
+            2.04,
+            2.073,
+            2.217
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            135.963,
+            132.913,
+            148.971
+          ],
+          "spatial_std": [
+            2.158,
+            2.179,
+            2.334
+          ]
+        },
+        {
+          "frame": 90,
+          "channel_means": [
+            136.007,
+            132.875,
+            149.07
+          ],
+          "spatial_std": [
+            2.037,
+            2.072,
+            2.186
+          ]
+        },
+        {
+          "frame": 120,
+          "channel_means": [
+            136.051,
+            132.759,
+            148.147
+          ],
+          "spatial_std": [
+            1.855,
+            1.889,
+            1.98
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/simple01_woman_talking_plants/native_v1/output/depthdirector.mp4",
+      "quality_pass_not_inferred": true,
+      "same_initial_noise_as_old": true,
+      "full_decode_passed": true,
+      "frames": 81,
+      "actual_cfg": 5,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__simple01_woman_talking_plants.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            80.105,
+            66.266,
+            53.232
+          ],
+          "spatial_std": [
+            73.623,
+            71.284,
+            71.464
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            80.539,
+            66.433,
+            53.537
+          ],
+          "spatial_std": [
+            73.55,
+            71.209,
+            71.66
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            82.174,
+            68.199,
+            56.72
+          ],
+          "spatial_std": [
+            75.528,
+            74.051,
+            75.036
+          ]
+        },
+        {
+          "frame": 20,
+          "channel_means": [
+            79.673,
+            63.956,
+            52.038
+          ],
+          "spatial_std": [
+            74.109,
+            71.612,
+            72.02
+          ]
+        },
+        {
+          "frame": 40,
+          "channel_means": [
+            70.865,
+            53.599,
+            40.848
+          ],
+          "spatial_std": [
+            66.612,
+            61.419,
+            60.047
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            76.199,
+            59.505,
+            45.966
+          ],
+          "spatial_std": [
+            71.596,
+            67.916,
+            67.968
+          ]
+        },
+        {
+          "frame": 80,
+          "channel_means": [
+            69.657,
+            50.517,
+            33.094
+          ],
+          "spatial_std": [
+            61.466,
+            53.771,
+            51.326
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/simple02_woman_presenting_chalkboard/native_v1/output/depthdirector.mp4",
+      "quality_pass_not_inferred": true,
+      "same_initial_noise_as_old": true,
+      "full_decode_passed": true,
+      "frames": 81,
+      "actual_cfg": 5,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__simple02_woman_presenting_chalkboard.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            82.876,
+            75.736,
+            81.886
+          ],
+          "spatial_std": [
+            44.572,
+            33.967,
+            30.769
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            82.83,
+            75.514,
+            81.644
+          ],
+          "spatial_std": [
+            44.813,
+            34.065,
+            30.865
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            82.313,
+            74.934,
+            80.729
+          ],
+          "spatial_std": [
+            45.766,
+            34.945,
+            31.501
+          ]
+        },
+        {
+          "frame": 20,
+          "channel_means": [
+            83.771,
+            75.841,
+            81.726
+          ],
+          "spatial_std": [
+            47.137,
+            35.846,
+            32.415
+          ]
+        },
+        {
+          "frame": 40,
+          "channel_means": [
+            82.785,
+            74.699,
+            80.858
+          ],
+          "spatial_std": [
+            47.182,
+            35.825,
+            32.564
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            83.57,
+            75.401,
+            81.149
+          ],
+          "spatial_std": [
+            47.002,
+            35.354,
+            32.061
+          ]
+        },
+        {
+          "frame": 80,
+          "channel_means": [
+            79.973,
+            72.129,
+            77.921
+          ],
+          "spatial_std": [
+            42.963,
+            31.512,
+            28.604
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/simple03_woman_slow_expression/native_v1/output/depthdirector.mp4",
+      "quality_pass_not_inferred": true,
+      "same_initial_noise_as_old": true,
+      "full_decode_passed": true,
+      "frames": 81,
+      "actual_cfg": 5,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__simple03_woman_slow_expression.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            111.243,
+            90.156,
+            74.254
+          ],
+          "spatial_std": [
+            67.423,
+            61.461,
+            63.433
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            111.246,
+            89.953,
+            74.295
+          ],
+          "spatial_std": [
+            67.463,
+            61.475,
+            63.553
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            107.358,
+            85.84,
+            71.347
+          ],
+          "spatial_std": [
+            64.55,
+            59.345,
+            61.775
+          ]
+        },
+        {
+          "frame": 20,
+          "channel_means": [
+            112.446,
+            89.674,
+            78.429
+          ],
+          "spatial_std": [
+            66.554,
+            64.495,
+            66.037
+          ]
+        },
+        {
+          "frame": 40,
+          "channel_means": [
+            105.91,
+            78.761,
+            66.181
+          ],
+          "spatial_std": [
+            65.957,
+            56.847,
+            55.014
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            106.924,
+            81.791,
+            71.034
+          ],
+          "spatial_std": [
+            72.117,
+            67.011,
+            65.501
+          ]
+        },
+        {
+          "frame": 80,
+          "channel_means": [
+            117.313,
+            86.12,
+            70.013
+          ],
+          "spatial_std": [
+            61.243,
+            54.221,
+            51.951
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "case_id": "case11_man_contemporary_dance",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/case11_man_contemporary_dance.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/case11_man_contemporary_dance/native_v1/output/depthdirector.mp4",
+      "quality_pass_not_inferred": true,
+      "same_initial_noise_as_old": true,
+      "full_decode_passed": true,
+      "frames": 81,
+      "actual_cfg": 5,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__case11_man_contemporary_dance.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            157.391,
+            162.205,
+            168.083
+          ],
+          "spatial_std": [
+            37.67,
+            36.767,
+            36.477
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            157.002,
+            161.643,
+            167.846
+          ],
+          "spatial_std": [
+            37.726,
+            36.817,
+            36.623
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            156.476,
+            161.068,
+            167.466
+          ],
+          "spatial_std": [
+            37.8,
+            36.844,
+            36.608
+          ]
+        },
+        {
+          "frame": 20,
+          "channel_means": [
+            159.022,
+            163.385,
+            170.095
+          ],
+          "spatial_std": [
+            37.05,
+            35.777,
+            35.553
+          ]
+        },
+        {
+          "frame": 40,
+          "channel_means": [
+            160.771,
+            164.904,
+            171.525
+          ],
+          "spatial_std": [
+            37.048,
+            35.658,
+            35.472
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            159.933,
+            163.983,
+            170.471
+          ],
+          "spatial_std": [
+            37.445,
+            36.014,
+            35.748
+          ]
+        },
+        {
+          "frame": 80,
+          "channel_means": [
+            159.187,
+            163.152,
+            169.562
+          ],
+          "spatial_std": [
+            38.154,
+            36.751,
+            36.494
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "case_id": "case13_woman_rooftop_dance",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/case13_woman_rooftop_dance.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/case13_woman_rooftop_dance/native_v1/output/depthdirector.mp4",
+      "quality_pass_not_inferred": true,
+      "same_initial_noise_as_old": true,
+      "full_decode_passed": true,
+      "frames": 81,
+      "actual_cfg": 5,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__case13_woman_rooftop_dance.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            170.498,
+            158.992,
+            164.928
+          ],
+          "spatial_std": [
+            62.41,
+            62.098,
+            58.466
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            170.242,
+            159.149,
+            164.9
+          ],
+          "spatial_std": [
+            62.629,
+            62.502,
+            59.155
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            162.212,
+            150.599,
+            158.411
+          ],
+          "spatial_std": [
+            66.531,
+            65.485,
+            61.042
+          ]
+        },
+        {
+          "frame": 20,
+          "channel_means": [
+            169.078,
+            158.82,
+            169.078
+          ],
+          "spatial_std": [
+            63.922,
+            63.092,
+            57.589
+          ]
+        },
+        {
+          "frame": 40,
+          "channel_means": [
+            172.05,
+            160.905,
+            170.24
+          ],
+          "spatial_std": [
+            61.268,
+            60.679,
+            57.644
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            176.046,
+            162.671,
+            172.479
+          ],
+          "spatial_std": [
+            56.404,
+            56.124,
+            51.816
+          ]
+        },
+        {
+          "frame": 80,
+          "channel_means": [
+            178.458,
+            167.151,
+            175.346
+          ],
+          "spatial_std": [
+            59.967,
+            62.598,
+            58.609
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    },
+    {
+      "variant": "wan_base_i2v_cfg5",
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/wan_base_i2v_cfg5/records/depthdirector/level1/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/wan_base_i2v_cfg5/models/depthdirector/level1/raw/simple01_woman_talking_plants/native_v1/output/depthdirector.mp4",
+      "quality_pass_not_inferred": true,
+      "same_initial_noise_as_old": true,
+      "full_decode_passed": true,
+      "frames": 81,
+      "actual_cfg": 5,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/wan_base_i2v_cfg5__simple01_woman_talking_plants.jpg",
+      "sample_stats": [
+        {
+          "frame": 0,
+          "channel_means": [
+            80.102,
+            66.27,
+            53.227
+          ],
+          "spatial_std": [
+            73.622,
+            71.288,
+            71.466
+          ]
+        },
+        {
+          "frame": 1,
+          "channel_means": [
+            80.075,
+            65.929,
+            53.264
+          ],
+          "spatial_std": [
+            73.928,
+            71.466,
+            71.87
+          ]
+        },
+        {
+          "frame": 8,
+          "channel_means": [
+            78.489,
+            64.105,
+            51.487
+          ],
+          "spatial_std": [
+            73.265,
+            70.922,
+            71.426
+          ]
+        },
+        {
+          "frame": 20,
+          "channel_means": [
+            76.313,
+            61.315,
+            48.319
+          ],
+          "spatial_std": [
+            71.419,
+            68.853,
+            69.165
+          ]
+        },
+        {
+          "frame": 40,
+          "channel_means": [
+            72.04,
+            57.33,
+            43.638
+          ],
+          "spatial_std": [
+            68.451,
+            65.288,
+            65.285
+          ]
+        },
+        {
+          "frame": 60,
+          "channel_means": [
+            74.357,
+            59.872,
+            46.433
+          ],
+          "spatial_std": [
+            70.659,
+            68.4,
+            68.966
+          ]
+        },
+        {
+          "frame": 80,
+          "channel_means": [
+            73.572,
+            57.804,
+            42.864
+          ],
+          "spatial_std": [
+            67.116,
+            64.746,
+            65.378
+          ]
+        }
+      ],
+      "old_native_preserved": true
+    }
+  ],
+  "errors": [],
+  "quality_pass_not_inferred": true
+}
