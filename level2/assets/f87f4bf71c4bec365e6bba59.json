@@ -2,8 +2,8 @@
   "model": "trajectorycrafter",
   "case_id": "simple01_woman_talking_plants",
   "level": 2,
-  "execution_status": "running",
-  "status": "loading",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple01_woman_talking_plants/recam_actual_native_last.png",
   "first_frame_sha256": "d412e734b57a981c2fc1a37f0e925085790711631bfd72b390bd4b627818af41",
@@ -23,5 +23,18 @@
   "native_first_frame": "native known-frame inpaint, soft reconstruction; no custom pin",
   "camera_control": "prompt only",
   "source_geometry_warped": false,
-  "level3_native_action_field": "masked_video_latents (pixel video despite parameter name), independently VAE encoded"
+  "level3_native_action_field": "masked_video_latents (pixel video despite parameter name), independently VAE encoded",
+  "native_video_sha256": "5be3b8d9a9391c52d14a5b2b2acf6e42cd16282f3e425d675d95557bb69899ba",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/simple01_woman_talking_plants/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/simple01_woman_talking_plants/native_v1/native_last.png",
+  "native_frames": 49,
+  "native_fps": "16/1",
+  "native_info": {
+    "width": 672,
+    "height": 384,
+    "avg_frame_rate": "16/1",
+    "nb_read_frames": "49"
+  },
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/simple01_woman_talking_plants/native_v1/actual_call.json",
+  "elapsed_s": 430.0338501930237
 }
