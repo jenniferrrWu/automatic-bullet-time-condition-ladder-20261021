@@ -2,8 +2,8 @@
   "model": "H3 ref2va",
   "case_id": "case13_woman_rooftop_dance",
   "level": 3,
-  "execution_status": "running",
-  "status": "sampling",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case13_woman_rooftop_dance/recam_actual_native_last.png",
   "first_frame_sha256": "6a0955fe2df3fd11dbdffc53dcd37b3c503e6029f0a0960e1c0173977bde84f5",
@@ -20,5 +20,12 @@
   "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
   "training_performed": false,
   "postdecode_frame_replacement": false,
-  "source_motion_absent": false
+  "source_motion_absent": false,
+  "native_frames": 124,
+  "native_fps": 24,
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case13_woman_rooftop_dance/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case13_woman_rooftop_dance/native_v1/native_last.png",
+  "native_video_sha256": "8c860ffb2de138401f9fff31539174884cc84d1d59436c8e8060ee1373b89444",
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case13_woman_rooftop_dance/native_v1/actual_call.json",
+  "elapsed_s": 2704.8575668670237
 }

@@ -1,0 +1,385 @@
+{
+  "reviewed_at": "2026-10-22T14:31:34+08:00",
+  "items": [
+    {
+      "model": "depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "c6b023bb4a931dc0c85a614930dc20ec130ada9eab06dae6b46f9030973e3c49",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/depthdirector__simple01_woman_talking_plants.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际首图与原生f0外观接近；后续人物趋正面并微笑抬手；背景在五个抽样时刻未见大范围变场。人物转头不能直接判为相机运动。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "depthdirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "07bf88e8488d8f7f5604f0b33f310afeef69a299933447e5220f45b7b71a8e44",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/depthdirector__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际首图与原生f0接近；后续人物与手持板构图、尺度变化，五帧样本动作较少。不能据静态抽帧断言完整动作恢复。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "depthdirector",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "31308df2c5eb6811b6513c6df0302fb7a061fd59365ed4389a78d546254f98c1",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/depthdirector__simple03_woman_slow_expression.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际首图与原生f0接近；后续五帧样本主要轻微脸部变化，背景基本保持；完整闭眼等源动作仍需逐段核对。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "bullet",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "3d2757a0a2dfd574e788e8efd1bdef2212aeeb178866acb0497397d132b32cb3",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/bullet__simple01_woman_talking_plants.jpg",
+      "sampled_output_frames": [
+        0,
+        22,
+        44,
+        66,
+        88
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/22/44/66/88：f0视觉接近输入末帧；后续背景植物、物体布局明显变化，人物也趋正面。这里不能凭人物转头单独判断相机运动，但静止背景要求未获确认。接口没有独立首关键帧参数，不能只凭f0接近宣称硬约束成立。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "hunyuan",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "7e145a247985c41c3627a5d08134328760394df1febb4c88686090da715d52c8",
+      "contact_sheet_actually_viewed": "results/recam_stage3_retained_rerun_20261022/audit/contacts/hunyuan__simple01_woman_talking_plants.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/20/40/60/80：f0人物已趋向正面，脸部状态与光照不同于ReCam末帧，后续微笑及抬手可见，后侧出现明显橙红光亮/物体变化；不是严格首帧接续已通过。",
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "camclonemaster",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "73ec33e2bc9d8905c5c3656ee78dee33f0c9a91e9b62934e05dc51f3bcbc9c19",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/camclonemaster__simple01_woman_talking_plants.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/20/40/60/80：f0接近ReCam末帧，后续微笑、抬手可见，五帧样本背景大体稳定，人物趋正面；动作与视角是否同时合格仍需对照完整参考视频。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "camclonemaster",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "e4a8cb6c24839da487d6d716656597d1a6e985f8f5e01709a2ea50e29e78adf4",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/camclonemaster__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/20/40/60/80：f0接近输入；中段人物明显转向，手持板由正面变侧面再回到正面，后段站位变化；不能仅从人物转身判断相机绕动，固定背景及完整动作需逐段对照。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "hunyuan",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "7327a325b4f753f44a42a55c2132ef731a7e756097ba0455652be206edf85cfa",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/hunyuan__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/20/40/60/80：原生首帧起粉色手持板已消失，人物面对正面，外观与动作状态不符合输入末帧；不能判为严格首帧接续。",
+      "same_sha_as_previous": false,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "hunyuan",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "991f08403c713e11234632a949e10a603059787f1d50bc4f233a016e4c264da7",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/hunyuan__simple03_woman_slow_expression.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/20/40/60/80：原生首帧的背景构图已不同于输入末帧；f20能看到闭眼，后续趋正面，动作恢复与视角/场景保持分别验收。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "trimotion",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "318d77c8477717e224f8dd9c4cbe92e66a8eb9d08fc2e5926ef41fce879e6a16",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/trimotion__simple01_woman_talking_plants.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/20/40/60/80：f0接近输入，后续脸部转向、微笑和抬手可见，背景五帧样本大体相似；未据此确认全片视角和完整动作通过。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "camclonemaster",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "4a374ceef88b4cb0aa7a547de06aab0f1035f5141f20ec60041b8860471c7c23",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/camclonemaster__simple03_woman_slow_expression.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入和五时刻原生帧：首帧接近输入，背景样本较稳定，f40附近人物抬手；五帧未呈现完整闭眼过程，是否遗漏需对照全段源动作。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "trimotion",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "85db6bf1fc40c95cd79ee5933b7ee6a60b85c9f85f8813b6707280fe1c03c41d",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/trimotion__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入和五时刻原生帧：首帧接近输入，后续人物趋正面，手持板角度/大小变化；背景样本较相似，完整动作与新视角仍需逐段验收。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "joy",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "fff2598bd8f6c1cedf84e1276269871870266dc9e57b18b4200f97c2519e2ff9",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/joy__simple01_woman_talking_plants.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入和五时刻原生帧：原生f0已改变人物朝向及背景构图，后续微笑、抬手可见；原生图片外观参考不能视为严格首帧约束。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "bullet",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "5c1c92c5dac01ee22ede54c15f56d52549e7e28041c24f3b6ee709439aabb59f",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/bullet__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_output_frames": [
+        0,
+        22,
+        44,
+        66,
+        88
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入和五时刻原生帧：f0保留人物及板，有模型输入载体补边；后段墙面纹理变化、板边及手部变形，未确认固定场景与完整动作达标。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "trimotion",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "344fc8c99abc67575325a72111da044b6df855cd872ec97c8c1b31cf203e1c52",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/trimotion__simple03_woman_slow_expression.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/20/40/60/80：f0接近输入，f20可见闭眼，后续睁眼、转向；背景五帧样本较相似。该例值得对照完整动作验收，但未自动判为全片通过。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "joy",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "cee1a546cec8704374af5f329c924bc5e0ef2638e866a6a162c278082962cc43",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/joy__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/20/40/60/80：f0已是正面人物与更大手持板，和实际ReCam末帧的侧向姿态不同；后续姿态变化较少。图片外观参考没有保证首帧状态接续。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "bullet",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "bbbc78958cd094c24e0606e665133a7e6c3ccb9d5513ee88cbf50eac9b737eb7",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/bullet__simple03_woman_slow_expression.jpg",
+      "sampled_output_frames": [
+        0,
+        22,
+        44,
+        66,
+        88
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/22/44/66/88：f0接近实际末帧，f22可见闭眼；后续背景被改成更偏正面源机位构图，固定新视角和场景条件未获确认。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "joy",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "481900f33a7505724f3d961a2049f0c128a2e8b627f688465852fb521ec9b29a",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/joy__simple03_woman_slow_expression.jpg",
+      "sampled_output_frames": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/20/40/60/80：f0背景已不同于ReCam输入，f20可见闭眼，后续头部趋正面；动作能出现不等于首帧及新视角接续达标。",
+      "same_sha_as_previous": false,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "h3_ref2va",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "6e498c4923539758fdf4f5f4e1137165f047cd748e0630c6203edaac2d62cb1d",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/h3_ref2va__simple01_woman_talking_plants.jpg",
+      "sampled_output_frames": [
+        0,
+        31,
+        62,
+        93,
+        123
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/31/62/93/123：f0人物已经更正面，与ReCam末帧朝向不同；后续微笑、抬手可见，背景样本较接近目标场景。Ref2VA图片和视频参考已消费，但该例没有实现严格首帧状态复现。",
+      "same_sha_as_previous": false,
+      "quality_pass_claimed": false
+    },
+    {
+      "model": "h3_ref2va",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "fd936d2ea3cc543b7b085dbf7295d6d144eb5d533b3635c49be9f2f821e66093",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/h3_ref2va__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_output_frames": [
+        0,
+        31,
+        62,
+        93,
+        123
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/31/62/93/123：f0人物已经朝正面，粉色手持板角度与大小不同于ReCam输入；后续五帧动作变化较少，背景样本大体相似。图片与视频参考均已输入，但不能判为严格首帧状态接续。",
+      "same_sha_as_previous": false,
+      "quality_pass_claimed": false,
+      "viewed_at": "2026-10-22T14:31:34+08:00"
+    },
+    {
+      "model": "h3_ref2va",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "66dbd38d7d00ebb6436be8fb2d35813432cf2a6cba57927d59a353ac0a95ca4d",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/contacts/h3_ref2va__simple03_woman_slow_expression.jpg",
+      "sampled_output_frames": [
+        0,
+        31,
+        62,
+        93,
+        123
+      ],
+      "input_image_also_viewed": true,
+      "full_video_human_watched": false,
+      "note": "实际查看输入及原生f0/31/62/93/123：输入人物侧向看、闭口，原生f0已正向张口微笑；后续有表情变化，背景五帧样本大体相似。五个时刻未呈现完整闭眼过程，完整动作仍需全段对照。Ref2VA参考图片没有保证输出首帧状态一致。",
+      "same_sha_as_previous": true,
+      "quality_pass_claimed": false,
+      "viewed_at": "2026-10-22T14:31:34+08:00"
+    }
+  ],
+  "scope": "21/21 actual input images and native five-time-point contact sheets viewed; full videos not claimed watched; no visual acceptance inferred"
+}

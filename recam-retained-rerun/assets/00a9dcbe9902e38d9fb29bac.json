@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-10-22T13:35:46+08:00",
+  "native_generation_success": 21,
+  "native_full_decode_verified": 21,
+  "total_requested": 21,
+  "upstream_endpoint_checks": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "stage2_sha_unchanged": true,
+      "stage2_frame80_equals_actual_input_rgb": true
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "stage2_sha_unchanged": true,
+      "stage2_frame80_equals_actual_input_rgb": true
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "stage2_sha_unchanged": true,
+      "stage2_frame80_equals_actual_input_rgb": true
+    }
+  ],
+  "sample_sheets_generated": 21,
+  "sample_sheets_actually_viewed_by_assistant": 21,
+  "full_videos_human_watched_not_claimed": true,
+  "quality_passes_not_automatically_inferred": true,
+  "old_results_preserved": true,
+  "training": false,
+  "postdecode_replacement": false,
+  "public_url": "https://jenniferrrwu.github.io/automatic-bullet-time-condition-ladder-20261021/recam-retained-rerun/",
+  "public_final_checks": "passed",
+  "public_verified_at": "2026-10-22T13:40:19+08:00",
+  "public_http": 200,
+  "browser_playing": 27,
+  "browser_decode_advanced": 27,
+  "independent_model_row_fold": true,
+  "assistant_sample_review_updated_at": "2026-10-22T14:31:34+08:00",
+  "assistant_sample_review_record": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/audit/assistant_sample_review.json"
+}

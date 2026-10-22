@@ -114,5 +114,7 @@
       "first_frame_condition_interpretation": "image is a reference or packed video carrier; no independent native first-keyframe parameter in this invocation"
     }
   ],
-  "selection_not_claimed_as_quality_pass": true
+  "selection_not_claimed_as_quality_pass": true,
+  "assistant_sample_review_completed_at": "2026-10-22T14:31:34+08:00",
+  "assistant_sample_review_count": 21
 }
