@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-21T17:15:00.040910+08:00",
+  "levels": [
+    {
+      "level": 1,
+      "name": "首图生成",
+      "content_inputs": [
+        "actual_stage2_endpoint_png"
+      ],
+      "prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image."
+    },
+    {
+      "level": 2,
+      "name": "固定机位与静止背景",
+      "content_inputs": [
+        "same_actual_stage2_endpoint_png"
+      ],
+      "additional_control": "fixed camera/background prompt plus model-native neutral/static camera condition if mandatory; always separately listed",
+      "prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image. The camera stays completely locked at the viewpoint and framing of the supplied initial image for the entire shot. Keep background objects, scene geometry and lighting stationary. No camera orbit, pan, tilt, dolly, zoom, shake, scene change or cuts."
+    },
+    {
+      "level": 3,
+      "name": "加入完整动作视频",
+      "content_inputs": [
+        "same_actual_stage2_endpoint_png",
+        "complete_original_source_action_video"
+      ],
+      "prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image. The camera stays completely locked at the viewpoint and framing of the supplied initial image for the entire shot. Keep background objects, scene geometry and lighting stationary. No camera orbit, pan, tilt, dolly, zoom, shake, scene change or cuts. Use the separately supplied complete source video as the action reference. Reproduce its chronological facial expressions, mouth, head, body and hand actions while retaining the initial image viewpoint, appearance and stationary background. Do not copy camera movement or the original viewpoint from the action reference."
+    }
+  ],
+  "controls": [
+    "same checkpoint and weight hashes per model",
+    "same native seed42",
+    "same resolution, output duration, diffusion steps per model across levels",
+    "negative prompt has no hidden fixed-camera/background demands in level1",
+    "no hidden content/camera reference clips in level1",
+    "no training, no decoded first-frame replacement, no output seam repair",
+    "interface unsupported differs from visual failure; image reference differs from native first-frame condition"
+  ],
+  "additional_source_image_baseline": "Each case source_tstar.png is retained for endpoint comparison; not silently substituted in ladder",
+  "first_failure": [
+    "not_reviewed",
+    "level1_generation_or_first_state",
+    "level2_camera_or_background",
+    "level3_action_or_view_conflict",
+    "interface_unsupported",
+    "all3_passed_manual"
+  ],
+  "visual_rubric": {
+    "level1": [
+      "nonblack decodable video",
+      "first-state and identity consistency",
+      "natural temporally continuous actions; camera not yet required fixed"
+    ],
+    "level2": [
+      "same level1 checks",
+      "camera/background/lighting stable; subject motion remains allowed",
+      "head turn alone does not establish camera movement"
+    ],
+    "level3": [
+      "same level2 checks",
+      "complete reference action order, expression, limb motion and timing",
+      "extra head turn absent in source is action deviation, not proof that camera moved"
+    ],
+    "first_failure_requires_actual_viewing": true,
+    "execution_success_is_not_visual_pass": true
+  }
+}

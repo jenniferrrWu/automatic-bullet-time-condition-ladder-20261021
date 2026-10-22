@@ -1,0 +1,11 @@
+{
+  "model": "SpaceTimePilot",
+  "case_id": "simple03_woman_slow_expression",
+  "level": 2,
+  "execution_status": "interface_unsupported",
+  "visual_status": "not_executed",
+  "reason": "current public T2V checkpoint has no independent image encoder; source video mandatory; previous first-frame pin is experimental",
+  "not_a_quality_failure": true,
+  "existing_experimental_adapter_is_not_native_baseline": true,
+  "native_video": null
+}

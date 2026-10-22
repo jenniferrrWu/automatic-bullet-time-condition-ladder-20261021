@@ -1,0 +1,39 @@
+{
+  "native_mode": "i2v",
+  "camera_embedding_shape": [
+    1,
+    21,
+    768
+  ],
+  "camera_embedding_all_zero": false,
+  "source_tensor_shape": [
+    1,
+    3,
+    81,
+    384,
+    672
+  ],
+  "source_is_numeric_zero_placeholder": true,
+  "actual_motion_video_loaded": false,
+  "first_image_encoder_executed": true,
+  "source_latents_zero_verified_in_denoiser": true,
+  "first_image_condition_only_with_required_neutral_aux": false,
+  "prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image. The camera stays completely locked at the viewpoint and framing of the supplied initial image for the entire shot. Keep background objects, scene geometry and lighting stationary. No camera orbit, pan, tilt, dolly, zoom, shake, scene change or cuts.",
+  "negative_prompt": "",
+  "seed": 42,
+  "sampling_intervention": false,
+  "image_condition_shapes": {
+    "clip_feature": [
+      1,
+      257,
+      1280
+    ],
+    "y": [
+      1,
+      20,
+      21,
+      48,
+      84
+    ]
+  }
+}

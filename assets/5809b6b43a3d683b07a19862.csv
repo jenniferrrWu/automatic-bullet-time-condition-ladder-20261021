@@ -1,0 +1,21 @@
+model,level1,level2,level3,note
+DepthDirector,ready,ready,ready,native fused first-frame image; level2 same endpoint-derived static depth/mask retained in level3
+CamCloneMaster,ready,ready,ready,native optional image/content/camera branches; camera reference is independent from action
+DimensionX,ready,ready,interface_unsupported,native CogVideoX I2V plus same orbit_right LoRA; no trained joint motion-video input
+Hunyuan OmniWeaving,ready,ready,ready,"native i2v→tiv2v; level3 ref_image is reference condition, independent first-frame effect must be checked"
+Wan VACE,ready,ready,ready,native known-frame mask plus image-reference; level3 complete action in reactive stream
+H3 Ref2VA,ready,ready,ready,native image/video references; no independent first-keyframe argument
+H3 FL2VA,ready,ready,interface_unsupported,native single first keyframe supported; workflow does not take motion-video reference
+TriMotion,ready,ready,ready,Native i2v/v2v. Level1 has image content only but mandatory zero camera/source placeholders; native source latents verified zero. Level2 adds actual fixed-pose embedding; level3 adds real motion video.
+OmniCamera,ready,ready,interface_unsupported,public image and video content modes are exclusive; previous joint adapter was experimental
+GEN3C,ready,ready,ready,"Native first-time image condition. Mandatory zero warp placeholders at L1; endpoint-derived static warp L2; all81 native RGB action warp L3 includes source viewpoint, uncalibrated to endpoint; no experimental pin."
+TrajectoryCrafter,ready,ready,interface_unsupported,"Native known-frame inpaint + image reference at49 frames for L1/L2. Installed checkpoint has static positional embeddings, native target/action warp max49. Common complete81-frame action cannot be supplied to aligned temporal branch; L3 marked unsupported, no silent49-frame truncation."
+WorldInWorld,ready,ready,ready,"Native first-image build_y; mandatory static camera in all levels; source history/EWA disabled L1/2, native full81 source history added L3. Four-GPU existing FSDP compatibility; no experimental first-latent pin. Two/three-GPU OOM attempts retained as infrastructure failures."
+BulletTime,ready,ready,ready,"Native i2v source carrier at L1/2, v2v endpoint+full81 action carrier at L3; mandatory camera/time tensors; no independent hard first keyframe and no experimental clamp."
+SpaceTimePilot,interface_unsupported,interface_unsupported,interface_unsupported,current public T2V checkpoint has no independent image encoder; source video mandatory; previous first-frame pin is experimental
+ReCamMaster,interface_unsupported,interface_unsupported,interface_unsupported,current public T2V checkpoint ignores independent input_image and requires source_video; previous anchor adapter is experimental
+ReDirector,interface_unsupported,interface_unsupported,interface_unsupported,current checkpoint skips first_frame via require_clip_embedding=false; source cond_video required; prior anchor was experimental
+Vista4D,interface_unsupported,interface_unsupported,interface_unsupported,"installed checkpoint is T2V, independent I2V checkpoint not installed; image pin was experimental"
+JoyAI Video Edit,interface_unsupported,interface_unsupported,ready,Native RV2V image appearance reference+full81 action video. Official native initialize/denoise restored; torch/eager-VAE compatibility kernels only. No independent first-frame constraint; image-only entry absent.
+Seedance 2.5,external_api_not_rechecked,external_api_not_rechecked,external_api_not_rechecked,historical API human-input restriction; account/API state kept separate from model visual failure
+Kling,external_api_not_rechecked,external_api_not_rechecked,external_api_not_rechecked,historical insufficient API credit; account state not a visual failure

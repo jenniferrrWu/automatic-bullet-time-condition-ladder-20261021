@@ -1,0 +1,37 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "994974ea59cbe1cebe98c51250ef3ad6d9a892b087d3d0d05078756dcd5e9042",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "initial_noise": {
+    "sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+    "shape": [
+      1,
+      48,
+      21,
+      44,
+      80
+    ],
+    "dtype": "torch.bfloat16",
+    "seed_argument": 42,
+    "rng_behavior_changed": false
+  },
+  "official_endpoint_preprocessing_wh": [
+    1280,
+    704
+  ],
+  "endpoint_pixel_sha256": "54760df404b27c56dd8c167e81c209d24e729c6f1a94f7a96ca91dd2c77cff4d",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/depthdirector/level3/raw/case11_man_contemporary_dance/native_v1/effective_endpoint.png",
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}

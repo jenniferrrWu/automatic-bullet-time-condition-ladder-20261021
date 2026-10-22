@@ -1,0 +1,13 @@
+{
+  "model": "TrajectoryCrafter",
+  "case_id": "case13_woman_rooftop_dance",
+  "level": 3,
+  "execution_status": "interface_unsupported",
+  "status": "interface_unsupported",
+  "visual_status": "not_executed",
+  "reason": "Installed native pipeline requires num_frames<=49 because of static positional embeddings. Complete81-frame temporal action branch not supported in this experiment; no source truncation or experimental positional extension performed.",
+  "source_motion_frames": 81,
+  "native_max_output_frames": 49,
+  "evidence": "models/TrajectoryCrafter/models/pipeline_trajectorycrafter.py:783",
+  "postdecode_frame_replacement": false
+}

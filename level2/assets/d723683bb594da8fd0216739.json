@@ -1,0 +1,26 @@
+{
+  "kwargs_keys": [
+    "aspect_ratio",
+    "deepstack",
+    "negative_prompt",
+    "num_inference_steps",
+    "only_give_text",
+    "output_type",
+    "prompt",
+    "ref_image_paths",
+    "seed",
+    "setclip",
+    "task_type",
+    "think",
+    "video_length"
+  ],
+  "task_type": "i2v",
+  "ref_image_paths": [
+    "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case13_woman_rooftop_dance/recam_actual_native_last.png"
+  ],
+  "condition_videos": null,
+  "condition_video_latents_shape": null,
+  "source_motion_present": false,
+  "prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image. The camera stays completely locked at the viewpoint and framing of the supplied initial image for the entire shot. Keep background objects, scene geometry and lighting stationary. No camera orbit, pan, tilt, dolly, zoom, shake, scene change or cuts.",
+  "sampling_intervention": false
+}

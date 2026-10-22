@@ -1,0 +1,28 @@
+{
+  "actual_keys": [
+    "camera_cfg_scale",
+    "cfg_scale",
+    "height",
+    "input_image",
+    "model_mode",
+    "negative_prompt",
+    "num_frames",
+    "num_inference_steps",
+    "prompt",
+    "seed",
+    "text_cfg_scale",
+    "tiled",
+    "use_hierarchical_cfg",
+    "width"
+  ],
+  "image": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple03_woman_slow_expression/recam_actual_native_last.png",
+  "source_video": null,
+  "camera_shape": null,
+  "model_mode": "i2v",
+  "prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image.",
+  "seed": 42,
+  "steps": 50,
+  "weights_unchanged": true,
+  "sampler_modified": false,
+  "geometry_alignment_to_original_source": false
+}

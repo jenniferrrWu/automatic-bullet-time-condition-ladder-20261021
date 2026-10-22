@@ -1,0 +1,38 @@
+{
+  "image_present": true,
+  "motion_video_present": false,
+  "camera_reference_present": true,
+  "native_mode": "v2v",
+  "seed": 42,
+  "negative_prompt": "",
+  "prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image. The camera stays completely locked at the viewpoint and framing of the supplied initial image for the entire shot. Keep background objects, scene geometry and lighting stationary. No camera orbit, pan, tilt, dolly, zoom, shake, scene change or cuts.",
+  "camera_and_motion_are_separate_inputs": true,
+  "sampling_changed": false,
+  "image_size": [
+    832,
+    480
+  ],
+  "camera_reference_shape": [
+    1,
+    3,
+    81,
+    480,
+    832
+  ],
+  "camera_reference_source": "same actual endpoint repeated81; no external video; zero camera motion proxy",
+  "native_image_encoder_executed": true,
+  "image_condition_shapes": {
+    "clip_feature": [
+      1,
+      257,
+      1280
+    ],
+    "y": [
+      1,
+      20,
+      21,
+      60,
+      104
+    ]
+  }
+}

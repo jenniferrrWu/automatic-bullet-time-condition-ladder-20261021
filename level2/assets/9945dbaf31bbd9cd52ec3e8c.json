@@ -1,0 +1,23 @@
+{
+  "workflow": "ref2va",
+  "image": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple03_woman_slow_expression/recam_actual_native_last.png",
+  "source_video": null,
+  "native_first_keyframe": false,
+  "source_motion_absent": true,
+  "camera_control": "prompt only",
+  "seed": 42,
+  "weights_partition": "transformer_ref",
+  "sampling_intervention": false,
+  "normalized_reference_kinds": [
+    "image"
+  ],
+  "condition_latent_shapes": [
+    [
+      1,
+      24,
+      1,
+      128,
+      222
+    ]
+  ]
+}

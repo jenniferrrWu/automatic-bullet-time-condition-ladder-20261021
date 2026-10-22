@@ -1,0 +1,182 @@
+{
+  "scope": "user confirmed6: simple3 + original smoke3; shared real ReCam Stage2 endpoint for every model and every diagnostic level",
+  "cases": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "group": "simple",
+      "title": "Woman Talking In Front of Camera",
+      "source_motion_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple01_woman_talking_plants/source_post_tstar_to_end_lossless.mp4",
+      "source_motion_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "source_fps": "25/1",
+      "source_motion_frames": 81,
+      "source_original_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/raw/8048249.mp4",
+      "source_tstar_frame": 259,
+      "source_motion_frame_range": [
+        259,
+        339
+      ],
+      "source_tstar_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple01_woman_talking_plants/source_tstar.png",
+      "upstream_stage2_model": "ReCamMaster",
+      "upstream_stage2_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple01_woman_talking_plants.json",
+      "upstream_stage2_native": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple01_woman_talking_plants/native_v1/native.mp4",
+      "upstream_stage2_native_sha256": "e594d2043fdc1936a5cb4bed86df508af786e3f47c8b7fe5c1130172fcaf219c",
+      "upstream_last_frame_index": 80,
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple01_woman_talking_plants/recam_actual_native_last.png",
+      "endpoint_sha256": "d412e734b57a981c2fc1a37f0e925085790711631bfd72b390bd4b627818af41",
+      "endpoint_extraction": "ffmpeg decoded actual complete native Stage2 final frame, no generated-output edits",
+      "stage2_requested_angle_deg": 30,
+      "stage2_actual_angle_calibrated": false,
+      "historical_depth_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/native_last.png",
+      "historical_depth_native_stage3": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_depth_native_stage2": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "fixed_view_controls": {
+        "dw_depth.mp4": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple01_woman_talking_plants/depth_fixed/dw_depth.mp4",
+        "dw_mask.mp4": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple01_woman_talking_plants/depth_fixed/dw_mask.mp4"
+      }
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "group": "simple",
+      "title": "A Standing Woman Talking While Holding A Blank Statement Board",
+      "source_motion_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
+      "source_motion_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "source_fps": "25/1",
+      "source_motion_frames": 81,
+      "source_original_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/raw/3252127.mp4",
+      "source_tstar_frame": 150,
+      "source_motion_frame_range": [
+        150,
+        230
+      ],
+      "source_tstar_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple02_woman_presenting_chalkboard/source_tstar.png",
+      "upstream_stage2_model": "ReCamMaster",
+      "upstream_stage2_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple02_woman_presenting_chalkboard.json",
+      "upstream_stage2_native": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "upstream_stage2_native_sha256": "311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836",
+      "upstream_last_frame_index": 80,
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple02_woman_presenting_chalkboard/recam_actual_native_last.png",
+      "endpoint_sha256": "06887a96d82d65d3e68f20a70116baf4f4e1b6d17041e8bb877f55ee4ea7c3e3",
+      "endpoint_extraction": "ffmpeg decoded actual complete native Stage2 final frame, no generated-output edits",
+      "stage2_requested_angle_deg": 30,
+      "stage2_actual_angle_calibrated": false,
+      "historical_depth_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/native_last.png",
+      "historical_depth_native_stage3": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_depth_native_stage2": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "fixed_view_controls": {
+        "dw_depth.mp4": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple02_woman_presenting_chalkboard/depth_fixed/dw_depth.mp4",
+        "dw_mask.mp4": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple02_woman_presenting_chalkboard/depth_fixed/dw_mask.mp4"
+      }
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "group": "simple",
+      "title": "Pexels video 8135870",
+      "source_motion_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple03_woman_slow_expression/source_post_tstar_to_end_lossless.mp4",
+      "source_motion_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "source_fps": "25/1",
+      "source_motion_frames": 81,
+      "source_original_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/raw/8135870.mp4",
+      "source_tstar_frame": 237,
+      "source_motion_frame_range": [
+        237,
+        317
+      ],
+      "source_tstar_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple03_woman_slow_expression/source_tstar.png",
+      "upstream_stage2_model": "ReCamMaster",
+      "upstream_stage2_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple03_woman_slow_expression.json",
+      "upstream_stage2_native": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple03_woman_slow_expression/native_v1/native.mp4",
+      "upstream_stage2_native_sha256": "383094c45955d394398a2125b5ba020661369b058749e750a9ed92e1d43d4d20",
+      "upstream_last_frame_index": 80,
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple03_woman_slow_expression/recam_actual_native_last.png",
+      "endpoint_sha256": "046885d9ca032d3322c2825f6ba5fceefad35414472dab353ee7b492dbe6343c",
+      "endpoint_extraction": "ffmpeg decoded actual complete native Stage2 final frame, no generated-output edits",
+      "stage2_requested_angle_deg": 30,
+      "stage2_actual_angle_calibrated": false,
+      "historical_depth_endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/native_last.png",
+      "historical_depth_native_stage3": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_depth_native_stage2": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "fixed_view_controls": {
+        "dw_depth.mp4": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple03_woman_slow_expression/depth_fixed/dw_depth.mp4",
+        "dw_mask.mp4": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple03_woman_slow_expression/depth_fixed/dw_mask.mp4"
+      }
+    },
+    {
+      "case_id": "case11_man_contemporary_dance",
+      "group": "legacy_smoke",
+      "title": "male contemporary dancer",
+      "source_motion_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/source_post/case11_man_contemporary_dance.mp4",
+      "source_motion_sha256": "1808fcdba3abd25c8790e6d7f2e810f97340b6c6ccf37cc90af60c8d48c23f8d",
+      "source_fps": "25/1",
+      "source_motion_frames": 81,
+      "source_original_video": "/public/wufeier/automatic_bullet_time/inputs/formal15/new_dance/a-man-dancing-with-contemporary-moves-7674203.mp4",
+      "source_tstar_frame": 236,
+      "source_motion_frame_range": [
+        236,
+        316
+      ],
+      "source_tstar_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case11_man_contemporary_dance/source_tstar.png",
+      "upstream_stage2_model": "ReCamMaster",
+      "upstream_stage2_record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/recam/stage2/case11_man_contemporary_dance.json",
+      "upstream_stage2_native": "/public/wufeier/automatic_bullet_time/results/expert_execution_v1_20261012/raw/recam/stage2/case11_man_contemporary_dance/native.mp4",
+      "upstream_stage2_native_sha256": "1eb5ac89cec9bb2155d26d238a6ca3b133f4e423c631bbbeff8f841531fbc164",
+      "upstream_last_frame_index": 80,
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case11_man_contemporary_dance/recam_actual_native_last.png",
+      "endpoint_sha256": "994974ea59cbe1cebe98c51250ef3ad6d9a892b087d3d0d05078756dcd5e9042",
+      "endpoint_extraction": "ffmpeg decoded actual complete native Stage2 final frame, no generated-output edits",
+      "stage2_requested_angle_deg": 30,
+      "stage2_actual_angle_calibrated": false
+    },
+    {
+      "case_id": "case13_woman_rooftop_dance",
+      "group": "legacy_smoke",
+      "title": "female rooftop dancer",
+      "source_motion_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/source_post/case13_woman_rooftop_dance.mp4",
+      "source_motion_sha256": "3266c748960104ee81f443260efaa6b1816ff1505b34e54028421d143ea0c2f6",
+      "source_fps": "30000/1001",
+      "source_motion_frames": 81,
+      "source_original_video": "/public/wufeier/automatic_bullet_time/inputs/formal15/retry/dynamic-rooftop-dance-performance-32138521_retry.mp4",
+      "source_tstar_frame": 236,
+      "source_motion_frame_range": [
+        236,
+        316
+      ],
+      "source_tstar_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case13_woman_rooftop_dance/source_tstar.png",
+      "upstream_stage2_model": "ReCamMaster",
+      "upstream_stage2_record": "/public/wufeier/automatic_bullet_time/results/stage23_basemodel_v2_20261012/records/recam/stage2/case13_woman_rooftop_dance.json",
+      "upstream_stage2_native": "/public/wufeier/automatic_bullet_time/results/expert_execution_v1_20261012/raw/recam/stage2/case13_woman_rooftop_dance/native.mp4",
+      "upstream_stage2_native_sha256": "c7307442035555f5a57c18a2f1771df1a4c35016db7b84f5069f7303e2aa33a7",
+      "upstream_last_frame_index": 80,
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case13_woman_rooftop_dance/recam_actual_native_last.png",
+      "endpoint_sha256": "6a0955fe2df3fd11dbdffc53dcd37b3c503e6029f0a0960e1c0173977bde84f5",
+      "endpoint_extraction": "ffmpeg decoded actual complete native Stage2 final frame, no generated-output edits",
+      "stage2_requested_angle_deg": 30,
+      "stage2_actual_angle_calibrated": false
+    },
+    {
+      "case_id": "case04_person_water_jump",
+      "group": "legacy_smoke",
+      "title": "man jumping into a water pool",
+      "source_motion_video": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/source_post/case04_person_water_jump.mp4",
+      "source_motion_sha256": "c806c1fbc83902c157464bda6c2b033a9b34e8fd447a60195e2ee6e9911ac5d2",
+      "source_fps": "30000/1001",
+      "source_motion_frames": 81,
+      "source_original_video": "/public/wufeier/automatic_bullet_time/inputs/review_candidates/person_water_jump.mp4",
+      "source_tstar_frame": 525,
+      "source_motion_frame_range": [
+        525,
+        605
+      ],
+      "source_tstar_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case04_person_water_jump/source_tstar.png",
+      "upstream_stage2_model": "ReCamMaster",
+      "upstream_stage2_record": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/records/recam/stage2/case04_person_water_jump.json",
+      "upstream_stage2_native": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/raw/recam/stage2/case04_person_water_jump/native.mp4",
+      "upstream_stage2_native_sha256": "1fbab2c52b033d38979801dbfde248a687cc4ab4221e30ef9e55e6f37ca52c3a",
+      "upstream_last_frame_index": 80,
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case04_person_water_jump/recam_actual_native_last.png",
+      "endpoint_sha256": "7cf44f082ce5594c323e8fd49488d4d8f18174152264646d0655624ecfcabe1e",
+      "endpoint_extraction": "ffmpeg decoded actual complete native Stage2 final frame, no generated-output edits",
+      "stage2_requested_angle_deg": 30,
+      "stage2_actual_angle_calibrated": false
+    }
+  ]
+}

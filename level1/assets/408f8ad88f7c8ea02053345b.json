@@ -1,0 +1,11 @@
+{
+  "model": "Vista4D",
+  "case_id": "simple03_woman_slow_expression",
+  "level": 1,
+  "execution_status": "interface_unsupported",
+  "visual_status": "not_executed",
+  "reason": "installed checkpoint is T2V, independent I2V checkpoint not installed; image pin was experimental",
+  "not_a_quality_failure": true,
+  "existing_experimental_adapter_is_not_native_baseline": true,
+  "native_video": null
+}

@@ -1,0 +1,14 @@
+{
+  "workflow": "fl2va",
+  "image": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case13_woman_rooftop_dance/recam_actual_native_last.png",
+  "source_video": null,
+  "native_first_keyframe": true,
+  "source_motion_absent": true,
+  "camera_control": "prompt only",
+  "seed": 42,
+  "weights_partition": "transformer",
+  "sampling_intervention": false,
+  "native_keyframe_anchors": [
+    "first"
+  ]
+}
