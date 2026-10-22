@@ -1,0 +1,19 @@
+{
+  "variants": [
+    {
+      "key": "relative_content",
+      "title": "以真实首图为基准的内容条件",
+      "changed": "Only native source content latent conditioning is rebased to the native target-image anchor; static depth/mask remain identical to baseline.",
+      "experimental": true
+    },
+    {
+      "key": "dynamic_depth",
+      "title": "恢复随动作变化的目标深度",
+      "changed": "Only depth/mask change from repeated endpoint geometry to historical native source-projected dynamic depth/mask at fixed nominal right30 target. Native content latent remains original.",
+      "experimental": false,
+      "target_pose_calibration": "nominal right30; actual ReCam pose not calibrated"
+    }
+  ],
+  "baseline": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022",
+  "new_calls": 6
+}
