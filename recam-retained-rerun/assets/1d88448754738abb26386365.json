@@ -3,7 +3,7 @@
   "case_id": "simple02_woman_presenting_chalkboard",
   "level": 3,
   "execution_status": "running",
-  "status": "loading",
+  "status": "sampling",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/recam_actual_native_last.png",
   "first_frame_sha256": "06887a96d82d65d3e68f20a70116baf4f4e1b6d17041e8bb877f55ee4ea7c3e3",
