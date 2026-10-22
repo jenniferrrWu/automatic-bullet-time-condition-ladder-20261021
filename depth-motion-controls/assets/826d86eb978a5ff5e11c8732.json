@@ -120,8 +120,29 @@
   "prompt_same_as_previous_control": true,
   "all_original_inputs_preserved": true,
   "native_code_snapshots": {
-    "depth_relative_content_condition_20261022.py": "33ae9ccb8966a6a3740b81f7732edc47b956e57369cb88528196ede67ea523f9",
+    "depth_relative_content_condition_20261022.py": "7c5aa8c145521bee08ea12e4aab884d39cee8fbb7ede94a64e31c82382e9bdee",
     "run_depth_relative_content_control_20261022.py": "f7c06503783038ad6aa2d1ae2f654fc40f94b20548bea8d85c1e68bb74b9cb04",
     "run_depth_dynamic_depth_control_20261022.py": "59b0734b809a06c2b3f6450a4e7d710535ef624ee48abefb538d800855e20fe8"
-  }
+  },
+  "helper_revisions": [
+    {
+      "at": "2026-10-22T15:36:35+08:00",
+      "reason": "Native fused-image VAE returns CPU anchor while source content latent is on GPU; cast the auxiliary condition copy, leave native output anchor untouched",
+      "original_helper_sha256": "33ae9ccb8966a6a3740b81f7732edc47b956e57369cb88528196ede67ea523f9",
+      "new_helper_sha256": "7c5aa8c145521bee08ea12e4aab884d39cee8fbb7ede94a64e31c82382e9bdee",
+      "archived_failed_attempts": [
+        "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/failed_attempts/relative_content/simple01_woman_talking_plants/device_mismatch_20261022",
+        "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/failed_attempts/relative_content/simple02_woman_presenting_chalkboard/device_mismatch_20261022",
+        "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/failed_attempts/relative_content/simple03_woman_slow_expression/device_mismatch_20261022"
+      ],
+      "native_dynamic_workers_preserved": {
+        "depth_motion_content_controls_20261022/dynamic_depth/depthdirector/level3/simple01_woman_talking_plants": 357119,
+        "depth_motion_content_controls_20261022/dynamic_depth/depthdirector/level3/simple02_woman_presenting_chalkboard": 357127,
+        "depth_motion_content_controls_20261022/dynamic_depth/depthdirector/level3/simple03_woman_slow_expression": 357135
+      },
+      "native_workers_signalled": false,
+      "old_scheduler": 4141758,
+      "three_failed_before_sampling": true
+    }
+  ]
 }

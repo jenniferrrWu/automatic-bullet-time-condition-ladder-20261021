@@ -1,7 +1,7 @@
 {
-  "updated_unix": 1792650855.4139497,
-  "successful_execution_records": 215,
-  "full_native_mp4_decodes_passed": 215,
+  "updated_unix": 1792654676.621895,
+  "successful_execution_records": 216,
+  "full_native_mp4_decodes_passed": 216,
   "errors": [],
   "visual_quality_passes_not_inferred": true,
   "rows": [
@@ -1780,6 +1780,24 @@
       "quality_pass_not_inferred": true,
       "continuous_human_viewing": false,
       "checked_unix": 1792633461.3280084
+    },
+    {
+      "model_key": "h3_ref2va",
+      "case_id": "case04_person_water_jump",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "305aaaf3741998b0ec21d9f45ae76f82c64d1944c76b31a845f3cdfa2fa45732",
+      "full_decode_pass": true,
+      "actual_frame_count": 124,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "124"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792654676.616443
     },
     {
       "model_key": "h3_ref2va",
