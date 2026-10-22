@@ -1,0 +1,41 @@
+{
+  "workflow": "ref2va",
+  "image": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case04_person_water_jump/recam_actual_native_last.png",
+  "source_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case04_person_water_jump/native_v1/motion_all81_plus9_tail_24fps.mkv",
+  "native_first_keyframe": false,
+  "source_motion_absent": false,
+  "camera_control": "prompt only",
+  "seed": 42,
+  "weights_partition": "transformer_ref",
+  "sampling_intervention": false,
+  "original_source": "/public/wufeier/automatic_bullet_time/results/stage23_endpoint_required_landscape_20261013/inputs/source_post/case04_person_water_jump.mp4",
+  "original_source_fps": "30000/1001",
+  "model_reference_fps": 24,
+  "reference_frames": 90,
+  "real_frames": 81,
+  "tail_hold_frames": 9,
+  "reference_temporal_adjustment": "retime all81 original frames to24fps, then9 input-only held frames; zero source-frame dropping",
+  "all81_input_rgb_frames_verified": true,
+  "normalized_reference_kinds": [
+    "image",
+    "video"
+  ],
+  "condition_latent_shapes": [
+    [
+      1,
+      24,
+      1,
+      128,
+      222
+    ],
+    [
+      1,
+      24,
+      27,
+      48,
+      84
+    ]
+  ],
+  "normalized_motion_frames": 90,
+  "normalized_motion_fps": 24.0
+}

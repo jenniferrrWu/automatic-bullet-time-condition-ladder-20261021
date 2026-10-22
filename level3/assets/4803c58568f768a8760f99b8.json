@@ -2,8 +2,8 @@
   "model": "H3 ref2va",
   "case_id": "case04_person_water_jump",
   "level": 3,
-  "execution_status": "running",
-  "status": "sampling",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case04_person_water_jump/recam_actual_native_last.png",
   "first_frame_sha256": "7cf44f082ce5594c323e8fd49488d4d8f18174152264646d0655624ecfcabe1e",
@@ -20,5 +20,12 @@
   "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case04_person_water_jump/native_v1/native.mp4",
   "training_performed": false,
   "postdecode_frame_replacement": false,
-  "source_motion_absent": false
+  "source_motion_absent": false,
+  "native_frames": 124,
+  "native_fps": 24,
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case04_person_water_jump/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case04_person_water_jump/native_v1/native_last.png",
+  "native_video_sha256": "305aaaf3741998b0ec21d9f45ae76f82c64d1944c76b31a845f3cdfa2fa45732",
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case04_person_water_jump/native_v1/actual_call.json",
+  "elapsed_s": 2750.9394233282655
 }
