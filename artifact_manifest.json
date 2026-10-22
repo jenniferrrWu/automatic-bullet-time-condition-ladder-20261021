@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-22T12:29:14.589847+08:00",
-  "file_count": 1905,
-  "content_bytes": 669891890,
+  "created_at": "2026-10-22T12:33:20.457297+08:00",
+  "file_count": 1911,
+  "content_bytes": 670197463,
   "native_outputs_modified": false,
   "all_html_dependencies_bundled": true,
   "auxiliary_files": [
@@ -12,12 +12,12 @@
     {
       "path": "index.html",
       "bytes": 50374,
-      "sha256": "799b16111748d97238650d174b702d32efa1fa1fce9d06ba2b1640e4304a76d4"
+      "sha256": "d00f8de5a9e1166f345099b48d083f08f3fe1f59fcb38868f91b7720f7817c59"
     },
     {
       "path": "recam-retained-rerun/index.html",
-      "bytes": 79487,
-      "sha256": "4acb2af19258047b6ba34dd9eb9b622c6bd7dca91d02dd76c783d5fd5d449775"
+      "bytes": 80497,
+      "sha256": "8fdb5874e83fcef8eda356e7606ac7a07b7fce68b2bde43c0d62b97b8612b109"
     },
     {
       "path": "recam-depth/index.html",
@@ -135,14 +135,14 @@
       "sha256": "660a8bcbdb66772d606c4cd8883ac7bfeed6c02cf8a8111456fd75e6de9c7fd2"
     },
     {
-      "path": "recam-retained-rerun/assets/85acb732584149e40464c5d2_preview_bundle.json",
-      "bytes": 585224,
-      "sha256": "85acb732584149e40464c5d24e3a7f9c73fdd9b7e6e31c7356515e98abe93826"
+      "path": "recam-retained-rerun/assets/d3850460591676fb3ecf1151_preview_bundle.json",
+      "bytes": 600594,
+      "sha256": "d3850460591676fb3ecf11518bb64b2f42358a3ff45ad14768e7eea88f86d7d2"
     },
     {
-      "path": "recam-retained-rerun/assets/3fc9df5ab09f0fab177746b4.md",
-      "bytes": 2228,
-      "sha256": "3fc9df5ab09f0fab177746b48699ba3b2e663ec66c12806cc145a13d796632c7"
+      "path": "recam-retained-rerun/assets/a0bc6113409444af6e1b0be9.md",
+      "bytes": 2214,
+      "sha256": "a0bc6113409444af6e1b0be922e923aef35e6ef91d134cfcae2f841f4c736f01"
     },
     {
       "path": "recam-retained-rerun/assets/4c7063345e1d6120843124b4.json",
@@ -675,9 +675,44 @@
       "sha256": "1dfe43a4b5bb31e60377fb4000eaddf858141714402ef96289d60b463115b708"
     },
     {
-      "path": "recam-retained-rerun/assets/1d88448754738abb26386365.json",
-      "bytes": 2073,
-      "sha256": "1d88448754738abb2638636574529f9bf0d54270a6c243d176eb87da80217bb3"
+      "path": "recam-retained-rerun/assets/fd936d2ea3cc543b7b085dbf_preview.mp4",
+      "bytes": 11472,
+      "sha256": "8ee0b1248be27646a824168fef7ad8c203ccb2b90cbdfc0ae65720406adda83c"
+    },
+    {
+      "path": "recam-retained-rerun/assets/fd936d2ea3cc543b7b085dbf_poster.jpg",
+      "bytes": 5174,
+      "sha256": "f88f2cb720058bec1831898a410f2c8f554c9ab805678e5d972f4080c16aadbe"
+    },
+    {
+      "path": "recam-retained-rerun/assets/fd936d2ea3cc543b7b085dbf.mp4",
+      "bytes": 199568,
+      "sha256": "fd936d2ea3cc543b7b085dbf7295d6d144eb5d533b3635c49be9f2f821e66093"
+    },
+    {
+      "path": "level3/assets/bd134324cc5029efc002baaa.png",
+      "bytes": 194505,
+      "sha256": "bd134324cc5029efc002baaa43284730f98825591cba1fe4d1b1e622837c62c9"
+    },
+    {
+      "path": "recam-retained-rerun/assets/bd134324cc5029efc002baaa_w480.jpg",
+      "bytes": 11583,
+      "sha256": "7827b6b306488a2bf70006a0bfb01c24f79ddc9338472dc442b6b6716dee78ac"
+    },
+    {
+      "path": "recam-retained-rerun/assets/e48c071b2cb70b9e1e742ff2.json",
+      "bytes": 2854,
+      "sha256": "e48c071b2cb70b9e1e742ff2fb72afa31e3347604057cd61eff6235e95fa7c57"
+    },
+    {
+      "path": "recam-retained-rerun/assets/790989f94dd1ca5a1c45592d.json",
+      "bytes": 1390,
+      "sha256": "790989f94dd1ca5a1c45592dad1c37e6d9ca1e3f66be6f851bad39935dcfdefd"
+    },
+    {
+      "path": "recam-retained-rerun/assets/b937010cbe5ce62eedbfc6f5.jpg",
+      "bytes": 59239,
+      "sha256": "b937010cbe5ce62eedbfc6f5f1b7077a6f08240eb1d7766e64a4539a3f2e7f5a"
     },
     {
       "path": "recam-retained-rerun/assets/3d2757a0a2dfd574e788e8ef_preview.mp4",
@@ -8338,11 +8373,6 @@
       "path": "level3/assets/abe7a17c33ca2d20b7cb4891.mp4",
       "bytes": 199076,
       "sha256": "abe7a17c33ca2d20b7cb4891d1df4c52288e68bf3dc06d3a9af98e21394e73c6"
-    },
-    {
-      "path": "level3/assets/bd134324cc5029efc002baaa.png",
-      "bytes": 194505,
-      "sha256": "bd134324cc5029efc002baaa43284730f98825591cba1fe4d1b1e622837c62c9"
     },
     {
       "path": "level3/assets/bd134324cc5029efc002baaa_w384.jpg",
