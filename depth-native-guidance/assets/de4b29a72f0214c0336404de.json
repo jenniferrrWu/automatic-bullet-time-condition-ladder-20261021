@@ -1,0 +1,127 @@
+{
+  "reviewed_at": "2026-10-22T16:24:59+08:00",
+  "items": [
+    {
+      "variant": "cfg5_static",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "737bd32dd0894ba7f3f64c77bf6a1b024a42ef0ab5ac165fd99745e162342068",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_native_guidance_controls_20261022/audit/contacts/cfg5_static__simple01_woman_talking_plants.jpg",
+      "sampled_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_source_baseline_and_new_frames_viewed": true,
+      "full_video_watched": false,
+      "quality_pass_claimed": false,
+      "observation": "实际查看首图、源动作、CFG1与CFG5输出f0/1/8/20/40/60/80。CFG5仍在f8附近趋正面；背景从原场景变为明显橙黄色模糊画面，场景/光照保持失败，没有可用改进。"
+    },
+    {
+      "variant": "cfg5_static",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "3ce4d101ac1fa35b2878ab33d3b67e2c7642578511a8cccfbddbc159255f94df",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_native_guidance_controls_20261022/audit/contacts/cfg5_static__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_source_baseline_and_new_frames_viewed": true,
+      "full_video_watched": false,
+      "quality_pass_claimed": false,
+      "observation": "实际查看同一七时刻。首帧接近输入，后段人物仍趋正面、板与人物构图变化；本例源动作较小，未确认正确新视角相对动作，不判通过。"
+    },
+    {
+      "variant": "cfg5_static",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "55d0762d0dd585da87136c439ba6698d65bde2b9bc5f444b8ceef51633f2cdcf",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_native_guidance_controls_20261022/audit/contacts/cfg5_static__simple03_woman_slow_expression.jpg",
+      "sampled_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_source_baseline_and_new_frames_viewed": true,
+      "full_video_watched": false,
+      "quality_pass_claimed": false,
+      "observation": "实际查看同一七时刻。源f20闭眼而CFG5静态深度f20仍睁眼，未见相较CFG1明确的同帧动作恢复；背景样本较相似不能代表完整动作通过。没有仅凭七帧声称全片无眨眼。"
+    },
+    {
+      "variant": "cfg5_dynamic",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "9a7ff4278176f7424d1d4055a91adfbf2795a7c60242a539f56d24e7aac7bcd3",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_native_guidance_controls_20261022/audit/contacts/cfg5_dynamic__simple01_woman_talking_plants.jpg",
+      "sampled_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_source_baseline_and_new_frames_viewed": true,
+      "full_video_watched": false,
+      "quality_pass_claimed": false,
+      "observation": "实际查看同一七时刻。f8附近仍从侧向首图回到正面，背景/光照明显变亮并改变；相对CFG1没有消除源片没有的额外回正，不可作为修复。"
+    },
+    {
+      "variant": "cfg5_dynamic",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "11047b1c20b7dca9806d2cf67756c7b3ea5ceecce56bb5f318c11a8c325beeea",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_native_guidance_controls_20261022/audit/contacts/cfg5_dynamic__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_source_baseline_and_new_frames_viewed": true,
+      "full_video_watched": false,
+      "quality_pass_claimed": false,
+      "observation": "实际查看同一七时刻。后段嘴部、人物与板姿态变化，与源动作的对应仍需核对，未确认目标朝向与动作均通过。不能因画面可解码就判断合格。"
+    },
+    {
+      "variant": "cfg5_dynamic",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "f33a4b2dd4079574b86be1a3a2783b09d3a4d16ba771750752211c4fe68e9157",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_native_guidance_controls_20261022/audit/contacts/cfg5_dynamic__simple03_woman_slow_expression.jpg",
+      "sampled_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_source_baseline_and_new_frames_viewed": true,
+      "full_video_watched": false,
+      "quality_pass_claimed": false,
+      "observation": "实际查看同一七时刻。CFG5动态深度输出f20出现闭眼，f8和f40睁眼，对应源f20闭眼；CFG1动态深度基线f20仍睁眼，这是局部动作恢复改善。背景七帧样本较稳定，后段主体呈斜向而非简单复制源片正面。本例源片本身有真实转向，不能把全部转头判错；相对3D朝向、完整动作与全片稳定仍待用户验收，不宣称整体修复。"
+    }
+  ],
+  "partial_improvement": {
+    "variant": "cfg5_dynamic",
+    "case_id": "simple03_woman_slow_expression",
+    "evidence": "Source f20 closed eyes; CFG1 dynamic f20 open; CFG5 dynamic f20 closed and f8/f40 open. Background samples relatively stable. Not a whole-case acceptance."
+  },
+  "case1_extra_frontalisation_resolved": false,
+  "all_three_cases_usable_fix_found": false,
+  "unique_root_cause_identified": false
+}
