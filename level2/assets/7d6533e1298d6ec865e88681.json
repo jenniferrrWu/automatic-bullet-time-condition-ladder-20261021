@@ -2,8 +2,8 @@
   "model": "trajectorycrafter",
   "case_id": "case13_woman_rooftop_dance",
   "level": 2,
-  "execution_status": "running",
-  "status": "loading",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case13_woman_rooftop_dance/recam_actual_native_last.png",
   "first_frame_sha256": "6a0955fe2df3fd11dbdffc53dcd37b3c503e6029f0a0960e1c0173977bde84f5",
@@ -23,5 +23,18 @@
   "native_first_frame": "native known-frame inpaint, soft reconstruction; no custom pin",
   "camera_control": "prompt only",
   "source_geometry_warped": false,
-  "level3_native_action_field": "masked_video_latents (pixel video despite parameter name), independently VAE encoded"
+  "level3_native_action_field": "masked_video_latents (pixel video despite parameter name), independently VAE encoded",
+  "native_video_sha256": "b9cd3dbc66f3635fc2fb92cffe714c24104456992109dd5dbb4c33d0974f6409",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/case13_woman_rooftop_dance/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/case13_woman_rooftop_dance/native_v1/native_last.png",
+  "native_frames": 49,
+  "native_fps": "16/1",
+  "native_info": {
+    "width": 672,
+    "height": 384,
+    "avg_frame_rate": "16/1",
+    "nb_read_frames": "49"
+  },
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/case13_woman_rooftop_dance/native_v1/actual_call.json",
+  "elapsed_s": 550.5420861244202
 }
