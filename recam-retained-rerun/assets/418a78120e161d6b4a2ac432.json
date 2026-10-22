@@ -2,8 +2,8 @@
   "model": "Hunyuan OmniWeaving",
   "case_id": "simple03_woman_slow_expression",
   "level": 3,
-  "execution_status": "running",
-  "status": "loading",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "native_task": "tiv2v",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple03_woman_slow_expression/recam_actual_native_last.png",
@@ -61,5 +61,14 @@
     "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple03_woman_slow_expression/source_post_tstar_to_end_lossless.mp4"
   ],
   "training_performed": false,
-  "postdecode_frame_replacement": false
+  "postdecode_frame_replacement": false,
+  "native_frames": 81,
+  "native_fps": "25/1",
+  "native_video_sha256": "991f08403c713e11234632a949e10a603059787f1d50bc4f233a016e4c264da7",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/hunyuan/level3/raw/simple03_woman_slow_expression/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/hunyuan/level3/raw/simple03_woman_slow_expression/native_v1/native_last.png",
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/hunyuan/level3/raw/simple03_woman_slow_expression/native_v1/actual_call.json",
+  "elapsed_s": 1191.4638409418985,
+  "native_fps_recorded_before_probe": 16,
+  "native_fps_provenance": "ffprobe actual MP4 stream; Hunyuan official generator may override requested16fps with source-video fps"
 }
