@@ -63,7 +63,7 @@
       "runner": "run_recam_retained_bullet_20261022.py",
       "environment": "bullettime",
       "selection": "原初筛保留",
-      "note": "原生 reference_video 载体前置末帧图，随后完整81帧动作；无独立输出首帧硬约束，未添加实验钉帧",
+      "note": "原生 reference_video 载体前置末帧图，随后完整81帧动作；无独立输出首帧硬约束，未添加实验钉帧；source/target相机均为identity中性条件，未经几何标定的新旧机位差未写入数值相机，这项不算严格跨机位接续通过",
       "original_runner": "/public/wufeier/automatic_bullet_time/scripts/run_ladder_bullet_20261021.py",
       "original_runner_sha256": "3ff7369037f741ac8e4f7cfa71fb6b83602a47f81be209a24fc34cddea94ec10",
       "runner_sha256": "db648682eeada9ee80d094acda87da9dc0c31a1cef007575ca4c80ee94feb69a",
