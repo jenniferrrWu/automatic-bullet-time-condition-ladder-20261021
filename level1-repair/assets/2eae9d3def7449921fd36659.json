@@ -1,0 +1,28 @@
+[
+  {
+    "native_requested_dropout": false,
+    "effective_dropout": true,
+    "shape": [
+      1,
+      64,
+      16,
+      88,
+      160
+    ],
+    "max_abs": 0.0,
+    "all_finite": true
+  },
+  {
+    "native_requested_dropout": true,
+    "effective_dropout": true,
+    "shape": [
+      1,
+      64,
+      16,
+      88,
+      160
+    ],
+    "max_abs": 0.0,
+    "all_finite": true
+  }
+]

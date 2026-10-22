@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-22T17:23:15.447609+08:00",
+  "official_sources": [
+    {
+      "model": "DepthDirector",
+      "url": "https://github.com/FREDZEL2020/DepthDirector",
+      "paper": "https://arxiv.org/html/2601.10214v1",
+      "native_entry": "training/test.py -> WanTrainingModule.validate -> WanVideoPipeline",
+      "observations": [
+        "Official re-render workflow uses source-video concat condition plus target-view depth/mask.",
+        "Old Level1 omits both concat_video and depth_cond while keeping trained LoRA; pure-image behavior is an ablation, not documented working image-only product mode.",
+        "Trainer explicit cfg_scale=1 overrides pipeline default5. New control uses native cfg_scale5 without touching model weights or sampler.",
+        "LoRA strength0 control is labelled Wan base diagnostic and must never be reported as DepthDirector repaired."
+      ]
+    },
+    {
+      "model": "GEN3C",
+      "url": "https://github.com/nv-tlabs/GEN3C",
+      "native_entry": "Gen3cPipeline -> DiffusionGen3CModel._get_conditions",
+      "observations": [
+        "encode_warped_frames VAE-encodes RGB zero and mask0 into generally nonzero latent tensors.",
+        "Native add_condition_pose(...,drop_out_latent=True) instead uses zeros_like(latent_condition).",
+        "Old Level1 positive branch receives encoded zero RGB/mask; negative CFG branch uses dropped zero latents. It does not remove geometric evidence symmetrically.",
+        "New native-drop controls use existing drop_out_latent branch for both CFG branches; inference is experimental until measured."
+      ]
+    }
+  ],
+  "native_results_immutable": true,
+  "prompt_unchanged": true,
+  "training": false,
+  "postdecode_frame_replacement": false
+}

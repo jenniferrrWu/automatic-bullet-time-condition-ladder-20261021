@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-22T17:56:17.769306+08:00",
+  "scope": "future Level1 invocations only; original output/record guards remain",
+  "evidence": "same native condition/parameter changes already executed in independent repair variants",
+  "changes": [
+    {
+      "file": "/public/wufeier/automatic_bullet_time/scripts/run_ladder_gen3c_20261021.py",
+      "before_sha256": "20b3a672191774eb180f4efb9585321fd6fcf89a83d264ec87e20794ef5071c6",
+      "after_sha256": "d2ce9fd73a9d38180e4c206acb5a8d9d33cc82e55de8615fdbe896639950f5f6",
+      "change": "Level1 native positive/negative geometry dropout, native guidance1 unchanged; Level2/3 dropout behavior unchanged"
+    },
+    {
+      "file": "/public/wufeier/automatic_bullet_time/scripts/run_ladder_depth_20261021.py",
+      "before_sha256": "c3dee82671417f892ac37e61564b811280e74080f3f520f3cb3d35f35a6bbb9d",
+      "after_sha256": "3f0bc9d24a2c969885bce34e5886273dd03f6f02d24726bf08bb19c53dc479c4",
+      "change": "Level1 only native LoRA strength0.25 and cfg_scale5; Level2/3 numerical settings unchanged; cross-version first-failure inference prohibited"
+    }
+  ],
+  "training": false,
+  "postdecode_frame_replacement": false
+}

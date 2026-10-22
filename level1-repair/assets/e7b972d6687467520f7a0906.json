@@ -1,0 +1,322 @@
+{
+  "at": "2026-10-22T18:29:32+08:00",
+  "scope": "Level1 only, two models x six cases",
+  "candidate_native_outputs": 12,
+  "diagnostic_control_outputs": 4,
+  "all_new_native_outputs_full_decode_passed": 16,
+  "old12_affected_native_outputs_unchanged": true,
+  "actual_native_sample_reviews": 12,
+  "sample_timepoints_each": 7,
+  "full_videos_watched": false,
+  "no_nearly_flat_frames_in12_candidates": true,
+  "anomaly_removed_in_samples": 12,
+  "full_visual_quality_passes_not_inferred": true,
+  "training": false,
+  "postdecode_frame_replacement": false,
+  "formal_adapters_fixed_for_level1": true,
+  "depth_cross_level_parameter_change_disclosed": true,
+  "public_url": "https://jenniferrrwu.github.io/automatic-bullet-time-condition-ladder-20261021/level1-repair/",
+  "main_level1_url": "https://jenniferrrwu.github.io/automatic-bullet-time-condition-ladder-20261021/level1/",
+  "candidates": [
+    {
+      "variant": "depth_lora025_cfg5",
+      "model": "depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/simple01_woman_talking_plants/native_v1/output/depthdirector.mp4",
+      "native_sha256": "f9e1605bbfc29c85eba919c327552bcabe97a14b14d9d28ed0e11161f34cef30",
+      "input_sha256": "d412e734b57a981c2fc1a37f0e925085790711631bfd72b390bd4b627818af41",
+      "actual_sample_review": {
+        "variant": "depth_lora025_cfg5",
+        "model": "depthdirector",
+        "case_id": "simple01_woman_talking_plants",
+        "observation": "实际查看f0/1/8/20/40/60/80：人物及场景持续可辨，出现嘴部/表情变化，未见旧竖条纹；仅确认异常消除候选，完整动作自然度仍待人工验收。",
+        "verdict": "anomaly_removed_in_sample",
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__simple01_woman_talking_plants.jpg"
+      }
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "model": "depthdirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/simple02_woman_presenting_chalkboard/native_v1/output/depthdirector.mp4",
+      "native_sha256": "ffaa437bcdcfdab9b7c9bce34f4f5cf66c8fee00886ffd1d0c4cb6ecbcca83e8",
+      "input_sha256": "06887a96d82d65d3e68f20a70116baf4f4e1b6d17041e8bb877f55ee4ea7c3e3",
+      "actual_sample_review": {
+        "variant": "depth_lora025_cfg5",
+        "model": "depthdirector",
+        "case_id": "simple02_woman_presenting_chalkboard",
+        "observation": "已实际查看七时刻原生抽帧：持板人物和黑板持续可辨，头部/嘴部变化较小，未见旧竖条纹。仅首图异常消除，动作自然度仍需人工验收。",
+        "verdict": "anomaly_removed_in_sample",
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__simple02_woman_presenting_chalkboard.jpg"
+      }
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "model": "depthdirector",
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/simple03_woman_slow_expression/native_v1/output/depthdirector.mp4",
+      "native_sha256": "a4f980f100e3771a587134a54ecd9fe6e146451f82a663aab5bfa65ac07a0549",
+      "input_sha256": "046885d9ca032d3322c2825f6ba5fceefad35414472dab353ee7b492dbe6343c",
+      "actual_sample_review": {
+        "variant": "depth_lora025_cfg5",
+        "model": "depthdirector",
+        "case_id": "simple03_woman_slow_expression",
+        "observation": "已实际查看七时刻原生抽帧：人物及环境保持可辨，有眨眼/面部和构图变化，未见旧竖条纹。第1步未要求固定机位；不推断固定视角通过。",
+        "verdict": "anomaly_removed_in_sample",
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__simple03_woman_slow_expression.jpg"
+      }
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "model": "depthdirector",
+      "case_id": "case11_man_contemporary_dance",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/case11_man_contemporary_dance.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/case11_man_contemporary_dance/native_v1/output/depthdirector.mp4",
+      "native_sha256": "1f3064d96c78a2f9ea7740fcaa9765fb9cd76a0c86703e242ee4876d5d027f3d",
+      "input_sha256": "994974ea59cbe1cebe98c51250ef3ad6d9a892b087d3d0d05078756dcd5e9042",
+      "actual_sample_review": {
+        "variant": "depth_lora025_cfg5",
+        "model": "depthdirector",
+        "case_id": "case11_man_contemporary_dance",
+        "observation": "已实际查看七时刻原生抽帧：舞者继续改变手臂、腿部和身体姿态，场景持续可辨，未见旧竖条纹。第1步未输入动作视频，不评价动作复现。",
+        "verdict": "anomaly_removed_in_sample",
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__case11_man_contemporary_dance.jpg"
+      }
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "model": "depthdirector",
+      "case_id": "case13_woman_rooftop_dance",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/case13_woman_rooftop_dance.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/case13_woman_rooftop_dance/native_v1/output/depthdirector.mp4",
+      "native_sha256": "a8ebb40461f54f25e31d5b29001d4429ebfe630c59ce9060abcfa464a02424ee",
+      "input_sha256": "6a0955fe2df3fd11dbdffc53dcd37b3c503e6029f0a0960e1c0173977bde84f5",
+      "actual_sample_review": {
+        "variant": "depth_lora025_cfg5",
+        "model": "depthdirector",
+        "case_id": "case13_woman_rooftop_dance",
+        "observation": "已实际查看七时刻原生抽帧：主体继续舞动，楼顶场景持续可辨，未见旧竖条纹；快速动作有明显运动模糊，细节质量仍待人工验收。",
+        "verdict": "anomaly_removed_in_sample",
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__case13_woman_rooftop_dance.jpg"
+      }
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "model": "depthdirector",
+      "case_id": "case04_person_water_jump",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/records/depthdirector/level1/case04_person_water_jump.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_lora025_cfg5/models/depthdirector/level1/raw/case04_person_water_jump/native_v1/output/depthdirector.mp4",
+      "native_sha256": "ae4dc3fdd7bd934049f9009c126516a6ada09e0f3345361bd916b35423f68883",
+      "input_sha256": "7cf44f082ce5594c323e8fd49488d4d8f18174152264646d0655624ecfcabe1e",
+      "actual_sample_review": {
+        "variant": "depth_lora025_cfg5",
+        "model": "depthdirector",
+        "case_id": "case04_person_water_jump",
+        "observation": "已实际查看七时刻原生抽帧：瀑布、水面、人物在中后段仍可辨，旧竖条纹消失；人物悬空和肢体/岩石关系存在合理性疑点。只确认异常消除，不判自然动作质量通过。",
+        "verdict": "anomaly_removed_in_sample",
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__case04_person_water_jump.jpg"
+      }
+    },
+    {
+      "variant": "gen_native_drop_cfg1",
+      "model": "gen3c",
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/records/gen3c/level1/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/models/gen3c/level1/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "ddc7ff892632ca5427eeffc4865507d3caf9837afde4b943992445dad89fb9b2",
+      "input_sha256": "d412e734b57a981c2fc1a37f0e925085790711631bfd72b390bd4b627818af41",
+      "actual_sample_review": {
+        "variant": "gen_native_drop_cfg1",
+        "model": "gen3c",
+        "case_id": "simple01_woman_talking_plants",
+        "observation": "实际查看f0/1/8/30/60/90/120：人物及背景持续可辨，有表情、头部和上肢变化，未再褪色成灰屏。原生guidance仍1，仅修正几何条件丢弃；其余五例待补齐。",
+        "verdict": "anomaly_removed_in_sample",
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg1__simple01_woman_talking_plants.jpg"
+      }
+    },
+    {
+      "variant": "gen_native_drop_cfg1",
+      "model": "gen3c",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/records/gen3c/level1/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/models/gen3c/level1/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "7e3d70ebe717aacad7663e9042b26e0ac6ac04e690c8700e76e90d554ff2727c",
+      "input_sha256": "06887a96d82d65d3e68f20a70116baf4f4e1b6d17041e8bb877f55ee4ea7c3e3",
+      "actual_sample_review": {
+        "variant": "gen_native_drop_cfg1",
+        "model": "gen3c",
+        "case_id": "simple02_woman_presenting_chalkboard",
+        "observation": "实际查看七时刻原生抽帧：人物和黑板持续可辨，无旧灰屏；但粉色板在后半段变形，末段趋向布状，物体一致性明显有问题。空条件调用已修正，不判画面质量通过。",
+        "verdict": "anomaly_removed_in_sample",
+        "quality_status": "visible_quality_defect",
+        "full_quality_pass": false,
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg1__simple02_woman_presenting_chalkboard.jpg"
+      }
+    },
+    {
+      "variant": "gen_native_drop_cfg1",
+      "model": "gen3c",
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/records/gen3c/level1/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/models/gen3c/level1/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "0ad796bde51200172e15c0aad22883ea53a4d2b2f88bfb7b47b39a113cfd77fc",
+      "input_sha256": "046885d9ca032d3322c2825f6ba5fceefad35414472dab353ee7b492dbe6343c",
+      "actual_sample_review": {
+        "variant": "gen_native_drop_cfg1",
+        "model": "gen3c",
+        "case_id": "simple03_woman_slow_expression",
+        "observation": "实际查看七时刻原生抽帧：人物有眼部/表情和头部变化，场景持续可辨，无旧灰屏。第1步不要求固定机位或动作复现，完整自然度仍待人工验收。",
+        "verdict": "anomaly_removed_in_sample",
+        "quality_status": "not_fully_accepted",
+        "full_quality_pass": false,
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg1__simple03_woman_slow_expression.jpg"
+      }
+    },
+    {
+      "variant": "gen_native_drop_cfg1",
+      "model": "gen3c",
+      "case_id": "case11_man_contemporary_dance",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/records/gen3c/level1/case11_man_contemporary_dance.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/models/gen3c/level1/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "ec37b02691d80b2d86d31c9056e967e1e0e99c87adb7ceda554799bca36c6e38",
+      "input_sha256": "994974ea59cbe1cebe98c51250ef3ad6d9a892b087d3d0d05078756dcd5e9042",
+      "actual_sample_review": {
+        "variant": "gen_native_drop_cfg1",
+        "model": "gen3c",
+        "case_id": "case11_man_contemporary_dance",
+        "observation": "实际查看七时刻原生抽帧：舞者与室内持续可辨，无旧灰屏；前半段姿态变化较小，后段身体/腿部变动，浮空和滑动感仍需完整视频判断。",
+        "verdict": "anomaly_removed_in_sample",
+        "quality_status": "not_fully_accepted",
+        "full_quality_pass": false,
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg1__case11_man_contemporary_dance.jpg"
+      }
+    },
+    {
+      "variant": "gen_native_drop_cfg1",
+      "model": "gen3c",
+      "case_id": "case13_woman_rooftop_dance",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/records/gen3c/level1/case13_woman_rooftop_dance.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/models/gen3c/level1/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "7b42c4ad84843017b292a9f3b260791df0e043dbe2c3252c270f562937aac1f6",
+      "input_sha256": "6a0955fe2df3fd11dbdffc53dcd37b3c503e6029f0a0960e1c0173977bde84f5",
+      "actual_sample_review": {
+        "variant": "gen_native_drop_cfg1",
+        "model": "gen3c",
+        "case_id": "case13_woman_rooftop_dance",
+        "observation": "实际查看七时刻原生抽帧：人物继续活动，楼顶场景不再褪为灰屏；身体动作及背景楼体细节存在变化/形变，仍需人工验收，不判整体通过。",
+        "verdict": "anomaly_removed_in_sample",
+        "quality_status": "not_fully_accepted",
+        "full_quality_pass": false,
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg1__case13_woman_rooftop_dance.jpg"
+      }
+    },
+    {
+      "variant": "gen_native_drop_cfg1",
+      "model": "gen3c",
+      "case_id": "case04_person_water_jump",
+      "record": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/records/gen3c/level1/case04_person_water_jump.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/gen_native_drop_cfg1/models/gen3c/level1/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "d524f0fd961604120b1854d96fcdb7bb549a65258daae02b4bd77173e02989e1",
+      "input_sha256": "7cf44f082ce5594c323e8fd49488d4d8f18174152264646d0655624ecfcabe1e",
+      "actual_sample_review": {
+        "variant": "gen_native_drop_cfg1",
+        "model": "gen3c",
+        "case_id": "case04_person_water_jump",
+        "observation": "实际查看七时刻原生抽帧：瀑布/水面保持可辨，无旧灰屏；后半段出现明显人物重影、额外人物/肢体和身份漂移，画面质量失败，不能作为可用自然动作结果。",
+        "verdict": "anomaly_removed_in_sample",
+        "quality_status": "visible_quality_defect",
+        "full_quality_pass": false,
+        "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg1__case04_person_water_jump.jpg"
+      }
+    }
+  ],
+  "old_native_proof": [
+    {
+      "model": "depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "old_native_sha256": "956b7bc1a10aef522db405d93225653526a6c0aa8bb10e6059f9fdb07547ea6c",
+      "unchanged": true
+    },
+    {
+      "model": "depthdirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "old_native_sha256": "fbe4c6333504ff3bd2426a811f03eae19f0178b42f61c601a85a32cc11973f1e",
+      "unchanged": true
+    },
+    {
+      "model": "depthdirector",
+      "case_id": "simple03_woman_slow_expression",
+      "old_native_sha256": "609b2dc9a9a2123a04a7fe1c10c8aae55b7d6f507a7b12e5c1322858af2791df",
+      "unchanged": true
+    },
+    {
+      "model": "depthdirector",
+      "case_id": "case11_man_contemporary_dance",
+      "old_native_sha256": "2a4cc52f676b84b8fbac30b1de6b3559ee2a8e57da34d59f2268ba661b91a4b1",
+      "unchanged": true
+    },
+    {
+      "model": "depthdirector",
+      "case_id": "case13_woman_rooftop_dance",
+      "old_native_sha256": "c19397e80395263eced567b9c72c94c9265006178daf4f250d4cd91a1738af78",
+      "unchanged": true
+    },
+    {
+      "model": "depthdirector",
+      "case_id": "case04_person_water_jump",
+      "old_native_sha256": "af5aecc444077759d7baac911b23afdc81671437c0e3f2d2a36435ba771767a5",
+      "unchanged": true
+    },
+    {
+      "model": "gen3c",
+      "case_id": "simple01_woman_talking_plants",
+      "old_native_sha256": "25eb3280a428322a1073e4e900c9b88c4d93aa6759355468ddf2feae536c25a9",
+      "unchanged": true
+    },
+    {
+      "model": "gen3c",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "old_native_sha256": "a299bae7198ab194213c8eebfaf3b0e5136fd775d6a057a9827ddd5ef3844f09",
+      "unchanged": true
+    },
+    {
+      "model": "gen3c",
+      "case_id": "simple03_woman_slow_expression",
+      "old_native_sha256": "2ba49efca8b181911f407735d8ac2bee494b3c6be5325db6fd761c8287e38664",
+      "unchanged": true
+    },
+    {
+      "model": "gen3c",
+      "case_id": "case11_man_contemporary_dance",
+      "old_native_sha256": "516b317aec7a978f518b0c03bc21d4b7f50e1a17b50209f9193ac10f9fef07b7",
+      "unchanged": true
+    },
+    {
+      "model": "gen3c",
+      "case_id": "case13_woman_rooftop_dance",
+      "old_native_sha256": "f436c5291268874a4bbcac3ba8181d8bd5a68cb81892c5cce7559eac6ce30262",
+      "unchanged": true
+    },
+    {
+      "model": "gen3c",
+      "case_id": "case04_person_water_jump",
+      "old_native_sha256": "425adc321a4676b9f6e9b42e37ba3da00e685b4732e19d141118ab04a6abb785",
+      "unchanged": true
+    }
+  ],
+  "known_visual_quality_defects": [
+    {
+      "model": "gen3c",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "observation": "实际查看七时刻原生抽帧：人物和黑板持续可辨，无旧灰屏；但粉色板在后半段变形，末段趋向布状，物体一致性明显有问题。空条件调用已修正，不判画面质量通过。"
+    },
+    {
+      "model": "gen3c",
+      "case_id": "case04_person_water_jump",
+      "observation": "实际查看七时刻原生抽帧：瀑布/水面保持可辨，无旧灰屏；后半段出现明显人物重影、额外人物/肢体和身份漂移，画面质量失败，不能作为可用自然动作结果。"
+    }
+  ]
+}

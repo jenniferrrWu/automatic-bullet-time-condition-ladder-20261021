@@ -1,0 +1,13 @@
+{
+  "native_cached_embeddings": true,
+  "prompts": [
+    "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image.",
+    "low quality, blurry, malformed anatomy"
+  ],
+  "tensor_sha256": [
+    "b67fb2e0d74d9cb11a1de412529d14dee90f864e68aac7db4c647f9bbc151bef",
+    "17583aa5b4dbc9a86fc29e519e26b3fc589c79224e751287d3ad2c9cc3c98c33"
+  ],
+  "weights_unchanged": true,
+  "cache_file_sha256": "8f60419b70bb4133b9521e618e1b0a8888394f29f0d02aade404760ac79f6f14"
+}
