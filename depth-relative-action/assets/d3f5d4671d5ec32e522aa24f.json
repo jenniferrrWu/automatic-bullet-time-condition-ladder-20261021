@@ -1,0 +1,63 @@
+{
+  "reviewed_at": "2026-10-22T15:12:17+08:00",
+  "items": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "d3080d6edd4d0eda919770f87fb7b62b66e72a22b76778e6ca196ab476002626",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/audit/contacts/simple01_woman_talking_plants.jpg",
+      "input_and_source_and_old_new_outputs_viewed": true,
+      "sampled_output_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "full_video_watched": false,
+      "observation": "实际查看共同首图与源动作、旧prompt、新prompt的f0/1/8/20/40/60/80：源片人物基本朝前做表情及手势；新prompt输出f0/1接近侧向首图，f8开始仍明显变为正面，后续微笑和抬手。因此明确相对动作措辞后，源片没有的额外回正仍存在，该项要求未解决。未据人物转头宣称相机移动。",
+      "quality_pass_claimed": false
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "ec11a373946947c7a44799528650da787bc5b4f65d7ecbfee5b2bfb2ef609a39",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/audit/contacts/simple02_woman_presenting_chalkboard.jpg",
+      "input_and_source_and_old_new_outputs_viewed": true,
+      "sampled_output_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "full_video_watched": false,
+      "observation": "实际查看相同七个时刻：源片手持板、主体朝向较稳定；新prompt输出首帧接近输入，后续仍有人物趋正面及人物/板构图变化，未判相对动作要求通过。完整动作和全片稳定性仍需用户验收。",
+      "quality_pass_claimed": false
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "fe417c00944343d38bc1c76433107ef01bf45acf8a84c50e64434bd06cb5127f",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/audit/contacts/simple03_woman_slow_expression.jpg",
+      "input_and_source_and_old_new_outputs_viewed": true,
+      "sampled_output_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "full_video_watched": false,
+      "observation": "实际查看相同七个时刻：源动作本身有从侧向目光转向正面的变化，不能把生成中所有回正一律判错。源f20闭眼，新prompt输出f20仍睁眼；没有凭这七帧宣称全片绝无眨眼，但同帧动作对应未确认。背景样本较相似，不等于动作通过。",
+      "quality_pass_claimed": false
+    }
+  ],
+  "relative_action_requirement_understood": true,
+  "first_case_extra_frontalisation_still_observed": true,
+  "conclusion": "Under the existing tested conditioning, this explicit relative-action prompt alone did not eliminate the extra frontalisation. This does not prove prompts are irrelevant or identify the unique cause.",
+  "no_claim_that_all_models_were_retested": true
+}

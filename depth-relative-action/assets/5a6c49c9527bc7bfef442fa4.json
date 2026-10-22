@@ -1,0 +1,19 @@
+{
+  "official_local_tokenizer": "/public/wufeier/automatic_bullet_time/models/DepthDirector/models/Wan-AI/Wan2.2-TI2V-5B/google/umt5-xxl",
+  "rows": [
+    {
+      "prompt": "baseline_prompt",
+      "tokens_including_special": 145,
+      "native_text_len": 512,
+      "not_truncated": true,
+      "prompt_sha256": "8f893fe25c9a5776f5bb473adebc5f9e62c61b7f4a171457bda62781a126fd0b"
+    },
+    {
+      "prompt": "test_prompt",
+      "tokens_including_special": 278,
+      "native_text_len": 512,
+      "not_truncated": true,
+      "prompt_sha256": "a076d9453233743d7f7fd6088556c9aa7ab44e1ec58a04b92be73885e69c17a7"
+    }
+  ]
+}
