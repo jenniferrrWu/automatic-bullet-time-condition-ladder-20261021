@@ -3,7 +3,7 @@
   "case_id": "case04_person_water_jump",
   "level": 3,
   "execution_status": "running",
-  "status": "loading",
+  "status": "sampling",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case04_person_water_jump/recam_actual_native_last.png",
   "first_frame_sha256": "7cf44f082ce5594c323e8fd49488d4d8f18174152264646d0655624ecfcabe1e",
