@@ -26,8 +26,8 @@
       "original_runner_sha256": "e8197af8048ed84ec48b7a4cb74f49f7abb8bb802b46c2e1d55a89ceb512f838",
       "runner_sha256": "a8a8c4602055de00570c180855b6ce3d721117d67a6d28a3f73719b8002720ab",
       "changes": "only isolated output/input root and isolated shared helper; native parameters, seed42, weights and sampling unchanged",
-      "strict_first_frame_supported": false,
-      "strict_first_frame_support_note": "native initial-image condition; decoded pixel equality is not promised"
+      "strict_first_frame_supported": null,
+      "strict_first_frame_support_note": "native image VAE/mask+CLIP condition is supplied; independent hard equality or exact first-state fidelity not established"
     },
     {
       "model_key": "trimotion",
@@ -40,8 +40,8 @@
       "original_runner_sha256": "dae295bfc23c1b1cbc538a55ae5be4cfc4578c736431ee509f03c882e3b8fc98",
       "runner_sha256": "d94c174fd40b9b46fdd51163ca52b39ccf8fbd0050356a122d2534d35da88674",
       "changes": "only isolated output/input root and isolated shared helper; native parameters, seed42, weights and sampling unchanged",
-      "strict_first_frame_supported": false,
-      "strict_first_frame_support_note": "native initial-image condition; decoded pixel equality is not promised"
+      "strict_first_frame_supported": null,
+      "strict_first_frame_support_note": "native image VAE/mask+CLIP condition is supplied; independent hard equality or exact first-state fidelity not established"
     },
     {
       "model_key": "h3_ref2va",
