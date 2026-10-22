@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-22T10:47:18.349998+08:00",
-  "file_count": 1714,
-  "content_bytes": 637488009,
+  "created_at": "2026-10-22T11:03:00.778229+08:00",
+  "file_count": 1722,
+  "content_bytes": 638538841,
   "native_outputs_modified": false,
   "all_html_dependencies_bundled": true,
   "auxiliary_files": [
@@ -12,12 +12,12 @@
     {
       "path": "index.html",
       "bytes": 50374,
-      "sha256": "4e3a1c58f98ee26ab8d8ec6740b611ded4a3bea5225ad313c62aaa33936a94a3"
+      "sha256": "c18fef3d3ffc693a1b6274e9304c9ddcc3ea9b871e648ed75f09849d4d03ea91"
     },
     {
       "path": "recam-retained-rerun/index.html",
-      "bytes": 62591,
-      "sha256": "d635256290b09e1aa922069b2941c43158b3d590b9bfd79cc21087edcedaca36"
+      "bytes": 63671,
+      "sha256": "ecd5a9016c7c841c9460913578b74d6c28afe83449bce2a71f540e4be7e05518"
     },
     {
       "path": "recam-depth/index.html",
@@ -135,14 +135,14 @@
       "sha256": "660a8bcbdb66772d606c4cd8883ac7bfeed6c02cf8a8111456fd75e6de9c7fd2"
     },
     {
-      "path": "recam-retained-rerun/assets/b8e30b031428bfe41b36622a_preview_bundle.json",
-      "bytes": 249549,
-      "sha256": "b8e30b031428bfe41b36622aac0df4d8e5588696d0a13978a0265b9ab1adf486"
+      "path": "recam-retained-rerun/assets/659e8da7cbb1b67fb3b24dda_preview_bundle.json",
+      "bytes": 295543,
+      "sha256": "659e8da7cbb1b67fb3b24ddaaa7c4dc16f94e96944da612e33a0c03b5e75ab3e"
     },
     {
-      "path": "recam-retained-rerun/assets/0ac4b9cc9b967b9a5845b22c.md",
-      "bytes": 1667,
-      "sha256": "0ac4b9cc9b967b9a5845b22cc38c158a2f2a70eb3d68336f627287d6de020103"
+      "path": "recam-retained-rerun/assets/e9d02a2e8b6d1d8567e2017b.md",
+      "bytes": 1666,
+      "sha256": "e9d02a2e8b6d1d8567e2017bb53d1787009bfaf147c37da1f34cd073dc1ec1aa"
     },
     {
       "path": "recam-retained-rerun/assets/fd7e2f3665cf0b703e85cd7c.json",
@@ -420,6 +420,11 @@
       "sha256": "9f30496bd28bae4970ffab952eb214b28975f48b1a03545ac48c93249c3539a9"
     },
     {
+      "path": "recam-retained-rerun/assets/31a1fe16d705e35007a4e7eb.json",
+      "bytes": 2125,
+      "sha256": "31a1fe16d705e35007a4e7eb133d6b2d055fe1985401137335cebef7c88a7038"
+    },
+    {
       "path": "recam-retained-rerun/assets/99642adb1bb64c98deb1b05c.json",
       "bytes": 2045,
       "sha256": "99642adb1bb64c98deb1b05cf2ac7c5ba102a0275db8459ac95b8d43b04bd343"
@@ -465,9 +470,44 @@
       "sha256": "0a7a0e3d0d8ac38617966beb27200ec9509a7402752ea10572f73b88e947ebd3"
     },
     {
-      "path": "recam-retained-rerun/assets/aada381602abe11ddc3e2085.json",
-      "bytes": 3773,
-      "sha256": "aada381602abe11ddc3e2085abda0dbd533acb3c48d8f2a8f5c761f59483dfe7"
+      "path": "recam-retained-rerun/assets/7e145a247985c41c3627a5d0_preview.mp4",
+      "bytes": 34440,
+      "sha256": "38b46f6e2befcef8d8aaae9ca96aee545e7fdde5f962e5ab9aaf09254613a9f3"
+    },
+    {
+      "path": "recam-retained-rerun/assets/7e145a247985c41c3627a5d0_poster.jpg",
+      "bytes": 9169,
+      "sha256": "979d72f785ce6efa95d3d52eebf63172aaa7287a78deb4b941029273906ad1f6"
+    },
+    {
+      "path": "recam-retained-rerun/assets/7e145a247985c41c3627a5d0.mp4",
+      "bytes": 338883,
+      "sha256": "7e145a247985c41c3627a5d08134328760394df1febb4c88686090da715d52c8"
+    },
+    {
+      "path": "recam-retained-rerun/assets/c7fa89621984ae381f4f18e8.png",
+      "bytes": 504135,
+      "sha256": "c7fa89621984ae381f4f18e8974cb3ea2ed3d06d2e1d3d9035bba2d56af9a15c"
+    },
+    {
+      "path": "recam-retained-rerun/assets/c7fa89621984ae381f4f18e8_w480.jpg",
+      "bytes": 19093,
+      "sha256": "66a32735b12f4d5bbafaae680333ce43ddef3c6b5f3af2b48915165855c00921"
+    },
+    {
+      "path": "recam-retained-rerun/assets/12af5954929cfee0f5900b66.json",
+      "bytes": 4526,
+      "sha256": "12af5954929cfee0f5900b66a82a5ab69ca833a739b76401b5d1546fc2c0a0b6"
+    },
+    {
+      "path": "recam-retained-rerun/assets/7dcd9ebaa35e77c37e150230.json",
+      "bytes": 1596,
+      "sha256": "7dcd9ebaa35e77c37e150230c68803625e35bf14c10141836e6c78f8338113c9"
+    },
+    {
+      "path": "recam-retained-rerun/assets/6987dd524cb66af3dc42f781.jpg",
+      "bytes": 93565,
+      "sha256": "6987dd524cb66af3dc42f7818c22a2bc3d7afcc48152211eee102b01f8a8d54a"
     },
     {
       "path": "recam-retained-rerun/assets/a5c3cf14bee68b982b0f7b3e.json",
