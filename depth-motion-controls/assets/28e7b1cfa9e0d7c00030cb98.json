@@ -1,0 +1,64 @@
+{
+  "reviewed_at": "2026-10-22T15:49:54+08:00",
+  "items": [
+    {
+      "variant": "dynamic_depth",
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "b2e368f61426410613b732d4cd2c88f547fdca10be240d79b149064a31a293ff",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/audit/contacts/dynamic_depth__simple01_woman_talking_plants.jpg",
+      "sampled_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_source_baseline_and_new_frames_viewed": true,
+      "full_video_watched": false,
+      "quality_pass_claimed": false,
+      "observation": "已实际查看首图与源动作/基线/动态深度输出f0/1/8/20/40/60/80。源片人物基本朝前表演，动态深度输出仍从侧向首帧在f8附近转为正面；微笑和抬手可见，核心额外回正未解决。不能仅凭人物转头声称相机移动。"
+    },
+    {
+      "variant": "dynamic_depth",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "6be3c8c851f0da5e4cb85f72b957f8f58c033adf47e8ae879d7d480cbe8cf86f",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/audit/contacts/dynamic_depth__simple02_woman_presenting_chalkboard.jpg",
+      "sampled_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_source_baseline_and_new_frames_viewed": true,
+      "full_video_watched": false,
+      "quality_pass_claimed": false,
+      "observation": "已实际查看同一七时刻。动态深度输出首帧接近输入，后段人物仍趋正面、道具及主体构图变化；未确认固定新视角与完整动作要求通过，不将稳定出片当修复。"
+    },
+    {
+      "variant": "dynamic_depth",
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "42a9e6d6238088c65a60569adef2b4a1360b0e803abed13b2e3265324c8524a5",
+      "contact_sheet_actually_viewed": "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/audit/contacts/dynamic_depth__simple03_woman_slow_expression.jpg",
+      "sampled_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "input_source_baseline_and_new_frames_viewed": true,
+      "full_video_watched": false,
+      "quality_pass_claimed": false,
+      "observation": "已实际查看同一七时刻。源片本身有侧向目光到正面的真实变化，不能禁止全部转头；源f20闭眼而动态深度f20仍睁眼，七帧未证明完整动作恢复。背景样本较稳定不等于动作验收通过。"
+    }
+  ],
+  "relative_content_review": "pending output generation",
+  "no_unique_root_cause_claimed": true
+}
