@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-22T14:53:26+08:00",
+  "cases": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "record": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/records/depthdirector/level3/simple01_woman_talking_plants.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/depthdirector/level3/raw/simple01_woman_talking_plants/native_v1/output/depthdirector.mp4",
+      "native_video_sha256": "c6b023bb4a931dc0c85a614930dc20ec130ada9eab06dae6b46f9030973e3c49",
+      "first_image": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple01_woman_talking_plants/recam_actual_native_last.png",
+      "first_image_sha256": "d412e734b57a981c2fc1a37f0e925085790711631bfd72b390bd4b627818af41",
+      "source_motion_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple01_woman_talking_plants/source_post_tstar_to_end_lossless.mp4",
+      "source_motion_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "depth_sha256": "ecf47a02f6bc64e65eab7eb15754923f2c35487a120786750bc4f77d63158b32",
+      "mask_sha256": "074b2f9dbd570bde764e205155761620256734ee33c288f9544d467db2fbb1a3",
+      "initial_noise_sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+      "native_sampling": {
+        "seed": 42,
+        "steps": 50,
+        "width": 1280,
+        "height": 704,
+        "frames": 81,
+        "negative_prompt": ""
+      }
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "record": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/records/depthdirector/level3/simple02_woman_presenting_chalkboard.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/output/depthdirector.mp4",
+      "native_video_sha256": "07bf88e8488d8f7f5604f0b33f310afeef69a299933447e5220f45b7b71a8e44",
+      "first_image": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/recam_actual_native_last.png",
+      "first_image_sha256": "06887a96d82d65d3e68f20a70116baf4f4e1b6d17041e8bb877f55ee4ea7c3e3",
+      "source_motion_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
+      "source_motion_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "depth_sha256": "5f6f7ec107ee3be6854a319778967c823bae367c74f4259cc17a63ae5606b3f8",
+      "mask_sha256": "074b2f9dbd570bde764e205155761620256734ee33c288f9544d467db2fbb1a3",
+      "initial_noise_sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+      "native_sampling": {
+        "seed": 42,
+        "steps": 50,
+        "width": 1280,
+        "height": 704,
+        "frames": 81,
+        "negative_prompt": ""
+      }
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "record": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/records/depthdirector/level3/simple03_woman_slow_expression.json",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/depthdirector/level3/raw/simple03_woman_slow_expression/native_v1/output/depthdirector.mp4",
+      "native_video_sha256": "31308df2c5eb6811b6513c6df0302fb7a061fd59365ed4389a78d546254f98c1",
+      "first_image": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple03_woman_slow_expression/recam_actual_native_last.png",
+      "first_image_sha256": "046885d9ca032d3322c2825f6ba5fceefad35414472dab353ee7b492dbe6343c",
+      "source_motion_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple03_woman_slow_expression/source_post_tstar_to_end_lossless.mp4",
+      "source_motion_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "depth_sha256": "e21b3a73929f390123ed08ae749f3d2d38cbf34859654714ae97a12432a064b3",
+      "mask_sha256": "074b2f9dbd570bde764e205155761620256734ee33c288f9544d467db2fbb1a3",
+      "initial_noise_sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+      "native_sampling": {
+        "seed": 42,
+        "steps": 50,
+        "width": 1280,
+        "height": 704,
+        "frames": 81,
+        "negative_prompt": ""
+      }
+    }
+  ],
+  "baseline_prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image. The camera stays completely locked at the viewpoint and framing of the supplied initial image for the entire shot. Keep background objects, scene geometry and lighting stationary. No camera orbit, pan, tilt, dolly, zoom, shake, scene change or cuts. Use the separately supplied complete source video as the action reference. Reproduce its chronological facial expressions, mouth, head, body and hand actions while retaining the initial image viewpoint, appearance and stationary background. Do not copy camera movement or the original viewpoint from the action reference.",
+  "test_prompt": "A single continuous live-action shot rendered entirely from the fixed camera viewpoint established by the supplied initial image. Use that image as the required first frame and retain its scene geometry, composition, identity, clothing, background and lighting. Transfer the performance from the complete action-reference video into this new view. Interpret reference motion as changes relative to the person and objects in the FIRST FRAME OF THE REFERENCE VIDEO, not as absolute image-space poses or camera-facing directions. Starting from the head, body and gaze directions established in the supplied initial image, reproduce the reference sequence of facial expressions, mouth motion, gestures and relative head and body motion in the same order and timing, as seen by the fixed new camera. If the reference person continues looking forward without turning, preserve the initial-image head and body direction in the scene; do not turn the person toward the camera to match the reference screen-facing appearance. If the reference contains an actual turn, reproduce only that relative turn starting from the initial-image orientation. Never morph or interpolate the initial pose into the reference-video first pose. Keep the camera and background stationary throughout while allowing the person to perform the reference actions. Do not freeze the person, add a look-at-camera turn, restore the reference camera view, orbit, zoom, change scene or cut.",
+  "only_changed_semantic_input": "prompt",
+  "native_files_will_not_be_replaced": true
+}
