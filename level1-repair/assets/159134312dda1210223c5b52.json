@@ -1,0 +1,128 @@
+{
+  "at": "2026-10-22T17:27:57+08:00",
+  "method": "assistant actually viewed original six-case contact sheets,7native timepoints per output",
+  "full_video_watched": false,
+  "rows": [
+    {
+      "variant": "old_depth",
+      "model": "depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "observation": "原生首帧有主体；中后段退化为大面积竖条纹，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_depthdirector_six_cases.jpg"
+    },
+    {
+      "variant": "old_depth",
+      "model": "depthdirector",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "observation": "原生首帧有主体；中后段退化为大面积竖条纹，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_depthdirector_six_cases.jpg"
+    },
+    {
+      "variant": "old_depth",
+      "model": "depthdirector",
+      "case_id": "simple03_woman_slow_expression",
+      "observation": "原生首帧有主体；中后段退化为大面积竖条纹，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_depthdirector_six_cases.jpg"
+    },
+    {
+      "variant": "old_depth",
+      "model": "depthdirector",
+      "case_id": "case11_man_contemporary_dance",
+      "observation": "原生首帧有主体；中后段退化为大面积竖条纹，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_depthdirector_six_cases.jpg"
+    },
+    {
+      "variant": "old_depth",
+      "model": "depthdirector",
+      "case_id": "case13_woman_rooftop_dance",
+      "observation": "原生首帧有主体；中后段退化为大面积竖条纹，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_depthdirector_six_cases.jpg"
+    },
+    {
+      "variant": "old_depth",
+      "model": "depthdirector",
+      "case_id": "case04_person_water_jump",
+      "observation": "原生首帧有主体；中后段退化为大面积竖条纹，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_depthdirector_six_cases.jpg"
+    },
+    {
+      "variant": "old_gen",
+      "model": "gen3c",
+      "case_id": "simple01_woman_talking_plants",
+      "observation": "原生首帧有主体；后续逐渐褪色，第30帧附近及以后为近乎均匀灰紫画面，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_gen3c_six_cases.jpg"
+    },
+    {
+      "variant": "old_gen",
+      "model": "gen3c",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "observation": "原生首帧有主体；后续逐渐褪色，第30帧附近及以后为近乎均匀灰紫画面，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_gen3c_six_cases.jpg"
+    },
+    {
+      "variant": "old_gen",
+      "model": "gen3c",
+      "case_id": "simple03_woman_slow_expression",
+      "observation": "原生首帧有主体；后续逐渐褪色，第30帧附近及以后为近乎均匀灰紫画面，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_gen3c_six_cases.jpg"
+    },
+    {
+      "variant": "old_gen",
+      "model": "gen3c",
+      "case_id": "case11_man_contemporary_dance",
+      "observation": "原生首帧有主体；后续逐渐褪色，第30帧附近及以后为近乎均匀灰紫画面，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_gen3c_six_cases.jpg"
+    },
+    {
+      "variant": "old_gen",
+      "model": "gen3c",
+      "case_id": "case13_woman_rooftop_dance",
+      "observation": "原生首帧有主体；后续逐渐褪色，第30帧附近及以后为近乎均匀灰紫画面，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_gen3c_six_cases.jpg"
+    },
+    {
+      "variant": "old_gen",
+      "model": "gen3c",
+      "case_id": "case04_person_water_jump",
+      "observation": "原生首帧有主体；后续逐渐褪色，第30帧附近及以后为近乎均匀灰紫画面，首图生成画面失败。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/original_gen3c_six_cases.jpg"
+    },
+    {
+      "variant": "depth_cfg5",
+      "model": "depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "observation": "仅把CFG改5仍失败：前段人物放大，后段变成彩色模糊条纹，不能作为修复。",
+      "verdict": "visual_failure",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_cfg5__simple01_woman_talking_plants.jpg"
+    },
+    {
+      "variant": "depth_lora025_cfg5",
+      "model": "depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "observation": "实际查看f0/1/8/20/40/60/80：人物及场景持续可辨，出现嘴部/表情变化，未见旧竖条纹；仅确认异常消除候选，完整动作自然度仍待人工验收。",
+      "verdict": "anomaly_removed_in_sample",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/depth_lora025_cfg5__simple01_woman_talking_plants.jpg"
+    },
+    {
+      "variant": "wan_base_i2v_cfg5",
+      "model": "depthdirector",
+      "case_id": "simple01_woman_talking_plants",
+      "observation": "关闭LoRA的Wan基模对照可持续生成真人画面；用于诊断，不计作DepthDirector修好。",
+      "verdict": "base_control_only",
+      "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/wan_base_i2v_cfg5__simple01_woman_talking_plants.jpg"
+    }
+  ],
+  "quality_pass_not_inferred": true
+}

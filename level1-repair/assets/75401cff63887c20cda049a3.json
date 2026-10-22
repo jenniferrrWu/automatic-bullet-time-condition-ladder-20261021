@@ -2,8 +2,8 @@
   "case_id": "simple01_woman_talking_plants",
   "model": "DepthDirector",
   "level": 1,
-  "status": "running",
-  "execution_status": "running",
+  "status": "generated_not_reviewed",
+  "execution_status": "succeeded",
   "visual_status": "not_reviewed",
   "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_cfg5/models/depthdirector/level1/raw/simple01_woman_talking_plants/native_v1/output/depthdirector.mp4",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple01_woman_talking_plants/recam_actual_native_last.png",
@@ -24,5 +24,13 @@
   "training_performed": false,
   "postdecode_frame_replacement": false,
   "configuration": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_cfg5/models/depthdirector/level1/depthdirector_stage3.yaml",
-  "gpu": "0"
+  "gpu": "0",
+  "native_video_sha256": "bc986e1347163964aa52fe0dd0abe2fbba788887c767bba01500ef53503f4172",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_cfg5/models/depthdirector/level1/raw/simple01_woman_talking_plants/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_cfg5/models/depthdirector/level1/raw/simple01_woman_talking_plants/native_v1/native_last.png",
+  "sampling_audit": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_cfg5/models/depthdirector/level1/raw/simple01_woman_talking_plants/native_v1/native_endpoint_audit.json",
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/variants/depth_cfg5/models/depthdirector/level1/raw/simple01_woman_talking_plants/native_v1/actual_call.json",
+  "initial_noise_sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+  "elapsed_s": 675.1471368549392,
+  "peak_memory_mib": 21906.8
 }
