@@ -2,8 +2,8 @@
   "case_id": "simple02_woman_presenting_chalkboard",
   "model": "DepthDirector",
   "level": 3,
-  "status": "running",
-  "execution_status": "running",
+  "status": "generated_not_reviewed",
+  "execution_status": "succeeded",
   "visual_status": "not_reviewed",
   "native_video": "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/variants/dynamic_depth/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/output/depthdirector.mp4",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/recam_actual_native_last.png",
@@ -32,5 +32,13 @@
   "experiment_variant": "dynamic_depth",
   "experimental_content_condition": false,
   "native_sampling_unmodified": true,
-  "depth_control_description": "source-projected dynamic depth/mask at a fixed nominal right30 target camera; actual ReCam pose not calibrated"
+  "depth_control_description": "source-projected dynamic depth/mask at a fixed nominal right30 target camera; actual ReCam pose not calibrated",
+  "native_video_sha256": "6be3c8c851f0da5e4cb85f72b957f8f58c033adf47e8ae879d7d480cbe8cf86f",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/variants/dynamic_depth/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/variants/dynamic_depth/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_last.png",
+  "sampling_audit": "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/variants/dynamic_depth/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_endpoint_audit.json",
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/depth_motion_content_controls_20261022/variants/dynamic_depth/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/actual_call.json",
+  "initial_noise_sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+  "elapsed_s": 884.8160303318873,
+  "peak_memory_mib": 21935.0
 }
