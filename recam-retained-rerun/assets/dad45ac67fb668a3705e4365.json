@@ -2,8 +2,8 @@
   "model": "bullet",
   "case_id": "simple03_woman_slow_expression",
   "level": 3,
-  "execution_status": "running",
-  "status": "loading",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple03_woman_slow_expression/recam_actual_native_last.png",
   "first_frame_sha256": "046885d9ca032d3322c2825f6ba5fceefad35414472dab353ee7b492dbe6343c",
@@ -25,5 +25,18 @@
   "native_mode": "v2v",
   "mandatory_camera_in_level1": true,
   "strict_auxiliary_free_level1": false,
-  "level3_image_video_joint": "single native reference-video carrier; endpoint prepended before complete81 action frames; independent first-keyframe API absent"
+  "level3_image_video_joint": "single native reference-video carrier; endpoint prepended before complete81 action frames; independent first-keyframe API absent",
+  "native_video_sha256": "bbbc78958cd094c24e0606e665133a7e6c3ccb9d5513ee88cbf50eac9b737eb7",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/bullet/level3/raw/simple03_woman_slow_expression/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/bullet/level3/raw/simple03_woman_slow_expression/native_v1/native_last.png",
+  "native_frames": 89,
+  "native_fps": "16/1",
+  "native_info": {
+    "width": 640,
+    "height": 384,
+    "avg_frame_rate": "16/1",
+    "nb_read_frames": "89"
+  },
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/bullet/level3/raw/simple03_woman_slow_expression/native_v1/actual_call.json",
+  "elapsed_s": 899.9616334438324
 }
