@@ -1,7 +1,7 @@
 {
-  "updated_unix": 1792633472.7499402,
-  "successful_execution_records": 154,
-  "full_native_mp4_decodes_passed": 154,
+  "updated_unix": 1792650855.4139497,
+  "successful_execution_records": 215,
+  "full_native_mp4_decodes_passed": 215,
   "errors": [],
   "visual_quality_passes_not_inferred": true,
   "rows": [
@@ -1243,6 +1243,24 @@
     },
     {
       "model_key": "gen3c",
+      "case_id": "case04_person_water_jump",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "de4077ee1c85c1c0246b5da491f3245abd6e0ea41a4eab31201850bfb1cbaf28",
+      "full_decode_pass": true,
+      "actual_frame_count": 121,
+      "video_info": {
+        "width": 1280,
+        "height": 704,
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "121"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650836.7445142
+    },
+    {
+      "model_key": "gen3c",
       "case_id": "case11_man_contemporary_dance",
       "level": 1,
       "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level1/raw/case11_man_contemporary_dance/native_v1/native.mp4",
@@ -1276,6 +1294,24 @@
       "quality_pass_not_inferred": true,
       "continuous_human_viewing": false,
       "checked_unix": 1792633456.7871692
+    },
+    {
+      "model_key": "gen3c",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "02f385b07d21a9b13ab3fa59d226d8e37b73f7d65abdf7d7628d2abfdaa523fe",
+      "full_decode_pass": true,
+      "actual_frame_count": 121,
+      "video_info": {
+        "width": 1280,
+        "height": 704,
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "121"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650836.546158
     },
     {
       "model_key": "gen3c",
@@ -1315,6 +1351,24 @@
     },
     {
       "model_key": "gen3c",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "78068dbb9728c0015623ededdd5f99613f21c302c8ab8616d6cb64ad5dee7b21",
+      "full_decode_pass": true,
+      "actual_frame_count": 121,
+      "video_info": {
+        "width": 1280,
+        "height": 704,
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "121"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650836.8118477
+    },
+    {
+      "model_key": "gen3c",
       "case_id": "simple01_woman_talking_plants",
       "level": 1,
       "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level1/raw/simple01_woman_talking_plants/native_v1/native.mp4",
@@ -1348,6 +1402,24 @@
       "quality_pass_not_inferred": true,
       "continuous_human_viewing": false,
       "checked_unix": 1792633457.3608685
+    },
+    {
+      "model_key": "gen3c",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "5817f631ef4d9b135a8a23f65bb8f42eaf847f1394719cd0fd76daa514510c20",
+      "full_decode_pass": true,
+      "actual_frame_count": 121,
+      "video_info": {
+        "width": 1280,
+        "height": 704,
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "121"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650837.3494048
     },
     {
       "model_key": "gen3c",
@@ -1387,6 +1459,24 @@
     },
     {
       "model_key": "gen3c",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "555346a2f95ce168abd383f9869880953e02ce3d437556a1d639701b14baf229",
+      "full_decode_pass": true,
+      "actual_frame_count": 121,
+      "video_info": {
+        "width": 1280,
+        "height": 704,
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "121"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650837.4907954
+    },
+    {
+      "model_key": "gen3c",
       "case_id": "simple03_woman_slow_expression",
       "level": 1,
       "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level1/raw/simple03_woman_slow_expression/native_v1/native.mp4",
@@ -1420,6 +1510,24 @@
       "quality_pass_not_inferred": true,
       "continuous_human_viewing": false,
       "checked_unix": 1792633457.6125836
+    },
+    {
+      "model_key": "gen3c",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "f4c558ddf883ec64011def44efaa3d284d25662b41632502eab0d3204164a775",
+      "full_decode_pass": true,
+      "actual_frame_count": 121,
+      "video_info": {
+        "width": 1280,
+        "height": 704,
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "121"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650837.7023044
     },
     {
       "model_key": "h3_fl2va",
@@ -1762,6 +1870,24 @@
       "quality_pass_not_inferred": true,
       "continuous_human_viewing": false,
       "checked_unix": 1792633461.7686722
+    },
+    {
+      "model_key": "h3_ref2va",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/h3_ref2va/level3/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "8c860ffb2de138401f9fff31539174884cc84d1d59436c8e8060ee1373b89444",
+      "full_decode_pass": true,
+      "actual_frame_count": 124,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "124"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650838.459033
     },
     {
       "model_key": "h3_ref2va",
@@ -2250,6 +2376,114 @@
       "checked_unix": 1792633465.615205
     },
     {
+      "model_key": "joy",
+      "case_id": "case04_person_water_jump",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/case04_person_water_jump/native_v1/recordings/1792646931_1/output_0000.mp4",
+      "native_sha256": "65572522582eefec1c1101421affdf35a39e61310a57136d341d7e19df57ed7d",
+      "full_decode_pass": true,
+      "actual_frame_count": 81,
+      "video_info": {
+        "width": 840,
+        "height": 480,
+        "avg_frame_rate": "1296000/43387",
+        "nb_read_frames": "81"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650839.227725
+    },
+    {
+      "model_key": "joy",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/case11_man_contemporary_dance/native_v1/recordings/1792645159_1/output_0000.mp4",
+      "native_sha256": "58018c9ca0500a0a2906a043a0fa24e47dde15e78bcca0986c4fcd6ee883eb63",
+      "full_decode_pass": true,
+      "actual_frame_count": 81,
+      "video_info": {
+        "width": 840,
+        "height": 480,
+        "avg_frame_rate": "48000/1921",
+        "nb_read_frames": "81"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650838.9626076
+    },
+    {
+      "model_key": "joy",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/case13_woman_rooftop_dance/native_v1/recordings/1792645916_1/output_0000.mp4",
+      "native_sha256": "64adcb60990577cfb6523f816c068083abf25c8e27f962e68de4c08e357896f2",
+      "full_decode_pass": true,
+      "actual_frame_count": 81,
+      "video_info": {
+        "width": 840,
+        "height": 480,
+        "avg_frame_rate": "1296000/43387",
+        "nb_read_frames": "81"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650840.583385
+    },
+    {
+      "model_key": "joy",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/simple01_woman_talking_plants/native_v1/recordings/1792634277_1/output_0000.mp4",
+      "native_sha256": "fff2598bd8f6c1cedf84e1276269871870266dc9e57b18b4200f97c2519e2ff9",
+      "full_decode_pass": true,
+      "actual_frame_count": 81,
+      "video_info": {
+        "width": 840,
+        "height": 480,
+        "avg_frame_rate": "48000/1921",
+        "nb_read_frames": "81"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650839.970251
+    },
+    {
+      "model_key": "joy",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/simple02_woman_presenting_chalkboard/native_v1/recordings/1792635832_1/output_0000.mp4",
+      "native_sha256": "cee1a546cec8704374af5f329c924bc5e0ef2638e866a6a162c278082962cc43",
+      "full_decode_pass": true,
+      "actual_frame_count": 81,
+      "video_info": {
+        "width": 840,
+        "height": 480,
+        "avg_frame_rate": "48000/1921",
+        "nb_read_frames": "81"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650840.1902347
+    },
+    {
+      "model_key": "joy",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/simple03_woman_slow_expression/native_v1/recordings/1792642436_1/output_0000.mp4",
+      "native_sha256": "481900f33a7505724f3d961a2049f0c128a2e8b627f688465852fb521ec9b29a",
+      "full_decode_pass": true,
+      "actual_frame_count": 81,
+      "video_info": {
+        "width": 840,
+        "height": 480,
+        "avg_frame_rate": "48000/1921",
+        "nb_read_frames": "81"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650841.5569746
+    },
+    {
       "model_key": "omnicamera",
       "case_id": "case04_person_water_jump",
       "level": 1,
@@ -2464,6 +2698,222 @@
       "quality_pass_not_inferred": true,
       "continuous_human_viewing": false,
       "checked_unix": 1792633468.8831074
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "case04_person_water_jump",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level1/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "3415a1c1cc96b5bc7dc101b5696b857b89f5a80d422bc89280269807e57f353c",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650842.2431197
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "case04_person_water_jump",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "82592d61e44b08ae1dcb61157cd9baeddfc3e306f567b03084bd1a0e5896bddf",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650843.1085176
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level1/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "46e51bca205f39b809aa3672f4684d502f7a6d4716454ad3345c191d66502705",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650841.5694704
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "dc45bebc9adc0b2e2e98501cb1db980161732e9a73f3730b02b1fb6a4f13be1f",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650843.380452
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level1/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "6814fc0de39cf65a11aaf8885ebe62c83e00a2d0633ffc7325498e4c739dffe1",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650842.244193
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "b9cd3dbc66f3635fc2fb92cffe714c24104456992109dd5dbb4c33d0974f6409",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650843.509873
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level1/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "f6bbff539b5fe38b630a6eb1bce5fc3042c8b69f5c4cb24f5f1aeb8e77c57e58",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650842.2362337
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "5be3b8d9a9391c52d14a5b2b2acf6e42cd16282f3e425d675d95557bb69899ba",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650843.8286252
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level1/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "d33e1eb699b2a8c2a43df596f52d57411e0876358defeeca429386d534de8270",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650842.8692174
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "bcf8609acccb8afd0eddb7bf6f8d0b7de2125cefc8a28143d8dd08597306b977",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650844.0174408
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level1/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "cae38decf8935a029725df4df4b94af426c569a6504eaae6650feea71f627776",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650842.8489683
+    },
+    {
+      "model_key": "trajectorycrafter",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/trajectorycrafter/level2/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "b8eccec5b12feb73718501a2c4caa2c7e56d813b3e235a18c10e30e9f6f952c0",
+      "full_decode_pass": true,
+      "actual_frame_count": 49,
+      "video_info": {
+        "width": 672,
+        "height": 384,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "49"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650844.313187
     },
     {
       "model_key": "trimotion",
@@ -2788,6 +3238,654 @@
       "quality_pass_not_inferred": true,
       "continuous_human_viewing": false,
       "checked_unix": 1792633472.7453651
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "case04_person_water_jump",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "79e82b101991190d6a2a731e6fb5f627be92105eb0903d20a394a4d1e100a9a7",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650846.0807843
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "case04_person_water_jump",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level2/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "d5a593615e38fa1fec413bc2fd4ecaefb2ec94d8aef4f4e286e39a8b0b7955eb",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650848.488524
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "case04_person_water_jump",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level3/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "7fa46d455a1781b83f1a3ecd455df62228388ce0b050d721de7db432b06c5904",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650851.6938171
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "5c8dee215625c8fc7d2a744ec94b79add7dc5669e421da9b8fad1766be8cfd19",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650845.618178
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level2/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "1f8de5b72e419a948923df9a20f5de8729ff91063ba91bc9f93bd54fca7c5dbd",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650848.7667766
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level3/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "e495dcc88f23517db7e20473e18d80f9b214a0c202218543e19b7d6f83b05894",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650851.2027059
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "9c47bc5bfecb0d451deb898e47fc01b35233b90ebc3ad651efd998a863702cbb",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650846.002073
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level2/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "66b75f022a9838e342ae799821fff24f3a35c5e1ea251cbf2653b529d5fcab5a",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650848.8217819
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level3/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "71a238a4394aae4d25128bc681fcbc6b1e9ce8ad98253455abcb68e74c979b85",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650851.58355
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "187770f681af6d7867d271fe82e7ca8b26f3e82bc3cb1da3c1ae7509abbc705b",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650846.8136404
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level2/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "6e698947e0abe092d4f4a7505b7bf4fbf8d9a0c39b3eaad3b2dc570af2940e8c",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650849.7083328
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level3/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "476245b564d42f31bb129a0811582a6f0267ce5afd39b1ce8c350d8544cc3bd3",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650852.386783
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "213916fb3fbb69ec458c5100aeefe14cbed9886fa4128bb801b331f6724908fa",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650847.3435788
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level2/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "32f03c738a154253b1c2ce08277dd3d87bb68f7059932ff769e16fef4f0aa759",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650850.0329456
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "cd6270cfe88f8c2fbaa74f7fedbebd32711c4234741b28c713c9866610a27cd7",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650852.5209203
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "4d290cf0dcd8c55bb053a3fda114d4145fb6a8b9d2ab5d3fada463c5a3280719",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650847.3560867
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level2/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "ad89e5286336635576d24dd53d356fc9406808af110da042ea33bb426a0d4e4b",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650850.059424
+    },
+    {
+      "model_key": "wan_vace",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level3/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "4d78ef61b8b22e7f00ef91d9e1fccd9f74b45ac7414f5faa9248ae94d131df3f",
+      "full_decode_pass": true,
+      "actual_frame_count": 85,
+      "video_info": {
+        "width": 832,
+        "height": 480,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "85"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650852.6649356
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "case04_person_water_jump",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level1/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "fff0548335393321f1cd58081c158cf633f156b9ccb322872557f1132cc3ad08",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650852.7786694
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "case04_person_water_jump",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level2/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "431a76cc578fd65bbeacb3b288de680c04e9200f6809973cd44f20d0c7742ae9",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650853.7769828
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "case04_person_water_jump",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level3/raw/case04_person_water_jump/native_v1/native.mp4",
+      "native_sha256": "d0773c32e12d48078f60e61b10f1aa42d353c163b91a858f87a701a5cb15c771",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650854.5370953
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level1/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "3126063eee9875adeb9e894f820ecebbec6ade7d5cb0cec5e007a391bc0ed4d3",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650852.8960087
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level2/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "6f78c4ed0051f39308f163a0f3c01edc915dacd426191f8b4cdd64f04c2e2aa0",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650853.6706135
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "case11_man_contemporary_dance",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level3/raw/case11_man_contemporary_dance/native_v1/native.mp4",
+      "native_sha256": "cf587027c1136a43e05a0fd82b816767f0bc17012f3e05afb9fc4d51000e7f78",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650854.5553653
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level1/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "3cc334bb51ec652204ba0d14d869305cd02529703bfff3a8d7446790775c5a8b",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650853.1342056
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level2/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "b3ff79a96cfc24ace85cb13fea6078bccf7be514c61cee2644bbc34163a124d6",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650853.939365
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "case13_woman_rooftop_dance",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level3/raw/case13_woman_rooftop_dance/native_v1/native.mp4",
+      "native_sha256": "f8a9c83791b4ccf5bec24eaeaa05ed6674607ea4ac99bc0cf36d40b28cecb6a5",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650854.967622
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level1/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "e551ee888ba1f6064efa5deeb4723b75ef966c17829590a31511ef3e4fa29382",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650853.2578747
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level2/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "e08c64d8aaa9eeb36ad9d21f753f760579a055fd699a342ffbe6e2828b13d921",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650854.0762985
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "simple01_woman_talking_plants",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level3/raw/simple01_woman_talking_plants/native_v1/native.mp4",
+      "native_sha256": "cfd500648f982235e6093472bec6d12bc6e6482aee8f9661ec0a4788288faa7d",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650854.973394
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level1/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "07d1432b0697935181edf56c48bf71cf3af9094c89eb65f9a465057667a30687",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650853.2512841
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level2/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "acefb0730dc15a5d7b0081c1afd1b49b54fcec05e34089d0d4b08eb0828f87fc",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650854.139315
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "native_sha256": "0e7ba08636e555c7e6e6697a4a8effc3c91b57cd0f5bb56bc4e5f5b433c7fe17",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650854.9636645
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 1,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level1/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "2f110ccb68da36d9996aea389d94648152af897c1e9acdc0617948110c34150d",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650853.523656
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 2,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level2/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "62cad0da97de19595c9c83eb15b8c1fa94291566d6a1ef9661f4d949a9c49366",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650854.3487914
+    },
+    {
+      "model_key": "worldinworld",
+      "case_id": "simple03_woman_slow_expression",
+      "level": 3,
+      "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/worldinworld/level3/raw/simple03_woman_slow_expression/native_v1/native.mp4",
+      "native_sha256": "76142f93cb6faf6e1f4b90805fb7f0bdb56490ef5ede01e67e15146e70b51007",
+      "full_decode_pass": true,
+      "actual_frame_count": 93,
+      "video_info": {
+        "width": 832,
+        "height": 464,
+        "avg_frame_rate": "16/1",
+        "nb_read_frames": "93"
+      },
+      "quality_pass_not_inferred": true,
+      "continuous_human_viewing": false,
+      "checked_unix": 1792650855.4102957
     }
   ]
 }
