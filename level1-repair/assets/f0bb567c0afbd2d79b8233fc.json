@@ -58,5 +58,14 @@
       "environment": "depthdirector",
       "runner_sha256": "5d16392c95370f4821c4e9b2083c0708741614958027f200df16726f0d1329a8"
     }
+  },
+  "native_text_cache": {
+    "metadata": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/metadata/gen3c_native_text_embeddings.json",
+    "files": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/metadata/gen3c_native_text_embeddings.pt",
+    "future_runners": [
+      "run_level1_gen_drop_cached_cfg1_20261022.py",
+      "run_level1_gen_drop_cached_cfg7_20261022.py"
+    ],
+    "condition_values_unchanged": true
   }
 }

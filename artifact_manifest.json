@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-22T17:28:57.710478+08:00",
-  "file_count": 2529,
-  "content_bytes": 969501565,
+  "created_at": "2026-10-22T17:33:41.197948+08:00",
+  "file_count": 2533,
+  "content_bytes": 969508483,
   "native_outputs_modified": false,
   "all_html_dependencies_bundled": true,
   "auxiliary_files": [
@@ -12,17 +12,17 @@
     {
       "path": "index.html",
       "bytes": 50448,
-      "sha256": "0193a86cdd8347754b2dee2d5b6f9edf4c24cbc7cf251026af3f57febd4f070e"
+      "sha256": "2fbe5846955c4c5ddd287ba9f132c5ac26f53ddccd0557cd83fe51fa4c05849f"
     },
     {
       "path": "level1-repair/index.html",
-      "bytes": 61180,
-      "sha256": "95064464f194cc01f4f572bc14393876addadf3e30814a4122d9bdc81901c073"
+      "bytes": 61396,
+      "sha256": "2aaf65f1759891dd089d1165aa48090ef0d8d093db04358df8f0d56dcab693ee"
     },
     {
       "path": "recam-retained-rerun/index.html",
       "bytes": 82460,
-      "sha256": "e7ffc2f61b6ffa3a69d5d54f17857df2ad56565ee1692f05faa13613ff4b1954"
+      "sha256": "3aa09f14ad68e11bba3a2fa98d56daa6183ae828877bc88eff3443e01fedecb3"
     },
     {
       "path": "recam-depth/index.html",
@@ -150,9 +150,9 @@
       "sha256": "433d982daa168ae629d1c3ae01cc7a5c5fdc97e9db97d8fc26b94eb4ae90edf6"
     },
     {
-      "path": "level1-repair/assets/6d08ee1ba82b64aa272149c3.json",
-      "bytes": 2243,
-      "sha256": "6d08ee1ba82b64aa272149c32c35b21536646f35f72ff6c8455c303d2fb1eb83"
+      "path": "level1-repair/assets/f0bb567c0afbd2d79b8233fc.json",
+      "bytes": 2734,
+      "sha256": "f0bb567c0afbd2d79b8233fc58e559622259d321dfa806e21b29b3d2e2bd6125"
     },
     {
       "path": "level3/assets/d412e734b57a981c2fc1a37f.png",
@@ -745,6 +745,26 @@
       "sha256": "2c3e03c78efd2bb69975a4496582ccd135d2fc746af8548230ee80aeaaef413d"
     },
     {
+      "path": "level1-repair/assets/77ce4e025377fa61361d0a57.json",
+      "bytes": 1570,
+      "sha256": "77ce4e025377fa61361d0a5756d60236e929245fc43bf37784b8dcf561fd1f86"
+    },
+    {
+      "path": "level1-repair/assets/411c5964a2c4062a6d648ad7.json",
+      "bytes": 1552,
+      "sha256": "411c5964a2c4062a6d648ad7c94abc9941ec80511729b3555e4eb0d9697dde62"
+    },
+    {
+      "path": "level1-repair/assets/9381c76b76db9dfd3f6c55c0.json",
+      "bytes": 1549,
+      "sha256": "9381c76b76db9dfd3f6c55c08a2571468852c214be4436a3ce66d5bb73101630"
+    },
+    {
+      "path": "level1-repair/assets/f59e6114bd9cd3cde5971f91.json",
+      "bytes": 1540,
+      "sha256": "f59e6114bd9cd3cde5971f91fe566cd5a815fc1ae099978cd34c4773250866c1"
+    },
+    {
       "path": "level1-repair/assets/ef114d577745c226bdf85dd0_preview.mp4",
       "bytes": 22673,
       "sha256": "27f46de7fb945d5b51f0c6504dc73fd8253c0508471c5f60c160bb9b905f65a4"
@@ -790,9 +810,9 @@
       "sha256": "335ac5867f6b4bd2c673688892c4d58a594b31f1a5219103ad7d47031abd2a37"
     },
     {
-      "path": "level1-repair/assets/5dfd42225fdf6106171cf2db.json",
+      "path": "level1-repair/assets/cb858a3c83315d57c8099adf.json",
       "bytes": 7861,
-      "sha256": "5dfd42225fdf6106171cf2db06a0cda517134f986ee685d148746ac6d232c354"
+      "sha256": "cb858a3c83315d57c8099adf1f326b163a3ea49b667dc9f3e704ee6ab9f2e482"
     },
     {
       "path": "level1-repair/assets/159134312dda1210223c5b52.json",
@@ -822,17 +842,17 @@
     {
       "path": "depth-native-guidance/index.html",
       "bytes": 48454,
-      "sha256": "da56024e8369db8636a7477ee890c804b270c816a449280a7346d3b07c86d989"
+      "sha256": "c911361e6f242faf82fcbcb6771a116f13f9478a2f6ee493afd7028a87eb6b93"
     },
     {
       "path": "depth-relative-action/index.html",
       "bytes": 22205,
-      "sha256": "610c07b67ea1fbbaa6e9c8836f1bcbc8a57822a3151a09de09f713c5c621493e"
+      "sha256": "0e8e940e575c5975c031c660a9e379cc673b3d8bc7a9ae6a9c3c65774314103f"
     },
     {
-      "path": "recam-retained-rerun/assets/beb8f3e3c25d6f8856fdc042.md",
+      "path": "recam-retained-rerun/assets/338cadf241dd7b2de472c88b.md",
       "bytes": 4163,
-      "sha256": "beb8f3e3c25d6f8856fdc042ef02b0f46759cff96f315e2b851e0408b5385b59"
+      "sha256": "338cadf241dd7b2de472c88b57e530cbca30cd1cd991dc966a17c3595fb392fb"
     },
     {
       "path": "recam-retained-rerun/assets/da11d7487f95e7961817bc9d.json",
@@ -11352,7 +11372,7 @@
     {
       "path": "depth-motion-controls/index.html",
       "bytes": 38303,
-      "sha256": "57765f9f906939859f0d5b6ab0d22000f219286a02bf76a6148b21040e0a6cde"
+      "sha256": "e183cbb6f04845538741e3b424942c671007f049055339923a50c9629b026c9a"
     },
     {
       "path": "depth-native-guidance/assets/b0bb738294a31c1aa274b300.md",
@@ -11365,9 +11385,9 @@
       "sha256": "c0cecd0d7d58b6e6cdaab742b9ef21a21c051e25fe49206e36ccad24153c4ed1"
     },
     {
-      "path": "depth-native-guidance/assets/54ba4a5431bf52ed9a1cc24a.json",
+      "path": "depth-native-guidance/assets/52d224e99c7c7f465aa55f3d.json",
       "bytes": 8162,
-      "sha256": "54ba4a5431bf52ed9a1cc24a4c40133a615bdbbff4adaeb85b1310dd512ccd77"
+      "sha256": "52d224e99c7c7f465aa55f3de022a1a2c5518fe71c9042ff86b5eed15af0794a"
     },
     {
       "path": "depth-native-guidance/assets/74031c65fa9091bcd2abfc03.csv",
@@ -11925,9 +11945,9 @@
       "sha256": "2bf3f0c7f2def1bb7cbd42060f4ccfc11fc42206139c8cdaaf428fd1a46d75ba"
     },
     {
-      "path": "depth-relative-action/assets/cd8162730c4ff0c69780a06a.json",
+      "path": "depth-relative-action/assets/d443fcfd7dd126b818e71787.json",
       "bytes": 2471,
-      "sha256": "cd8162730c4ff0c69780a06a87b97b39fbd706ac11898cf92644a38f9ed3c6ca"
+      "sha256": "d443fcfd7dd126b818e717873d1852d21e4f20cceeba42d7ef3fdc55424f857c"
     },
     {
       "path": "depth-relative-action/assets/292880d1bdb67933b6a16600.csv",
@@ -12220,9 +12240,9 @@
       "sha256": "826d86eb978a5ff5e11c87325fcd3e1cab2d65e4642fc9b184424ff89bbae633"
     },
     {
-      "path": "depth-motion-controls/assets/6c082ec9741ed89e5156e43f.json",
+      "path": "depth-motion-controls/assets/a548fcd6c70a07f6436a3b6d.json",
       "bytes": 8990,
-      "sha256": "6c082ec9741ed89e5156e43fdde25af64e450fea2eb6d2d82f4de3648f1aad88"
+      "sha256": "a548fcd6c70a07f6436a3b6d030c596278e6acc8ba0fa5d12f6da66032aa0c32"
     },
     {
       "path": "depth-motion-controls/assets/4376be171e341d61aecce378.csv",
