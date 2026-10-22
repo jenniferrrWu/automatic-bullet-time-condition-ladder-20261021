@@ -2,8 +2,8 @@
   "model": "Wan VACE",
   "case_id": "case13_woman_rooftop_dance",
   "level": 1,
-  "execution_status": "running",
-  "status": "loading",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case13_woman_rooftop_dance/recam_actual_native_last.png",
   "source_motion_video": null,
@@ -21,5 +21,12 @@
   "input_mapping": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/case13_woman_rooftop_dance/native_v1/input_mapping.json",
   "first_image_role": "native known-f0 video mask plus separate image appearance reference",
   "postdecode_frame_replacement": false,
-  "training_performed": false
+  "training_performed": false,
+  "native_frames": 85,
+  "native_fps": 16,
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/case13_woman_rooftop_dance/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/case13_woman_rooftop_dance/native_v1/native_last.png",
+  "native_video_sha256": "9c47bc5bfecb0d451deb898e47fc01b35233b90ebc3ad651efd998a863702cbb",
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/wan_vace/level1/raw/case13_woman_rooftop_dance/native_v1/actual_call.json",
+  "elapsed_s": 818.4264277843758
 }
