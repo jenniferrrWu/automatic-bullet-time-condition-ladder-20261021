@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-22T17:13:44.693207+08:00",
+  "scope": "repair native Level1 anomalies only; original216 native outputs immutable",
+  "prompt_unchanged": true,
+  "seed": 42,
+  "no_training": true,
+  "no_output_frame_replacement": true,
+  "variants": {
+    "depth_cfg5": {
+      "model": "depthdirector",
+      "cfg": 5,
+      "condition_mode": "image_only_native",
+      "runner": "run_level1_depth_cfg5_20261022.py",
+      "environment": "depthdirector",
+      "runner_sha256": "d4366c2c3d364e7175da95d2ffce7c3c09be40f11f89d2825643515ce5e6d8e3"
+    },
+    "gen_native_drop_cfg1": {
+      "model": "gen3c",
+      "cfg": 1,
+      "condition_mode": "native_zero_latent_dropout",
+      "runner": "run_level1_gen_drop_cfg1_20261022.py",
+      "environment": "gen3c",
+      "runner_sha256": "8cf17c56b59f046cea818823d18e6c8bd1f1514f53f5d7f1ed3f72a20702f7c1"
+    },
+    "gen_native_drop_cfg7": {
+      "model": "gen3c",
+      "cfg": 7,
+      "condition_mode": "native_zero_latent_dropout",
+      "runner": "run_level1_gen_drop_cfg7_20261022.py",
+      "environment": "gen3c",
+      "runner_sha256": "c004655be35b2c397962ad00c1293559654fb954b6b98d53dd7ac6fa2dbb71e5"
+    },
+    "gen_raw_zero_cfg7": {
+      "model": "gen3c",
+      "cfg": 7,
+      "condition_mode": "legacy_encoded_zero_pixels",
+      "runner": "run_level1_gen_zero_cfg7_20261022.py",
+      "environment": "gen3c",
+      "runner_sha256": "8ac0f5b6cc2dc1b64e141d6d9e5a670394185c5371bf6c09c7af671a0147bb76"
+    },
+    "depth_lora025_cfg5": {
+      "model": "depthdirector",
+      "cfg": 5,
+      "condition_mode": "image_only_native",
+      "lora_strength": 0.25,
+      "base_model_control": false,
+      "runner": "run_level1_depth_lora025_cfg5_20261022.py",
+      "environment": "depthdirector",
+      "runner_sha256": "349beea3fed8821efafaacfdceca03b4feeeed4c8ace4bb10ca58bd69d105f42"
+    },
+    "wan_base_i2v_cfg5": {
+      "model": "depthdirector",
+      "cfg": 5,
+      "condition_mode": "image_only_native",
+      "lora_strength": 0.0,
+      "base_model_control": true,
+      "runner": "run_level1_wan_base_i2v_cfg5_20261022.py",
+      "environment": "depthdirector",
+      "runner_sha256": "5d16392c95370f4821c4e9b2083c0708741614958027f200df16726f0d1329a8"
+    }
+  }
+}
