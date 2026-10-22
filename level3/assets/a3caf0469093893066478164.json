@@ -2,8 +2,8 @@
   "model": "gen3c",
   "case_id": "simple02_woman_presenting_chalkboard",
   "level": 3,
-  "execution_status": "running",
-  "status": "loading",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple02_woman_presenting_chalkboard/recam_actual_native_last.png",
   "first_frame_sha256": "06887a96d82d65d3e68f20a70116baf4f4e1b6d17041e8bb877f55ee4ea7c3e3",
@@ -24,5 +24,18 @@
   "camera_control": "source-view identity action warp; endpoint target pose uncalibrated",
   "level1_strict_auxiliary_free": false,
   "level1_mandatory_auxiliary": "all-zero RGB warp and zero coverage tensor; no real footage",
-  "level3_limitation": "native action warp contains original-source viewpoint; no separate viewpoint-independent action encoder; conflicts evaluated, not hidden"
+  "level3_limitation": "native action warp contains original-source viewpoint; no separate viewpoint-independent action encoder; conflicts evaluated, not hidden",
+  "native_video_sha256": "555346a2f95ce168abd383f9869880953e02ce3d437556a1d639701b14baf229",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_last.png",
+  "native_frames": 121,
+  "native_fps": "24/1",
+  "native_info": {
+    "width": 1280,
+    "height": 704,
+    "avg_frame_rate": "24/1",
+    "nb_read_frames": "121"
+  },
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/simple02_woman_presenting_chalkboard/native_v1/actual_call.json",
+  "elapsed_s": 1754.7352216243744
 }

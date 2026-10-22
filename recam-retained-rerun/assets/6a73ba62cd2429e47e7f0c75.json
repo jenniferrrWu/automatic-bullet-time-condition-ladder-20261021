@@ -2,8 +2,8 @@
   "model": "bullet",
   "case_id": "simple01_woman_talking_plants",
   "level": 3,
-  "execution_status": "running",
-  "status": "loading",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple01_woman_talking_plants/recam_actual_native_last.png",
   "first_frame_sha256": "d412e734b57a981c2fc1a37f0e925085790711631bfd72b390bd4b627818af41",
@@ -25,5 +25,18 @@
   "native_mode": "v2v",
   "mandatory_camera_in_level1": true,
   "strict_auxiliary_free_level1": false,
-  "level3_image_video_joint": "single native reference-video carrier; endpoint prepended before complete81 action frames; independent first-keyframe API absent"
+  "level3_image_video_joint": "single native reference-video carrier; endpoint prepended before complete81 action frames; independent first-keyframe API absent",
+  "native_video_sha256": "3d2757a0a2dfd574e788e8efd1bdef2212aeeb178866acb0497397d132b32cb3",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/bullet/level3/raw/simple01_woman_talking_plants/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/bullet/level3/raw/simple01_woman_talking_plants/native_v1/native_last.png",
+  "native_frames": 89,
+  "native_fps": "16/1",
+  "native_info": {
+    "width": 640,
+    "height": 384,
+    "avg_frame_rate": "16/1",
+    "nb_read_frames": "89"
+  },
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/bullet/level3/raw/simple01_woman_talking_plants/native_v1/actual_call.json",
+  "elapsed_s": 920.6259002685547
 }
