@@ -2,8 +2,8 @@
   "model": "joy",
   "case_id": "simple02_woman_presenting_chalkboard",
   "level": 3,
-  "execution_status": "running",
-  "status": "loading",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/simple02_woman_presenting_chalkboard/recam_actual_native_last.png",
   "first_frame_sha256": "06887a96d82d65d3e68f20a70116baf4f4e1b6d17041e8bb877f55ee4ea7c3e3",
@@ -11,7 +11,7 @@
   "prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image. The camera stays completely locked at the viewpoint and framing of the supplied initial image for the entire shot. Keep background objects, scene geometry and lighting stationary. No camera orbit, pan, tilt, dolly, zoom, shake, scene change or cuts. Use the separately supplied complete source video as the action reference. Reproduce its chronological facial expressions, mouth, head, body and hand actions while retaining the initial image viewpoint, appearance and stationary background. Do not copy camera movement or the original viewpoint from the action reference.",
   "seed": 42,
   "steps": 2,
-  "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/simple02_woman_presenting_chalkboard/native_v1/recordings/1792635832_1/output_0000.mp4",
   "training_performed": false,
   "postdecode_frame_replacement": false,
   "official_weights_unchanged": true,
@@ -22,5 +22,18 @@
   "native_first_frame": "native RV2V appearance reference; no independent first-frame constraint",
   "negative_prompt": null,
   "camera_control": "prompt only",
-  "native_runtime_compatibility": "unfused torch norm/RoPE, eager VAE, no CUDA graph; model weights and native sampler unchanged"
+  "native_runtime_compatibility": "unfused torch norm/RoPE, eager VAE, no CUDA graph; model weights and native sampler unchanged",
+  "native_video_sha256": "cee1a546cec8704374af5f329c924bc5e0ef2638e866a6a162c278082962cc43",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_last.png",
+  "native_frames": 81,
+  "native_fps": "48000/1921",
+  "native_info": {
+    "width": 840,
+    "height": 480,
+    "avg_frame_rate": "48000/1921",
+    "nb_read_frames": "81"
+  },
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/joy/level3/raw/simple02_woman_presenting_chalkboard/native_v1/actual_call.json",
+  "elapsed_s": 274.19658756256104
 }
