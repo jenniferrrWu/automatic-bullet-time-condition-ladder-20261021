@@ -1,0 +1,59 @@
+{
+  "documented_on": "2026-10-23",
+  "recorded_unix": 1792690100.517176,
+  "scope": "independent condition ladder Level1 only; DepthDirector and GEN3C, six cases each",
+  "candidate_native_outputs": 12,
+  "diagnostic_control_outputs": 4,
+  "new_native_outputs_fully_decoded": 16,
+  "candidate_videos_actually_sample_reviewed": 12,
+  "sample_timepoints_per_candidate": 7,
+  "full_videos_watched": false,
+  "old12_native_hashes_unchanged": true,
+  "original216_native_outputs_and_records_preserved": true,
+  "training": false,
+  "postdecode_frame_replacement": false,
+  "quality_pass_inferred": false,
+  "depth_level1_parameters": {
+    "native_lora_strength": 0.25,
+    "cfg": 5,
+    "not_directly_comparable_to_old_levels2_and3": true
+  },
+  "gen3c_level1_parameters": {
+    "native_geometry_latent_dropout": true,
+    "guidance": 1
+  },
+  "known_visual_quality_defects": [
+    {
+      "model": "GEN3C",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "defect": "持板物体变形，未通过画面质量"
+    },
+    {
+      "model": "GEN3C",
+      "case_id": "case04_person_water_jump",
+      "defect": "额外人物、重影及身份漂移，未通过画面质量"
+    }
+  ],
+  "main_level1_url": "https://jenniferrrwu.github.io/automatic-bullet-time-condition-ladder-20261021/level1/",
+  "comparison_url": "https://jenniferrrwu.github.io/automatic-bullet-time-condition-ladder-20261021/level1-repair/",
+  "main_level1_verified_new_bindings": 12,
+  "both_public_pages_http": 200,
+  "comparison_browser": {
+    "players": 28,
+    "playing": 28,
+    "decoding_advanced": 28,
+    "independent_fold": true,
+    "errors": []
+  },
+  "tested_public_commit": "1dcbba357bc34f0243dd124eb49cd708781a549c",
+  "dependency_bytes_before_final_documentation": 965364403,
+  "proofs": {
+    "native": "audit/native_completion.json",
+    "native_integrity": "audit/native_integrity.json",
+    "sample_review": "audit/assistant_sample_review.json",
+    "browser": "audit/browser_public.json",
+    "public_bindings": "audit/public_actual_binding.json",
+    "package": "audit/dependency_size_after_sharing.json"
+  },
+  "full_stage3_motion_retarget_issue_fixed": false
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://jenniferrrwu.github.io/automatic-bullet-time-condition-ladder-20261021/level1-repair/?v=1792665710793198333",
+  "errors": [],
+  "model_quality_certified": false,
+  "independent_fold": true,
+  "players": 28,
+  "expected": 28,
+  "playing": 28,
+  "decoding_advanced": 28,
+  "preview_bundle": {
+    "enabled": true,
+    "ready": true,
+    "clips": 28,
+    "fetches": 1,
+    "error": ""
+  }
+}

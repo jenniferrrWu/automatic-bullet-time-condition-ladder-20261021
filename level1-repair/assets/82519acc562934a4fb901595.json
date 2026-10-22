@@ -159,7 +159,7 @@
       "variant": "gen_native_drop_cfg1",
       "model": "gen3c",
       "case_id": "simple01_woman_talking_plants",
-      "observation": "实际查看f0/1/8/30/60/90/120：人物及背景持续可辨，有表情、头部和上肢变化，未再褪色成灰屏。原生guidance仍1，仅修正几何条件丢弃；其余五例待补齐。",
+      "observation": "实际查看f0/1/8/30/60/90/120：人物及背景持续可辨，有表情、头部和上肢变化，未再褪色成灰屏。原生guidance仍1，仅修正几何条件丢弃；六例现已全部完成，逐例观察见各自记录。",
       "verdict": "anomaly_removed_in_sample",
       "sheet": "/public/wufeier/automatic_bullet_time/results/stage3_ladder_level1_repair_20261022/audit/contacts/gen_native_drop_cfg1__simple01_woman_talking_plants.jpg"
     },

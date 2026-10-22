@@ -1,0 +1,81 @@
+{
+  "at_unix": 1792665717.8099964,
+  "pages": {
+    "level1/": {
+      "http": 200,
+      "bytes": 221683,
+      "matches": [
+        {
+          "model": "depthdirector",
+          "case_id": "simple01_woman_talking_plants",
+          "new_native_bound": true
+        },
+        {
+          "model": "depthdirector",
+          "case_id": "simple02_woman_presenting_chalkboard",
+          "new_native_bound": true
+        },
+        {
+          "model": "depthdirector",
+          "case_id": "simple03_woman_slow_expression",
+          "new_native_bound": true
+        },
+        {
+          "model": "depthdirector",
+          "case_id": "case11_man_contemporary_dance",
+          "new_native_bound": true
+        },
+        {
+          "model": "depthdirector",
+          "case_id": "case13_woman_rooftop_dance",
+          "new_native_bound": true
+        },
+        {
+          "model": "gen3c",
+          "case_id": "simple01_woman_talking_plants",
+          "new_native_bound": true
+        },
+        {
+          "model": "depthdirector",
+          "case_id": "case04_person_water_jump",
+          "new_native_bound": true
+        },
+        {
+          "model": "gen3c",
+          "case_id": "simple02_woman_presenting_chalkboard",
+          "new_native_bound": true
+        },
+        {
+          "model": "gen3c",
+          "case_id": "simple03_woman_slow_expression",
+          "new_native_bound": true
+        },
+        {
+          "model": "gen3c",
+          "case_id": "case11_man_contemporary_dance",
+          "new_native_bound": true
+        },
+        {
+          "model": "gen3c",
+          "case_id": "case13_woman_rooftop_dance",
+          "new_native_bound": true
+        },
+        {
+          "model": "gen3c",
+          "case_id": "case04_person_water_jump",
+          "new_native_bound": true
+        }
+      ],
+      "matched": 12
+    },
+    "level1-repair/": {
+      "http": 200,
+      "bytes": 79312,
+      "depth6": true,
+      "gen6": true,
+      "board_defect": true,
+      "water_defect": true,
+      "shared_native_assets": true
+    }
+  }
+}
