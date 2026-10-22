@@ -1,0 +1,32 @@
+{
+  "case_id": "simple02_woman_presenting_chalkboard",
+  "model": "DepthDirector",
+  "level": 3,
+  "status": "running",
+  "execution_status": "running",
+  "visual_status": "not_reviewed",
+  "native_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/depthdirector/level3/raw/simple02_woman_presenting_chalkboard/native_v1/output/depthdirector.mp4",
+  "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/recam_actual_native_last.png",
+  "first_frame_sha256": "06887a96d82d65d3e68f20a70116baf4f4e1b6d17041e8bb877f55ee4ea7c3e3",
+  "source_motion_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
+  "source_motion_video_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+  "source_reference_absent": false,
+  "prompt": "A continuous live-action shot. The person moves naturally. Preserve the identity and clothing of the person in the supplied initial image. The camera stays completely locked at the viewpoint and framing of the supplied initial image for the entire shot. Keep background objects, scene geometry and lighting stationary. No camera orbit, pan, tilt, dolly, zoom, shake, scene change or cuts. Use the separately supplied complete source video as the action reference. Reproduce its chronological facial expressions, mouth, head, body and hand actions while retaining the initial image viewpoint, appearance and stationary background. Do not copy camera movement or the original viewpoint from the action reference.",
+  "seed": 42,
+  "steps": 50,
+  "height": 704,
+  "width": 1280,
+  "frames": 81,
+  "negative_prompt": "",
+  "sampler": "unmodified official pipeline",
+  "native_first_frame": "fused first VAE latent held during native denoising",
+  "official_weights_unchanged": true,
+  "training_performed": false,
+  "postdecode_frame_replacement": false,
+  "configuration": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/depthdirector/level3/depthdirector_stage3.yaml",
+  "gpu": "2",
+  "view_controls": {
+    "depth": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/depth_fixed/dw_depth.mp4",
+    "mask": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/depth_fixed/dw_mask.mp4"
+  }
+}

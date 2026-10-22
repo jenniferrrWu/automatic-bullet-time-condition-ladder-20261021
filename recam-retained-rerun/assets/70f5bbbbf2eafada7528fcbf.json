@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "endpoint_sha256": "d412e734b57a981c2fc1a37f0e925085790711631bfd72b390bd4b627818af41",
+      "motion_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "source_frames": 81,
+      "stage2_native": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple01_woman_talking_plants/native_v1/native.mp4",
+      "stage2_native_sha256": "e594d2043fdc1936a5cb4bed86df508af786e3f47c8b7fe5c1130172fcaf219c",
+      "extracted_frame": 80
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "endpoint_sha256": "06887a96d82d65d3e68f20a70116baf4f4e1b6d17041e8bb877f55ee4ea7c3e3",
+      "motion_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "source_frames": 81,
+      "stage2_native": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
+      "stage2_native_sha256": "311afa455a21ea4ee334a85a5db7a1fcbc684a8ad4696ec3c5193425cb7c6836",
+      "extracted_frame": 80
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "endpoint_sha256": "046885d9ca032d3322c2825f6ba5fceefad35414472dab353ee7b492dbe6343c",
+      "motion_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "source_frames": 81,
+      "stage2_native": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple03_woman_slow_expression/native_v1/native.mp4",
+      "stage2_native_sha256": "383094c45955d394398a2125b5ba020661369b058749e750a9ed92e1d43d4d20",
+      "extracted_frame": 80
+    }
+  ],
+  "all_models_share_same_per_case_inputs": true,
+  "fresh_execution_required": true,
+  "prior_generated_outputs_reused": false
+}
