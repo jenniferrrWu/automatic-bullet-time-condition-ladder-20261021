@@ -1,0 +1,36 @@
+{
+  "experimental_condition_processing": true,
+  "formula": "concat_relative[t] = native_target_anchor + (native_source_content[t] - native_source_content[0]); fp32 arithmetic then native dtype",
+  "not_a_physical_3d_motion_retargeter": true,
+  "full_source_video_still_encoded": true,
+  "model_weights_changed": false,
+  "sampler_changed": false,
+  "output_latents_pinned_across_time": false,
+  "postdecode_frame_replacement": false,
+  "denoiser_condition_calls": 40,
+  "native_anchor_device": "cpu",
+  "native_anchor_dtype": "torch.bfloat16",
+  "content_device": "cuda:0",
+  "native_anchor_output_unchanged": true,
+  "source_latent_shape": [
+    1,
+    48,
+    21,
+    44,
+    80
+  ],
+  "target_anchor_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "source_latent_sha256": "d898130a7f04ad965222a9d8307363ddc5b154dc0fd1e98feb541c1acd824784",
+  "target_anchor_sha256": "55486cf9e36ff948460851170b9216bc05a8e48ce586683f8f53f80a9d07c8c9",
+  "relative_content_sha256": "b37efaaae26e1dc9882cf1d7962e8ee72025d49af19771f0a2d29b54493bab1e",
+  "first_condition_equals_native_anchor": true,
+  "source_temporal_variation_max": 5.556640625,
+  "relative_temporal_variation_max": 5.54296875,
+  "dtype": "torch.bfloat16"
+}
