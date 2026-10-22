@@ -2,8 +2,8 @@
   "model": "CamCloneMaster",
   "case_id": "simple03_woman_slow_expression",
   "level": 3,
-  "status": "sampling",
-  "execution_status": "running",
+  "status": "generated_not_reviewed",
+  "execution_status": "succeeded",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple03_woman_slow_expression/recam_actual_native_last.png",
   "first_frame_sha256": "046885d9ca032d3322c2825f6ba5fceefad35414472dab353ee7b492dbe6343c",
@@ -23,5 +23,12 @@
   "training_performed": false,
   "postdecode_frame_replacement": false,
   "native_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/camclonemaster/level3/raw/simple03_woman_slow_expression/native_v1/native.mp4",
-  "gpu": "1"
+  "gpu": "1",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/camclonemaster/level3/raw/simple03_woman_slow_expression/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/camclonemaster/level3/raw/simple03_woman_slow_expression/native_v1/native_last.png",
+  "native_video_sha256": "4a374ceef88b4cb0aa7a547de06aab0f1035f5141f20ec60041b8860471c7c23",
+  "native_frames": 81,
+  "native_fps": 30,
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/camclonemaster/level3/raw/simple03_woman_slow_expression/native_v1/actual_call.json",
+  "elapsed_s": 2086.936678021215
 }

@@ -2,8 +2,8 @@
   "model": "TriMotion",
   "case_id": "simple02_woman_presenting_chalkboard",
   "level": 3,
-  "execution_status": "running",
-  "status": "sampling",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/recam_actual_native_last.png",
   "source_motion_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
@@ -21,5 +21,12 @@
   "native_first_frame": "native mask+VAE+CLIP, no custom pin",
   "native_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/trimotion/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native.mp4",
   "postdecode_frame_replacement": false,
-  "training_performed": false
+  "training_performed": false,
+  "native_frames": 81,
+  "native_fps": 30,
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/trimotion/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/trimotion/level3/raw/simple02_woman_presenting_chalkboard/native_v1/native_last.png",
+  "native_video_sha256": "85db6bf1fc40c95cd79ee5933b7ee6a60b85c9f85f8813b6707280fe1c03c41d",
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/trimotion/level3/raw/simple02_woman_presenting_chalkboard/native_v1/actual_call.json",
+  "elapsed_s": 508.82238628249615
 }
