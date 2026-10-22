@@ -2,8 +2,8 @@
   "model": "gen3c",
   "case_id": "case11_man_contemporary_dance",
   "level": 3,
-  "execution_status": "running",
-  "status": "loading",
+  "execution_status": "succeeded",
+  "status": "generated_not_reviewed",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/inputs/case11_man_contemporary_dance/recam_actual_native_last.png",
   "first_frame_sha256": "994974ea59cbe1cebe98c51250ef3ad6d9a892b087d3d0d05078756dcd5e9042",
@@ -24,5 +24,18 @@
   "camera_control": "source-view identity action warp; endpoint target pose uncalibrated",
   "level1_strict_auxiliary_free": false,
   "level1_mandatory_auxiliary": "all-zero RGB warp and zero coverage tensor; no real footage",
-  "level3_limitation": "native action warp contains original-source viewpoint; no separate viewpoint-independent action encoder; conflicts evaluated, not hidden"
+  "level3_limitation": "native action warp contains original-source viewpoint; no separate viewpoint-independent action encoder; conflicts evaluated, not hidden",
+  "native_video_sha256": "02f385b07d21a9b13ab3fa59d226d8e37b73f7d65abdf7d7628d2abfdaa523fe",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/case11_man_contemporary_dance/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/case11_man_contemporary_dance/native_v1/native_last.png",
+  "native_frames": 121,
+  "native_fps": "24/1",
+  "native_info": {
+    "width": 1280,
+    "height": 704,
+    "avg_frame_rate": "24/1",
+    "nb_read_frames": "121"
+  },
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/stage3_condition_ladder_20261021/models/gen3c/level3/raw/case11_man_contemporary_dance/native_v1/actual_call.json",
+  "elapsed_s": 1768.1882054805756
 }
