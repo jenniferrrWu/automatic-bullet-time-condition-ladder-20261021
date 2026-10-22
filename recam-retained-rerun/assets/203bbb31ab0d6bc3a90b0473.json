@@ -36,5 +36,7 @@
   "actual_call": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/depthdirector/level3/raw/simple03_woman_slow_expression/native_v1/actual_call.json",
   "initial_noise_sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
   "elapsed_s": 766.0234753517434,
-  "peak_memory_mib": 21935.0
+  "peak_memory_mib": 21935.0,
+  "native_fps": "15/1",
+  "native_fps_provenance": "ffprobe actual MP4 stream; Hunyuan official generator may override requested16fps with source-video fps"
 }

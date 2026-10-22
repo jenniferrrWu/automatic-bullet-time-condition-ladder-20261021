@@ -2,8 +2,8 @@
   "model": "CamCloneMaster",
   "case_id": "simple01_woman_talking_plants",
   "level": 3,
-  "status": "sampling",
-  "execution_status": "running",
+  "status": "generated_not_reviewed",
+  "execution_status": "succeeded",
   "visual_status": "not_reviewed",
   "first_frame_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/inputs/simple01_woman_talking_plants/recam_actual_native_last.png",
   "first_frame_sha256": "d412e734b57a981c2fc1a37f0e925085790711631bfd72b390bd4b627818af41",
@@ -23,5 +23,12 @@
   "training_performed": false,
   "postdecode_frame_replacement": false,
   "native_video": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/camclonemaster/level3/raw/simple01_woman_talking_plants/native_v1/native.mp4",
-  "gpu": "0"
+  "gpu": "0",
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/camclonemaster/level3/raw/simple01_woman_talking_plants/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/camclonemaster/level3/raw/simple01_woman_talking_plants/native_v1/native_last.png",
+  "native_video_sha256": "73ec33e2bc9d8905c5c3656ee78dee33f0c9a91e9b62934e05dc51f3bcbc9c19",
+  "native_frames": 81,
+  "native_fps": 30,
+  "actual_call": "/public/wufeier/automatic_bullet_time/results/recam_stage3_retained_rerun_20261022/models/camclonemaster/level3/raw/simple01_woman_talking_plants/native_v1/actual_call.json",
+  "elapsed_s": 2088.9927541743964
 }
