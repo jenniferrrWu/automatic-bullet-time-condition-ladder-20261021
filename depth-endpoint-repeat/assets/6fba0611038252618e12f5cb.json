@@ -1,0 +1,49 @@
+{
+  "at_unix": 1792730072.4062924,
+  "sources": [
+    {
+      "url": "https://jenniferrrwu.github.io/automatic-bullet-time-simple-routes-20261020/assets/c3f3b22b0bb44e1f2046209d.mp4",
+      "http": 200,
+      "content_length": 28148411,
+      "expected_bytes": 28148411,
+      "local_published_file_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error_type": "URLError",
+          "http": null
+        },
+        {
+          "method": "HEAD",
+          "http": 200
+        }
+      ]
+    },
+    {
+      "url": "https://jenniferrrwu.github.io/automatic-bullet-time-simple-routes-20261020/assets/66448ab389e07aa6787773a2.mp4",
+      "http": 200,
+      "content_length": 32881598,
+      "expected_bytes": 32881598,
+      "local_published_file_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http": 200
+        }
+      ]
+    },
+    {
+      "url": "https://jenniferrrwu.github.io/automatic-bullet-time-simple-routes-20261020/assets/5ce74488dca6b40f155740ce.mp4",
+      "http": 200,
+      "content_length": 20815902,
+      "expected_bytes": 20815902,
+      "local_published_file_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http": 200
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://jenniferrrwu.github.io/automatic-bullet-time-condition-ladder-20261021/depth-endpoint-repeat/?v=1792729686834756285",
+  "errors": [],
+  "model_quality_certified": false,
+  "independent_fold": true,
+  "players": 24,
+  "expected": 24,
+  "playing": 24,
+  "decoding_advanced": 24,
+  "preview_bundle": {
+    "enabled": true,
+    "ready": true,
+    "clips": 21,
+    "fetches": 1,
+    "error": ""
+  }
+}
