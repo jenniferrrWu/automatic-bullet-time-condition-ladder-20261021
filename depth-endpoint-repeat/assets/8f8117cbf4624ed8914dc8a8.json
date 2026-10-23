@@ -1,0 +1,22 @@
+{
+  "documented_on": "2026-10-23",
+  "method": "Actually viewed native contact sheets at frame indices 0,1,8,20,40,60,80; did not watch whole videos",
+  "full_videos_watched": false,
+  "full_quality_pass_inferred": false,
+  "items": [
+    {"variant":"depth_seed42_repeat","case_id":"simple01_woman_talking_plants","observation":"实际查看七时刻：与同图历史好结果行一致，口部、表情和手部变化继续，保持首图对应侧向外观及背景；完整性核查另证81帧逐像素相同。不是新质量验收声明。","view_status":"retained_in_samples","historical_look_recovered":true},
+    {"variant":"depth_seed42_repeat","case_id":"simple02_woman_presenting_chalkboard","observation":"实际查看七时刻：持板人物、背景和板子与历史行一致，动作幅度较小；另经81帧逐像素比较完全相同。完整动作复现仍按用户验收，不自动判整体通过。","view_status":"retained_in_samples","historical_look_recovered":true},
+    {"variant":"depth_seed42_repeat","case_id":"simple03_woman_slow_expression","observation":"实际查看七时刻：新输出与历史行一致，首图人物及场景保留。源片f20闭眼在原seed42的f20样本中未复现；原有好观感不等同所有动作细节都已通过。","view_status":"retained_in_samples","historical_look_recovered":true},
+    {"variant":"depth_seed123","case_id":"simple01_woman_talking_plants","observation":"实际查看七时刻：人物表情与手部继续变化，仍保持首图对应的侧向外观和场景；相比seed42动作细节不同，未见ReCam对照那样持续回到正面。","view_status":"retained_in_samples"},
+    {"variant":"depth_seed123","case_id":"simple02_woman_presenting_chalkboard","observation":"实际查看七时刻：人物保持首图对应侧向外观，粉板及黑板大体稳定，动作较小；未见明显额外转成源片正面机位。","view_status":"retained_in_samples"},
+    {"variant":"depth_seed123","case_id":"simple03_woman_slow_expression","observation":"实际查看七时刻：人物与场景保持，f20出现源片对应闭眼而seed42同帧没有。这说明随机种子确实影响动作细节，不能说所有效果都与种子无关。","view_status":"retained_in_samples"},
+    {"variant":"recam_seed123","case_id":"simple01_woman_talking_plants","observation":"实际查看七时刻：从ReCam首图对应侧向状态，在f8至f20逐步额外回到正面，后段保持较正面，背景也发生变化；同seed123的Depth末帧对照未见这种持续回正。","view_status":"extra_frontalization_in_samples"},
+    {"variant":"recam_seed123","case_id":"simple02_woman_presenting_chalkboard","observation":"实际查看七时刻：人物和持板状态从首图调整至更正面，板子与背景投影也变化；与同seed的Depth端点行相比，新首图对应机位没有同样稳定保留。","view_status":"view_pose_drift_in_samples"},
+    {"variant":"recam_seed123","case_id":"simple03_woman_slow_expression","observation":"实际查看七时刻：f20复现源片闭眼，后段头部和构图有变化。源片本身也转向，不能把所有转头判作额外回正；相对动作与静止背景仍需人工验收，未判整体通过。","view_status":"relative_motion_and_scene_unresolved"},
+    {"variant":"depth_seed456","case_id":"simple01_woman_talking_plants","observation":"实际查看七时刻：人物表情与手部动作继续，大体保留首图的侧向外观及原场景；头部姿态细节与seed42/123不同，不宣称逐帧角度完全锁定。","view_status":"mostly_retained_with_pose_variation"},
+    {"variant":"depth_seed456","case_id":"simple02_woman_presenting_chalkboard","observation":"实际查看七时刻：主体和板子大体保持首图对应侧向，黑板较稳定，动作幅度小；与同seed的ReCam端点行有明显方位差异。完整动作质量仍待验收。","view_status":"retained_in_samples"},
+    {"variant":"depth_seed456","case_id":"simple03_woman_slow_expression","observation":"实际查看七时刻：前段保留首图场景，f40到f80背景柜体/物体位置和画面构图明显变化，人物朝向也变化。使用Depth自己的末帧并不能保证所有种子都稳定；本条存在场景/机位保持问题。","view_status":"scene_view_drift_in_samples"},
+    {"variant":"recam_seed456","case_id":"simple01_woman_talking_plants","observation":"实际查看七时刻：f8至f20从首图侧向额外回正，后段保持正面并伴随背景变化，与历史seed42和新seed123方向一致。退化不只出现在原seed42这一次采样。","view_status":"extra_frontalization_in_samples"},
+    {"variant":"recam_seed456","case_id":"simple02_woman_presenting_chalkboard","observation":"实际查看七时刻：人物与板子逐步更正面，板子形状/透视及背景发生变化；未稳定保持输入首图机位，和同seed的Depth端点对照不同。","view_status":"view_pose_drift_in_samples"}
+  ]
+}

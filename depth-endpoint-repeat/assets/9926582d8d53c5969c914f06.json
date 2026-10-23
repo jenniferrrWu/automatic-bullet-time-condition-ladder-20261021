@@ -1,7 +1,7 @@
 {
-  "updated_unix": 1792727618.8805852,
+  "updated_unix": 1792728457.615721,
   "total_planned": 15,
-  "verified": 14,
+  "verified": 15,
   "items": [
     {
       "variant": "depth_seed42_repeat",
@@ -409,6 +409,34 @@
       },
       "old_output_unchanged": true,
       "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "recam_seed456",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 456,
+      "endpoint_model": "recam",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "35f7c7abb85b55b044e09affd744eea0a8d37f27065520aa35cdb73413a8932d",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "first_image_sha256": "54caa655d154fcc45251e02ef75d00edbbab3490fd48da0ccbdc5cac7c7d1c49",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6a7dcfa9d6773b22d2fbd93e541f14c4db175544edadca430c137bc2f92c4e4",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
     }
   ],
   "new_seed_pairs": [
@@ -439,6 +467,12 @@
     {
       "seed": 456,
       "case_id": "simple02_woman_presenting_chalkboard",
+      "same_initial_noise": true,
+      "different_first_image": true
+    },
+    {
+      "seed": 456,
+      "case_id": "simple03_woman_slow_expression",
       "same_initial_noise": true,
       "different_first_image": true
     }

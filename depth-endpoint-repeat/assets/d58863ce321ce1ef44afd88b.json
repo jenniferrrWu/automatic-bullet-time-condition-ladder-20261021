@@ -1,0 +1,17 @@
+{
+  "documented_on": "2026-10-23",
+  "status": "preliminary; last recam_seed456/simple03 output still pending",
+  "scope": "3 simple cases; native seeds42,123,456; source video, dynamic geometry, prompt, native sampler and weights controlled within each endpoint pair",
+  "facts": [
+    "Three fresh seed42 own-endpoint runs reproduce all81 historical frames pixel exactly.",
+    "The first case with ReCam endpoint extra-frontalizes in historical seed42 and both new seeds123/456; same-seed own-endpoint comparisons retain a more lateral appearance in sampled frames.",
+    "Random seed affects action details: case3 source blink at f20 appears with own-endpoint seed123 but not the historical seed42 f20 sample.",
+    "Own-endpoint case3 at seed456 also develops marked late scene/composition drift; the own endpoint is not a guarantee of stability across seeds."
+  ],
+  "interpretation": "Both endpoint sensitivity and sampling instability are observed. The first-case regression cannot be attributed solely to one unlucky historical seed. Do not claim random variation is absent or that all own-endpoint runs are good.",
+  "causal_limit": "Changing endpoint is a controlled input trigger, not proof of a unique internal mechanism, a corrupt ReCam image, or a geometry-only repair. Three cases and three seeds do not establish a general failure probability.",
+  "production_contract": "For actual stitching always use the actual chosen Stage2 model native last frame as Stage3 native first condition plus the complete source action; never substitute a convenient Depth endpoint.",
+  "full_quality_pass_inferred": false,
+  "postdecode_frame_replacement": false,
+  "training": false
+}

@@ -3,8 +3,8 @@
   "model": "DepthDirector",
   "route": "route_a",
   "stage": 3,
-  "execution_status": "running",
-  "status": "running",
+  "execution_status": "succeeded",
+  "status": "generated_pending_acceptance",
   "acceptance_status": "pending",
   "single_stage_quality": "pending",
   "seam_quality": "pending",
@@ -39,5 +39,11 @@
   "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
   "attempt": "native_v1",
   "native_rng_seed": 456,
-  "variant": "recam_seed456"
+  "variant": "recam_seed456",
+  "native_video_sha256": "35f7c7abb85b55b044e09affd744eea0a8d37f27065520aa35cdb73413a8932d",
+  "native_frames": 81,
+  "native_first_png": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/native_first.png",
+  "native_last_png": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/native_last.png",
+  "inference_s": 837.2,
+  "peak_allocated_mib": 21935.0
 }
