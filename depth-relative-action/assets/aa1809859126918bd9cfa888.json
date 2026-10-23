@@ -1,0 +1,75 @@
+{
+  "updated_at": "2026-10-23T11:55:33+08:00",
+  "new_native_outputs_verified": 3,
+  "total": 3,
+  "rows": [
+    {
+      "case_id": "simple01_woman_talking_plants",
+      "native_sha256": "d3080d6edd4d0eda919770f87fb7b62b66e72a22b76778e6ca196ab476002626",
+      "full_decode_passed": true,
+      "native_frames": 81,
+      "only_prompt_changed_verified": true,
+      "baseline_video_unchanged": true,
+      "initial_noise_unchanged": true,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/audit/contacts/simple01_woman_talking_plants.jpg",
+      "sampled_output_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "image_and_motion_input_bytes_unchanged": true,
+      "sampling_first_latent_anchor_steps": 50,
+      "quality_pass_not_inferred": true
+    },
+    {
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "native_sha256": "ec11a373946947c7a44799528650da787bc5b4f65d7ecbfee5b2bfb2ef609a39",
+      "full_decode_passed": true,
+      "native_frames": 81,
+      "only_prompt_changed_verified": true,
+      "baseline_video_unchanged": true,
+      "initial_noise_unchanged": true,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/audit/contacts/simple02_woman_presenting_chalkboard.jpg",
+      "sampled_output_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "image_and_motion_input_bytes_unchanged": true,
+      "sampling_first_latent_anchor_steps": 50,
+      "quality_pass_not_inferred": true
+    },
+    {
+      "case_id": "simple03_woman_slow_expression",
+      "native_sha256": "fe417c00944343d38bc1c76433107ef01bf45acf8a84c50e64434bd06cb5127f",
+      "full_decode_passed": true,
+      "native_frames": 81,
+      "only_prompt_changed_verified": true,
+      "baseline_video_unchanged": true,
+      "initial_noise_unchanged": true,
+      "contact_sheet": "/public/wufeier/automatic_bullet_time/results/depth_relative_action_prompt_20261022/audit/contacts/simple03_woman_slow_expression.jpg",
+      "sampled_output_frames": [
+        0,
+        1,
+        8,
+        20,
+        40,
+        60,
+        80
+      ],
+      "image_and_motion_input_bytes_unchanged": true,
+      "sampling_first_latent_anchor_steps": 50,
+      "quality_pass_not_inferred": true
+    }
+  ],
+  "errors": [],
+  "visual_acceptance_not_inferred": true
+}

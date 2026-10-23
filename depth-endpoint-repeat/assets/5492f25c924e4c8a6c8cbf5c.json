@@ -1,0 +1,448 @@
+{
+  "updated_unix": 1792727618.8805852,
+  "total_planned": 15,
+  "verified": 14,
+  "items": [
+    {
+      "variant": "depth_seed42_repeat",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 42,
+      "endpoint_model": "depth",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "1e397fe6d2f5a5d72489d14dee3e94e521f1a8dcc861fd9668e3246766df6ea9",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "first_image_sha256": "8a1859e00373ac56ac3dadbd5f4e37be1e19fc9ae9c8a76322894433b5b8d156",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed",
+      "historical_comparison": {
+        "frames": 81,
+        "maximum_pixel_delta": 0,
+        "pixel_identical": true
+      }
+    },
+    {
+      "variant": "depth_seed42_repeat",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 42,
+      "endpoint_model": "depth",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "4a8ae4c2d99e33bfff03d1815bc52577a4b54dc891ee9c7c31d9ab8f42157162",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "first_image_sha256": "941a613e421505388e1f642f8b8228d9ccccba8bcd6079f5f1e568588e2d67ce",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed",
+      "historical_comparison": {
+        "frames": 81,
+        "maximum_pixel_delta": 0,
+        "pixel_identical": true
+      }
+    },
+    {
+      "variant": "depth_seed42_repeat",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 42,
+      "endpoint_model": "depth",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "e7f3525deb2c3b7f0b2d199a9f2d91e03c06b58d52de476e4cc85332dbae7029",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "first_image_sha256": "e0fba2a5cde0dcab68690ef8f9320c2532e33b422dc0b97c0480caf2b98ab0f3",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "5a544e4adf063fc09439b043be509333225d51632476226fd27dba1ed3c780df",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed",
+      "historical_comparison": {
+        "frames": 81,
+        "maximum_pixel_delta": 0,
+        "pixel_identical": true
+      }
+    },
+    {
+      "variant": "depth_seed123",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 123,
+      "endpoint_model": "depth",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "10705fbb78f557c13599d40f8d864d2860f5730ff58952b8497f2d2eccecbb3b",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "first_image_sha256": "8a1859e00373ac56ac3dadbd5f4e37be1e19fc9ae9c8a76322894433b5b8d156",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6d24eb10eef0ffcfe7c3244d947074ac4525681978f2eb5395a7ebb0f772f9c",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "depth_seed123",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 123,
+      "endpoint_model": "depth",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "0c12887281fe345447bf505728d1f289fdd906003f3ad770d5082f947a3d9a97",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "first_image_sha256": "941a613e421505388e1f642f8b8228d9ccccba8bcd6079f5f1e568588e2d67ce",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6d24eb10eef0ffcfe7c3244d947074ac4525681978f2eb5395a7ebb0f772f9c",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "depth_seed123",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 123,
+      "endpoint_model": "depth",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "8708d710ef9fc7f3f38a8070f7986dd4bfcc075ddc3f4544ef56312cd30bd368",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "first_image_sha256": "e0fba2a5cde0dcab68690ef8f9320c2532e33b422dc0b97c0480caf2b98ab0f3",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6d24eb10eef0ffcfe7c3244d947074ac4525681978f2eb5395a7ebb0f772f9c",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "recam_seed123",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 123,
+      "endpoint_model": "recam",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "3d14e6687046df04bf6af56dcc9e2a70250949f98294607cf8a446472fab5d34",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "first_image_sha256": "972c07fc16bb5a77fab6d35fa6a19d67e1cad08b3a30d75fa0dd385d2d1247e2",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6d24eb10eef0ffcfe7c3244d947074ac4525681978f2eb5395a7ebb0f772f9c",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "recam_seed123",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 123,
+      "endpoint_model": "recam",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "49943004c5b761bc276f2ea6bfa38a3278c823280e699adf17f723fbdbed662f",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "first_image_sha256": "4bb97263af9b32cf75a15456b5f38187080faf4cf31a5f8af5d228261b5910bd",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6d24eb10eef0ffcfe7c3244d947074ac4525681978f2eb5395a7ebb0f772f9c",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "recam_seed123",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 123,
+      "endpoint_model": "recam",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "da2546c26240a98f3ab239d3837fdab3a3c7903073e5fdf759ea3c4b687f44f4",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "first_image_sha256": "54caa655d154fcc45251e02ef75d00edbbab3490fd48da0ccbdc5cac7c7d1c49",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6d24eb10eef0ffcfe7c3244d947074ac4525681978f2eb5395a7ebb0f772f9c",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "depth_seed456",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 456,
+      "endpoint_model": "depth",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "3b9cf7d64367e5e1ae24aa3d8008f2f4fc6b5876e0693f746faebc3359adc8de",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "first_image_sha256": "8a1859e00373ac56ac3dadbd5f4e37be1e19fc9ae9c8a76322894433b5b8d156",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6a7dcfa9d6773b22d2fbd93e541f14c4db175544edadca430c137bc2f92c4e4",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "depth_seed456",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 456,
+      "endpoint_model": "depth",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "e8caa0f7539b2e1a15daef540048296aa92b5146e021f7b4681c883e03688f10",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "first_image_sha256": "941a613e421505388e1f642f8b8228d9ccccba8bcd6079f5f1e568588e2d67ce",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6a7dcfa9d6773b22d2fbd93e541f14c4db175544edadca430c137bc2f92c4e4",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "depth_seed456",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 456,
+      "endpoint_model": "depth",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "ec91e019262d25e0cdaf5f11076dc19de8721e4c430b825253a40c586bff6acb",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "first_image_sha256": "e0fba2a5cde0dcab68690ef8f9320c2532e33b422dc0b97c0480caf2b98ab0f3",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6a7dcfa9d6773b22d2fbd93e541f14c4db175544edadca430c137bc2f92c4e4",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "recam_seed456",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 456,
+      "endpoint_model": "recam",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "9cbb2c77492482dc7c091d893dc2692b1a5a50352d5a3e237bbedd659d5031f9",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "first_image_sha256": "972c07fc16bb5a77fab6d35fa6a19d67e1cad08b3a30d75fa0dd385d2d1247e2",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6a7dcfa9d6773b22d2fbd93e541f14c4db175544edadca430c137bc2f92c4e4",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    },
+    {
+      "variant": "recam_seed456",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 456,
+      "endpoint_model": "recam",
+      "native_video": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "native_sha256": "eca3bd143cd0f63c1c881f42d7cc96b4c7ab67f18e08fe756cf230a9a55c9911",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "first_image_sha256": "4bb97263af9b32cf75a15456b5f38187080faf4cf31a5f8af5d228261b5910bd",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "fully_decoded_frames": 81,
+      "native_first_latent_hold_steps": 50,
+      "initial_noise": {
+        "sha256": "c6a7dcfa9d6773b22d2fbd93e541f14c4db175544edadca430c137bc2f92c4e4",
+        "shape": [
+          1,
+          48,
+          21,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "old_output_unchanged": true,
+      "visual_quality": "not_automatically_passed"
+    }
+  ],
+  "new_seed_pairs": [
+    {
+      "seed": 123,
+      "case_id": "simple01_woman_talking_plants",
+      "same_initial_noise": true,
+      "different_first_image": true
+    },
+    {
+      "seed": 123,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "same_initial_noise": true,
+      "different_first_image": true
+    },
+    {
+      "seed": 123,
+      "case_id": "simple03_woman_slow_expression",
+      "same_initial_noise": true,
+      "different_first_image": true
+    },
+    {
+      "seed": 456,
+      "case_id": "simple01_woman_talking_plants",
+      "same_initial_noise": true,
+      "different_first_image": true
+    },
+    {
+      "seed": 456,
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "same_initial_noise": true,
+      "different_first_image": true
+    }
+  ],
+  "errors": [],
+  "visual_quality_passes_not_inferred": true
+}
