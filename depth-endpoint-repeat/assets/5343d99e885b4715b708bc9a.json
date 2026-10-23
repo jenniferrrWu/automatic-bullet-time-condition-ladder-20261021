@@ -1,0 +1,532 @@
+{
+  "documented_on": "2026-10-23",
+  "created_unix": 1792725920.702292,
+  "total": 15,
+  "cases": 3,
+  "variants": {
+    "depth_seed42_repeat": {
+      "endpoint": "depth",
+      "seed": 42
+    },
+    "depth_seed123": {
+      "endpoint": "depth",
+      "seed": 123
+    },
+    "recam_seed123": {
+      "endpoint": "recam",
+      "seed": 123
+    },
+    "depth_seed456": {
+      "endpoint": "depth",
+      "seed": 456
+    },
+    "recam_seed456": {
+      "endpoint": "recam",
+      "seed": 456
+    }
+  },
+  "jobs": [
+    {
+      "variant": "depth_seed42_repeat",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 42,
+      "endpoint_model": "depth",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/native_last.png",
+      "endpoint_sha256": "8a1859e00373ac56ac3dadbd5f4e37be1e19fc9ae9c8a76322894433b5b8d156",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple01_woman_talking_plants/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple01_woman_talking_plants.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "1e397fe6d2f5a5d72489d14dee3e94e521f1a8dcc861fd9668e3246766df6ea9",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "71b159e2247a28b16fb970c19c4b1175fcfb3319dafa2914a501040ff3d482df",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "7e92d29f475cb5c2bbe7b7881b1fa57a9d1f39bea44bc507ae7043fa7b9649f4",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "8826100c3e25269695f3e0d7889ac5f032a8b72545d1f8689a762b5e69d27bcc",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "0a08ae32c055dce5dd8ef4850be7e073a4947cf548fe39cc9b6e5e0ac571219e",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "95928b80714755eb81927c54d416f46c108f22faee524dc6735c061dc82389de",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/actual_camera.json": "ec38fb0131e0fafd3471478021a568aea6b831a9ad6c8fe6b66ee1379625c736"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_original_repeat_20261023.py",
+      "runner_sha256": "c5cf5dc202567f0c4f250c42f83ccd5aca225f600d9dce4ae9ce497b058286ea"
+    },
+    {
+      "variant": "depth_seed42_repeat",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 42,
+      "endpoint_model": "depth",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/native_last.png",
+      "endpoint_sha256": "941a613e421505388e1f642f8b8228d9ccccba8bcd6079f5f1e568588e2d67ce",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "4a8ae4c2d99e33bfff03d1815bc52577a4b54dc891ee9c7c31d9ab8f42157162",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "7969e5a2d123d432444537ea5d6363580a383d7caa23401d603b40413260c765",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "cbd3810e5d0114a7d344390430d8014b049975561a93225d6db673e65691a64f",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "77b504f489630c9a39dc1468ce5f7e9a7f0a988949e306fba9f2183f702c25b0",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "d6f9b3648047b52ce68447f8f27c3894c411f738c611144b42a034033aeba637",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "70f1fc474c476e65ba0af6cb32719eb0caf44fdaa1b0fa8866984bca64a8062c",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/actual_camera.json": "32c16d6594f93b4a40d483dfb20910370de46e0b32841c4d8fe07762b9d16a14"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_original_repeat_20261023.py",
+      "runner_sha256": "c5cf5dc202567f0c4f250c42f83ccd5aca225f600d9dce4ae9ce497b058286ea"
+    },
+    {
+      "variant": "depth_seed42_repeat",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 42,
+      "endpoint_model": "depth",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/native_last.png",
+      "endpoint_sha256": "e0fba2a5cde0dcab68690ef8f9320c2532e33b422dc0b97c0480caf2b98ab0f3",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple03_woman_slow_expression/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple03_woman_slow_expression.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "e7f3525deb2c3b7f0b2d199a9f2d91e03c06b58d52de476e4cc85332dbae7029",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "e4c1e40936643dbbe1910a1002e06202c641fa126a87a871cb99e2ff27e2ed53",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "5f76f624256d70e1c5dab83607b2d7a1eb89063cea11aee030f8a0ac560b0c60",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "6ff0437d581ea0dc32d6192469e48ef185382415bc0c312596b8f8c2776ca26a",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "bfe2286e59d380a3825e2e17c7060b04b21137b4e27dda54e74104972e780882",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "203c2a309b3d0fdbb5fee51b4de4afa1e7a4a1cc818f2aa1c8d1dcb0d4a161f7",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed42_repeat/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/actual_camera.json": "c6bc8da97127ce0af65da62448d4c453b189b5586bc159585d0db8a03ca30337"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_original_repeat_20261023.py",
+      "runner_sha256": "c5cf5dc202567f0c4f250c42f83ccd5aca225f600d9dce4ae9ce497b058286ea"
+    },
+    {
+      "variant": "depth_seed123",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 123,
+      "endpoint_model": "depth",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/native_last.png",
+      "endpoint_sha256": "8a1859e00373ac56ac3dadbd5f4e37be1e19fc9ae9c8a76322894433b5b8d156",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple01_woman_talking_plants/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple01_woman_talking_plants.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "1e397fe6d2f5a5d72489d14dee3e94e521f1a8dcc861fd9668e3246766df6ea9",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "71b159e2247a28b16fb970c19c4b1175fcfb3319dafa2914a501040ff3d482df",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "7e92d29f475cb5c2bbe7b7881b1fa57a9d1f39bea44bc507ae7043fa7b9649f4",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "8826100c3e25269695f3e0d7889ac5f032a8b72545d1f8689a762b5e69d27bcc",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "0a08ae32c055dce5dd8ef4850be7e073a4947cf548fe39cc9b6e5e0ac571219e",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "95928b80714755eb81927c54d416f46c108f22faee524dc6735c061dc82389de",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/actual_camera.json": "ec38fb0131e0fafd3471478021a568aea6b831a9ad6c8fe6b66ee1379625c736"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_depth_seed123_20261023.py",
+      "runner_sha256": "942309a3218ad452d7079c994a2054089101009fb8a2c788e3fff7d8d6790ca8"
+    },
+    {
+      "variant": "depth_seed123",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 123,
+      "endpoint_model": "depth",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/native_last.png",
+      "endpoint_sha256": "941a613e421505388e1f642f8b8228d9ccccba8bcd6079f5f1e568588e2d67ce",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "4a8ae4c2d99e33bfff03d1815bc52577a4b54dc891ee9c7c31d9ab8f42157162",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "7969e5a2d123d432444537ea5d6363580a383d7caa23401d603b40413260c765",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "cbd3810e5d0114a7d344390430d8014b049975561a93225d6db673e65691a64f",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "77b504f489630c9a39dc1468ce5f7e9a7f0a988949e306fba9f2183f702c25b0",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "d6f9b3648047b52ce68447f8f27c3894c411f738c611144b42a034033aeba637",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "70f1fc474c476e65ba0af6cb32719eb0caf44fdaa1b0fa8866984bca64a8062c",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/actual_camera.json": "32c16d6594f93b4a40d483dfb20910370de46e0b32841c4d8fe07762b9d16a14"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_depth_seed123_20261023.py",
+      "runner_sha256": "942309a3218ad452d7079c994a2054089101009fb8a2c788e3fff7d8d6790ca8"
+    },
+    {
+      "variant": "depth_seed123",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 123,
+      "endpoint_model": "depth",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/native_last.png",
+      "endpoint_sha256": "e0fba2a5cde0dcab68690ef8f9320c2532e33b422dc0b97c0480caf2b98ab0f3",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple03_woman_slow_expression/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple03_woman_slow_expression.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "e7f3525deb2c3b7f0b2d199a9f2d91e03c06b58d52de476e4cc85332dbae7029",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "e4c1e40936643dbbe1910a1002e06202c641fa126a87a871cb99e2ff27e2ed53",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "5f76f624256d70e1c5dab83607b2d7a1eb89063cea11aee030f8a0ac560b0c60",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "6ff0437d581ea0dc32d6192469e48ef185382415bc0c312596b8f8c2776ca26a",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "bfe2286e59d380a3825e2e17c7060b04b21137b4e27dda54e74104972e780882",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "203c2a309b3d0fdbb5fee51b4de4afa1e7a4a1cc818f2aa1c8d1dcb0d4a161f7",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/actual_camera.json": "c6bc8da97127ce0af65da62448d4c453b189b5586bc159585d0db8a03ca30337"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_depth_seed123_20261023.py",
+      "runner_sha256": "942309a3218ad452d7079c994a2054089101009fb8a2c788e3fff7d8d6790ca8"
+    },
+    {
+      "variant": "recam_seed123",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 123,
+      "endpoint_model": "recam",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple01_woman_talking_plants/native_v1/native_last.png",
+      "endpoint_sha256": "972c07fc16bb5a77fab6d35fa6a19d67e1cad08b3a30d75fa0dd385d2d1247e2",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple01_woman_talking_plants/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple01_woman_talking_plants.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "1e397fe6d2f5a5d72489d14dee3e94e521f1a8dcc861fd9668e3246766df6ea9",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "71b159e2247a28b16fb970c19c4b1175fcfb3319dafa2914a501040ff3d482df",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "7e92d29f475cb5c2bbe7b7881b1fa57a9d1f39bea44bc507ae7043fa7b9649f4",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "8826100c3e25269695f3e0d7889ac5f032a8b72545d1f8689a762b5e69d27bcc",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "0a08ae32c055dce5dd8ef4850be7e073a4947cf548fe39cc9b6e5e0ac571219e",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "95928b80714755eb81927c54d416f46c108f22faee524dc6735c061dc82389de",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/actual_camera.json": "ec38fb0131e0fafd3471478021a568aea6b831a9ad6c8fe6b66ee1379625c736"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_recam_seed123_20261023.py",
+      "runner_sha256": "f64d1fcbf16629647a1b349127d62ae41017f29208eaf5723b3bc492dea47b3d"
+    },
+    {
+      "variant": "recam_seed123",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 123,
+      "endpoint_model": "recam",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native_last.png",
+      "endpoint_sha256": "4bb97263af9b32cf75a15456b5f38187080faf4cf31a5f8af5d228261b5910bd",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple02_woman_presenting_chalkboard.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "4a8ae4c2d99e33bfff03d1815bc52577a4b54dc891ee9c7c31d9ab8f42157162",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "7969e5a2d123d432444537ea5d6363580a383d7caa23401d603b40413260c765",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "cbd3810e5d0114a7d344390430d8014b049975561a93225d6db673e65691a64f",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "77b504f489630c9a39dc1468ce5f7e9a7f0a988949e306fba9f2183f702c25b0",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "d6f9b3648047b52ce68447f8f27c3894c411f738c611144b42a034033aeba637",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "70f1fc474c476e65ba0af6cb32719eb0caf44fdaa1b0fa8866984bca64a8062c",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/actual_camera.json": "32c16d6594f93b4a40d483dfb20910370de46e0b32841c4d8fe07762b9d16a14"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_recam_seed123_20261023.py",
+      "runner_sha256": "f64d1fcbf16629647a1b349127d62ae41017f29208eaf5723b3bc492dea47b3d"
+    },
+    {
+      "variant": "recam_seed123",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 123,
+      "endpoint_model": "recam",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple03_woman_slow_expression/native_v1/native_last.png",
+      "endpoint_sha256": "54caa655d154fcc45251e02ef75d00edbbab3490fd48da0ccbdc5cac7c7d1c49",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple03_woman_slow_expression/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple03_woman_slow_expression.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "e7f3525deb2c3b7f0b2d199a9f2d91e03c06b58d52de476e4cc85332dbae7029",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "e4c1e40936643dbbe1910a1002e06202c641fa126a87a871cb99e2ff27e2ed53",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "5f76f624256d70e1c5dab83607b2d7a1eb89063cea11aee030f8a0ac560b0c60",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "6ff0437d581ea0dc32d6192469e48ef185382415bc0c312596b8f8c2776ca26a",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "bfe2286e59d380a3825e2e17c7060b04b21137b4e27dda54e74104972e780882",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "203c2a309b3d0fdbb5fee51b4de4afa1e7a4a1cc818f2aa1c8d1dcb0d4a161f7",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed123/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/actual_camera.json": "c6bc8da97127ce0af65da62448d4c453b189b5586bc159585d0db8a03ca30337"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_recam_seed123_20261023.py",
+      "runner_sha256": "f64d1fcbf16629647a1b349127d62ae41017f29208eaf5723b3bc492dea47b3d"
+    },
+    {
+      "variant": "depth_seed456",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 456,
+      "endpoint_model": "depth",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple01_woman_talking_plants/attempt04_right_w2c_fix/native_last.png",
+      "endpoint_sha256": "8a1859e00373ac56ac3dadbd5f4e37be1e19fc9ae9c8a76322894433b5b8d156",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple01_woman_talking_plants/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple01_woman_talking_plants.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "1e397fe6d2f5a5d72489d14dee3e94e521f1a8dcc861fd9668e3246766df6ea9",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "71b159e2247a28b16fb970c19c4b1175fcfb3319dafa2914a501040ff3d482df",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "7e92d29f475cb5c2bbe7b7881b1fa57a9d1f39bea44bc507ae7043fa7b9649f4",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "8826100c3e25269695f3e0d7889ac5f032a8b72545d1f8689a762b5e69d27bcc",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "0a08ae32c055dce5dd8ef4850be7e073a4947cf548fe39cc9b6e5e0ac571219e",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "95928b80714755eb81927c54d416f46c108f22faee524dc6735c061dc82389de",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/actual_camera.json": "ec38fb0131e0fafd3471478021a568aea6b831a9ad6c8fe6b66ee1379625c736"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_depth_seed456_20261023.py",
+      "runner_sha256": "fa3cc15e8cb1146f70204bebad5f5b590e551c92cc186f4ba844e321ad7107d1"
+    },
+    {
+      "variant": "depth_seed456",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 456,
+      "endpoint_model": "depth",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard/attempt04_right_w2c_fix/native_last.png",
+      "endpoint_sha256": "941a613e421505388e1f642f8b8228d9ccccba8bcd6079f5f1e568588e2d67ce",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple02_woman_presenting_chalkboard.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "4a8ae4c2d99e33bfff03d1815bc52577a4b54dc891ee9c7c31d9ab8f42157162",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "7969e5a2d123d432444537ea5d6363580a383d7caa23401d603b40413260c765",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "cbd3810e5d0114a7d344390430d8014b049975561a93225d6db673e65691a64f",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "77b504f489630c9a39dc1468ce5f7e9a7f0a988949e306fba9f2183f702c25b0",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "d6f9b3648047b52ce68447f8f27c3894c411f738c611144b42a034033aeba637",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "70f1fc474c476e65ba0af6cb32719eb0caf44fdaa1b0fa8866984bca64a8062c",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/actual_camera.json": "32c16d6594f93b4a40d483dfb20910370de46e0b32841c4d8fe07762b9d16a14"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_depth_seed456_20261023.py",
+      "runner_sha256": "fa3cc15e8cb1146f70204bebad5f5b590e551c92cc186f4ba844e321ad7107d1"
+    },
+    {
+      "variant": "depth_seed456",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 456,
+      "endpoint_model": "depth",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage2/simple03_woman_slow_expression/attempt04_right_w2c_fix/native_last.png",
+      "endpoint_sha256": "e0fba2a5cde0dcab68690ef8f9320c2532e33b422dc0b97c0480caf2b98ab0f3",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple03_woman_slow_expression/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage2/simple03_woman_slow_expression.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "e7f3525deb2c3b7f0b2d199a9f2d91e03c06b58d52de476e4cc85332dbae7029",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "e4c1e40936643dbbe1910a1002e06202c641fa126a87a871cb99e2ff27e2ed53",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "5f76f624256d70e1c5dab83607b2d7a1eb89063cea11aee030f8a0ac560b0c60",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "6ff0437d581ea0dc32d6192469e48ef185382415bc0c312596b8f8c2776ca26a",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "bfe2286e59d380a3825e2e17c7060b04b21137b4e27dda54e74104972e780882",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "203c2a309b3d0fdbb5fee51b4de4afa1e7a4a1cc818f2aa1c8d1dcb0d4a161f7",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/actual_camera.json": "c6bc8da97127ce0af65da62448d4c453b189b5586bc159585d0db8a03ca30337"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_depth_seed456_20261023.py",
+      "runner_sha256": "fa3cc15e8cb1146f70204bebad5f5b590e551c92cc186f4ba844e321ad7107d1"
+    },
+    {
+      "variant": "recam_seed456",
+      "case_id": "simple01_woman_talking_plants",
+      "seed": 456,
+      "endpoint_model": "recam",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple01_woman_talking_plants/native_v1/native_last.png",
+      "endpoint_sha256": "972c07fc16bb5a77fab6d35fa6a19d67e1cad08b3a30d75fa0dd385d2d1247e2",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple01_woman_talking_plants/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "c3f3b22b0bb44e1f2046209d7f9553e845df6ee1136eadbb6fb60dc2b8cbb400",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple01_woman_talking_plants.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "1e397fe6d2f5a5d72489d14dee3e94e521f1a8dcc861fd9668e3246766df6ea9",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/records/route_a/depthdirector/stage3/simple01_woman_talking_plants.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "71b159e2247a28b16fb970c19c4b1175fcfb3319dafa2914a501040ff3d482df",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "7e92d29f475cb5c2bbe7b7881b1fa57a9d1f39bea44bc507ae7043fa7b9649f4",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "8826100c3e25269695f3e0d7889ac5f032a8b72545d1f8689a762b5e69d27bcc",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "0a08ae32c055dce5dd8ef4850be7e073a4947cf548fe39cc9b6e5e0ac571219e",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "95928b80714755eb81927c54d416f46c108f22faee524dc6735c061dc82389de",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple01_woman_talking_plants/native_v1/preprocess/actual_camera.json": "ec38fb0131e0fafd3471478021a568aea6b831a9ad6c8fe6b66ee1379625c736"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_recam_seed456_20261023.py",
+      "runner_sha256": "43faa7834e6ff193900236a8ec688e0987552bad7f9d1f9a25f26f141dd31397"
+    },
+    {
+      "variant": "recam_seed456",
+      "case_id": "simple02_woman_presenting_chalkboard",
+      "seed": 456,
+      "endpoint_model": "recam",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple02_woman_presenting_chalkboard/native_v1/native_last.png",
+      "endpoint_sha256": "4bb97263af9b32cf75a15456b5f38187080faf4cf31a5f8af5d228261b5910bd",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple02_woman_presenting_chalkboard/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "66448ab389e07aa6787773a2d978044600982a6a7906b138133d5622c3043ee2",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple02_woman_presenting_chalkboard.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "4a8ae4c2d99e33bfff03d1815bc52577a4b54dc891ee9c7c31d9ab8f42157162",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/records/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "7969e5a2d123d432444537ea5d6363580a383d7caa23401d603b40413260c765",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "cbd3810e5d0114a7d344390430d8014b049975561a93225d6db673e65691a64f",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "77b504f489630c9a39dc1468ce5f7e9a7f0a988949e306fba9f2183f702c25b0",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "d6f9b3648047b52ce68447f8f27c3894c411f738c611144b42a034033aeba637",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "70f1fc474c476e65ba0af6cb32719eb0caf44fdaa1b0fa8866984bca64a8062c",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/actual_camera.json": "32c16d6594f93b4a40d483dfb20910370de46e0b32841c4d8fe07762b9d16a14"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_recam_seed456_20261023.py",
+      "runner_sha256": "43faa7834e6ff193900236a8ec688e0987552bad7f9d1f9a25f26f141dd31397"
+    },
+    {
+      "variant": "recam_seed456",
+      "case_id": "simple03_woman_slow_expression",
+      "seed": 456,
+      "endpoint_model": "recam",
+      "endpoint_png": "/public/wufeier/automatic_bullet_time/results/stage2_retained_simple_20261020/raw/recam/stage2/simple03_woman_slow_expression/native_v1/native_last.png",
+      "endpoint_sha256": "54caa655d154fcc45251e02ef75d00edbbab3490fd48da0ccbdc5cac7c7d1c49",
+      "source_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/inputs/simple03_woman_slow_expression/source_post_tstar_to_end_lossless.mp4",
+      "source_sha256": "5ce74488dca6b40f155740ce425f96415f7ccfca24291ce9acd1994018b12e55",
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "upstream_record": "/public/wufeier/automatic_bullet_time/results/recam_depth_expansion_20261021/records/recam/stage2/simple03_woman_slow_expression.json",
+      "historical_record": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "historical_video": "/public/wufeier/automatic_bullet_time/results/stage23_simple_routes_20261020/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/attempt03_right_w2c_fix/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+      "historical_native_sha256": "e7f3525deb2c3b7f0b2d199a9f2d91e03c06b58d52de476e4cc85332dbae7029",
+      "record": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/records/route_a/depthdirector/stage3/simple03_woman_slow_expression.json",
+      "copied_controls_sha256": {
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4": "e4c1e40936643dbbe1910a1002e06202c641fa126a87a871cb99e2ff27e2ed53",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4": "5f76f624256d70e1c5dab83607b2d7a1eb89063cea11aee030f8a0ac560b0c60",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/dw_warp.mp4": "6ff0437d581ea0dc32d6192469e48ef185382415bc0c312596b8f8c2776ca26a",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4": "bfe2286e59d380a3825e2e17c7060b04b21137b4e27dda54e74104972e780882",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/Rotate,0,30,0,0,0/cameras.json": "203c2a309b3d0fdbb5fee51b4de4afa1e7a4a1cc818f2aa1c8d1dcb0d4a161f7",
+        "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/recam_seed456/raw/route_a/depthdirector/stage3/simple03_woman_slow_expression/native_v1/preprocess/actual_camera.json": "c6bc8da97127ce0af65da62448d4c453b189b5586bc159585d0db8a03ca30337"
+      },
+      "immutable_code_sha256": {
+        "/public/wufeier/automatic_bullet_time/scripts/run_simple_depthdirector_20261020.py": "f75a99e347897c29305cd3c53664455c72f1d6ad133fdf03c6831a994884dcba",
+        "/public/wufeier/automatic_bullet_time/scripts/run_stage23_depthdirector_stage3.py": "dce2b1977aa3be4c46899362b89fefa1bc8f67f9dacfc46ad2a36c6fbd0ccafc",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py": "ad84e2bd43dffced7628b7e7d8be7bd1fcd3477c24e5b36a543ce3982fc1463a",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/pipelines/wan_video_new.py": "72bcd891759151ed88a0a499673ed99ebf83abf6a2737266428217adf11ecfce",
+        "/public/wufeier/automatic_bullet_time/models/DepthDirector/configs/depthdirector.yaml": "1104aa676cf9df7970e42430fc4aa93831aa66ad156b4c2b986218649d7e672e"
+      },
+      "runner": "run_depth_endpoint_recam_seed456_20261023.py",
+      "runner_sha256": "43faa7834e6ff193900236a8ec688e0987552bad7f9d1f9a25f26f141dd31397"
+    }
+  ],
+  "historical_sampling": {
+    "cfg": 1,
+    "lora_strength": 1,
+    "steps": 50,
+    "frames": 81
+  },
+  "scope": "3 new original-seed repeats; 12 paired endpoint controls at seeds123 and456; no new Stage2 generation; no training or output frame replacement"
+}

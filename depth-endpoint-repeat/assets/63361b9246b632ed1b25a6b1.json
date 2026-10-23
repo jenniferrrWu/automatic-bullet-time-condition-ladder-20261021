@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "941a613e421505388e1f642f8b8228d9ccccba8bcd6079f5f1e568588e2d67ce",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "initial_noise": {
+    "sha256": "c6d24eb10eef0ffcfe7c3244d947074ac4525681978f2eb5395a7ebb0f772f9c",
+    "shape": [
+      1,
+      48,
+      21,
+      44,
+      80
+    ],
+    "dtype": "torch.bfloat16",
+    "seed_argument": null,
+    "rng_behavior_changed": false
+  },
+  "endpoint_pixel_sha256": "447a536515754767354904860000ef0df545ae3e2c4fe12d990a98077cceb535",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "effective_endpoint_png": "/public/wufeier/automatic_bullet_time/results/depth_endpoint_repeat_seeds_20261023/variants/depth_seed123/raw/route_a/depthdirector/stage3/simple02_woman_presenting_chalkboard/native_v1/preprocess/effective_endpoint.png",
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}
