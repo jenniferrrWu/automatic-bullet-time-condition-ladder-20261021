@@ -1,12 +1,14 @@
 {
   "documented_on": "2026-10-23",
-  "status": "preliminary; last recam_seed456/simple03 output still pending",
+  "status": "all15 new native outputs completed and actually sample-reviewed; full quality remains pending manual acceptance",
+  "summary_zh": "原配方3条新推理精确重现第一次全部81帧。第一例ReCam末帧在seed42/123/456都额外回正，换图影响并非只出现于一次采样。但随机种子也影响动作与稳定性：第三例新种子能复现闭眼，Depth自末帧seed456后段场景也漂移。不能把自末帧视为所有种子必好，或把ReCam末帧视为所有结果必差。完整ReCam接续仍未修好。",
   "scope": "3 simple cases; native seeds42,123,456; source video, dynamic geometry, prompt, native sampler and weights controlled within each endpoint pair",
   "facts": [
     "Three fresh seed42 own-endpoint runs reproduce all81 historical frames pixel exactly.",
     "The first case with ReCam endpoint extra-frontalizes in historical seed42 and both new seeds123/456; same-seed own-endpoint comparisons retain a more lateral appearance in sampled frames.",
     "Random seed affects action details: case3 source blink at f20 appears with own-endpoint seed123 but not the historical seed42 f20 sample.",
-    "Own-endpoint case3 at seed456 also develops marked late scene/composition drift; the own endpoint is not a guarantee of stability across seeds."
+    "Own-endpoint case3 at seed456 also develops marked late scene/composition drift; the own endpoint is not a guarantee of stability across seeds.",
+    "ReCam-endpoint case3 reproduces the f20 blink with both new seeds123/456; the seed456 samples lack the marked late reconstruction seen in the own-endpoint seed456 comparison. This is not a full quality acceptance or a universal ReCam-fails claim."
   ],
   "interpretation": "Both endpoint sensitivity and sampling instability are observed. The first-case regression cannot be attributed solely to one unlucky historical seed. Do not claim random variation is absent or that all own-endpoint runs are good.",
   "causal_limit": "Changing endpoint is a controlled input trigger, not proof of a unique internal mechanism, a corrupt ReCam image, or a geometry-only repair. Three cases and three seeds do not establish a general failure probability.",
